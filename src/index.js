@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PromotionLayout from './promotion/index';
-import {BrowserRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router,HashRouter, Route, Switch, Redirect} from 'react-router-dom';
 import CheckWebBrowser from "./promotion/action/CheckWebBrowser";
 import ErrorPage from "./promotion/page/ErrorPage";
 
@@ -26,7 +26,7 @@ if (browserVersion < applicationVersion.ie) {
     );
 } else {
     ReactDOM.render(
-        <Router>
+        <Router basename={'/'}>
             <Switch>
                 <Route exact path="/" component={PromotionLayout}/>
                 <Route path="/404error" component={ErrorPage} notFound/>

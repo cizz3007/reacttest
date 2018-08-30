@@ -3,6 +3,11 @@
   src: url("/fonts/NotoSansCJKkr-Regular.woff") format("woff");
 }
 
+@font-face {
+  font-family: 'Noto Sans CJK KR-light';
+  src: url("/fonts/NotoSansCJKkr-Light.woff") format('woff');
+}
+
 a {
   color: #333;
 }

@@ -21,5 +21,4 @@ class Section01 extends React.Component {
         )
     }
 }
-
 export default Section01;
