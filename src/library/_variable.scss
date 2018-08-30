@@ -1,0 +1,121 @@
+@charset "UTF-8";
+//scss variables
+// css 변수화해서 사용하는 습관 들일 것.
+// 네이밍은 알기 쉽고 공통된 규칙을 가질 것.
+// css의 낭비를 줄일것. 사이트 속도, 편함, 유지관리의 효율을 위해.
+
+//팬톤 색상
+$pantone_calypso_coral   : #EC5D73;
+$pantone_3242_c          : #71DBD4; //site ego color
+$pantone_3242_c_blur     : #bfefec;//티파니 블루 좀 더 명도 높고 채도 낮은색
+$pantone_7506_c          : #fdf3e5;
+$pantone_red_032_c       : #EF3340;
+$pastel_pink             : #ffd1dc;
+
+/*프로모션 색상*/
+$sec-bg-color: transparent;
+
+$cyan: #2de4e3;
+$yellow: #fdb14f;
+$purple: #6f5df6;
+$purple08 :#7563EE ;
+$magenta: #ff666f;
+$white: #fff;
+
+//기본 색상
+$white                   : #fff;
+$black                   : #333;  //후보색상 : #1c1c1c,
+$gray                    : #e6e7ee;
+$indigo                  : #0c1f3b;
+$warm_gray               : #f0f0f0;
+
+//대쉬보드 색깔
+$dashboard_bg_color      : $warm_gray;
+
+
+//현재 사이트 테스팅 색상
+$main_pink_color         : #ff5274;
+$main_sub_color          : #fdf3e5;
+$main_product_bg_color   : #FCEEE3;
+$main_product_font_color : #A66142;
+
+/*widget_grid 배경색상*/
+$main_grid_color         : $warm_gray;
+
+//SNS 색상
+$naver                   : #32b31a;
+$google                  : #dd4b39;
+
+//전역 폰트 색상
+$text-color              : $black;
+
+//전역 a 링크 색상
+$link-color              : $black;
+$link-hover-color        : $main_pink_color;
+$link_highlight_color    : #ea8255;
+$link_warning_color      : $pantone_red_032_c;
+
+//폰트 크기
+$font-size-base          : 14px;
+$font-size-small         : $font-size-base - 2px;
+$font-size-smaller       : $font-size-base - 4px;
+$font-size-large         : $font-size-base + 2px;
+$font-size-larger        : $font-size-base + 4px;
+
+//폰트 굵기
+$font-weight-lighter     : 200;
+$font-weight-light       : 300;
+$font-weight-normal      : 400;
+$font-weight-bold        : 600;
+$font-weight-bolder      : 700;
+
+//Heading태그 폰트 크기
+$font-size-headings-step : 2px;
+$font-size-headings-base : 24px;
+$font-size-headings-small : $font-size-headings-base - $font-size-headings-step;
+$font-size-headings-smaller : $font-size-headings-small - $font-size-headings-step;
+$font-size-headings-smallest : $font-size-headings-smaller - $font-size-headings-step;
+$font-size-headings-large : $font-size-headings-base + $font-size-headings-step;
+$font-size-headings-larger :$font-size-headings-large + $font-size-headings-step;
+$font-size-headings-largest :$font-size-headings-larger + $font-size-headings-step;
+
+//전역 border 색상
+$border-thick-color            : #cbc3b9;
+$border-thin-color             : #e6e7ee;
+
+//Z-index 배열
+$zindex-bottom : -1;
+$zindex-1      : 1;
+$zindex-2      : 2;
+$zindex-3      : 3;
+$zindex-4      : 4;
+$zindex-5      : 5;
+$zindex-6      : 6;
+$zindex-7      : 7;
+$zindex-8      : 8;
+$zindex-9      : 9;
+$zindex-top    : 9999;
+$zindex-god    : 99999999;
+
+// Break point(데스크탑 기준 내림차순 정렬)
+$desktop-large-width  : 1440px;
+$desktop-width        : 1280px;
+$tablet-large-width       : 1024px;
+$tablet-medium-width       : 960px;
+$tablet-small-width       : 800px;
+$mobile-large-width   : 640px;
+$mobile-medium-width  : 425px;
+$mobile-small-width   : 375px;
+
+
+/*가변 마진 공식 (적용한 마진값 /겉박스)*100 */
+/*가변 vw 공식 ((원하는 값)*100/페이지 width크기)*/
+
+
+
+
+
+
+
+
+

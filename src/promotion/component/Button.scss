@@ -1,0 +1,18 @@
+@charset "UTF-8";
+.primary-button {
+  input {
+    display: none;
+    background-color: #fff;
+  }
+  button {
+    border: none;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    background-color: #fff;
+    color: red;
+    display: none;
+    cursor: pointer;
+  }
+}

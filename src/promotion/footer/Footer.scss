@@ -1,0 +1,61 @@
+
+.footer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 4.1666%;
+  background-image: linear-gradient(to top, #00b6b9, #b1fff4);
+
+  .footer--container {
+    text-align: center;
+    > ul {
+      width: 282px;
+      padding-top: 2.9166%;
+      padding-bottom: 3.28125%;
+      margin: 0 auto;
+
+      li {
+        float: left;
+        width: 25%;
+
+        a {
+          display: inline-block;
+          width: 48px;
+          height: 48px;
+        }
+
+        .facebook {
+          background: url("./web-footer-btn-facebook.svg") no-repeat center/48px 48px;
+
+        }
+        .twitter {
+          background: url("./web-footer-btn-twitter.svg") no-repeat center/48px 48px;
+
+        }
+        .instagram {
+          background: url("./web-footer-btn-instagram.svg") no-repeat center/48px 48px;
+
+        }
+        .youtube {
+          background: url("./web-footer-btn-youtube.svg") no-repeat center/48px 48px;
+
+        }
+      }
+
+    }
+
+    > div {
+      display: inline-block;
+      width: 80px;
+      height: 80px;
+      background: url("./littleone-logo.svg") no-repeat 0/contain;
+    }
+
+    > p {
+      margin-top: 21px;
+      font-size: 12px;
+      color:#fff;
+
+    }
+  }
+
+}

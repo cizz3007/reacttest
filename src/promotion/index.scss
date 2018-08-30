@@ -1,0 +1,20 @@
+.application {
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 0;
+  overflow: hidden;
+  min-width: 300px;
+  max-width: 2560px;
+
+  .application--background {
+    background: url('./main-smart-devices-bg.jpg') no-repeat center / cover;
+  }
+
+}
+
+@media only screen and (max-width: 640px) {
+  .application--background {
+    background: url('./mobile-wave-bg@2x.jpg') no-repeat center / cover !important;
+  }
+}

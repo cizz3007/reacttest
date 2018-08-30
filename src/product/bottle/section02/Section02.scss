@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+.second-section {
+  position: relative;
+
+  .second-section-desc {
+    margin: 0 auto;
+    text-align: center;
+
+    .second-section-desc--sub {
+      display: inline-block;
+      margin-top: 3.8021vw;
+      width: 168px;
+      height: 12px;
+      background: url("./internet-of-babies@2x.png") no-repeat center / contain;
+
+      h2 {
+        opacity: 0;
+        overflow: hidden;
+        text-indent: -9999px;
+      }
+    }
+    //second-section-desc--sub
+
+    .second-section-desc--title {
+      font-size: 2.916vw;
+      text-align: center;
+      margin-top: 3.2292vw;
+      font-weight: 300;
+      letter-spacing: -2.6px;
+      line-height: normal;
+    }
+
+    .second-section-desc--paragraph {
+      margin-top: 1.9271vw;
+      font-size: 1.1458vw;
+      color: #8a8a8a;
+      line-height: normal;
+      text-align: center;
+    }
+    //second-section-desc--paragraph
+
+  }
+  //second-section-desc
+
+  .second-section-spec {
+    position: relative;
+    width: 70%;
+    margin: 6.0416vw auto 0;
+
+    .second-section-spec--container {
+      width: 12.9688vw;
+      text-align: center;
+      display: inline-block;
+      margin-right: 6.0417vw;
+
+      img {
+        display: inline-block;
+        width: 5.7292vw;
+        min-width: 55px;
+      }
+      h3 {
+        margin-top: 1.5625vw;
+        font-size: 1.5625vw;
+        font-weight: 300;
+        letter-spacing: -1px;
+      }
+      p {
+        margin-top: 27px;
+        font-size: 0.9375vw;
+        letter-spacing: -1px;
+        line-height: 1.5vw;
+        color: #8a8a8a;
+      }
+      //img
+    }
+    //second-section-spec--container
+
+    .second-section-spec--container:last-child {
+      margin-right: 0;
+    }
+  }
+  //second-section-spec
+
+}
+
+//second-section

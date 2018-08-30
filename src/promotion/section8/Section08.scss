@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+@import '../../library/variable';
+
+.seventeenth-section {
+  position: relative;
+  width: 100%;
+  font-size: 16px;
+  padding-bottom:51.198%;
+  -webkit-transition: all 0.45s ease-out;
+  -moz-transition: all 0.45s ease-out;
+  -ms-transition: all 0.45s ease-out;
+  -o-transition: all 0.45s ease-out;
+  transition: all 0.45s ease-out;
+
+}
+
+@media only screen and (max-width: $mobile-large-width) {
+  .seventeenth-section {
+    padding-bottom: 168.116%;
+  }
+
+}
+
+

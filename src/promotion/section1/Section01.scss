@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+.main-section {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: block;
+  background: url("./web-m-1-bg@2x.jpg") no-repeat bottom center/cover;
+
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+
+  &--content {
+    position: absolute;
+    top: 38.5554%;
+    left: 17%;
+
+    width: 100%;
+
+    &--text {
+      position: relative;
+      z-index: 4;
+      margin: 0 auto;
+
+      &__upper{
+        h1 {
+          font-size: 2.6vw;
+          font-weight: bold;
+          letter-spacing: 1px;
+
+        }
+        p {
+          margin-top: 1.3625vw;
+          font-size: 1.3541vw;
+          font-weight: 100;
+          line-height: normal;
+          letter-spacing: 1px;
+        }
+      }
+
+      &__lower{
+        margin-top: 3.0895vw;
+
+        p{
+          font-size: 1.2541vw;
+          line-height: normal;
+          font-weight: 100;
+        }
+      }
+
+
+
+      h1, p {
+        z-index: 5;
+        position: relative;
+        color: #fff;
+      }
+    }
+
+    .outer {
+      display: table;
+      width: 100%;
+      height: 100%;
+      .inner {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+
+        .centered {
+          position: relative;
+          display: inline-block;
+
+        }
+
+      }
+
+    }
+
+  }
+
+  svg {
+    position: absolute;
+    width: 35%;
+    height: auto;
+    top: 15.1577%;
+    left: 50%;
+    min-width: 274px;
+    min-height: 280px;
+    //-webkit-animation: turnSvg 13s 2.3s linear infinite alternate;
+    //-o-animation: turnSvg 13s 1.5s linear infinite alternate;
+    //animation: turnSvg 13s 1s linear infinite alternate;
+
+  }
+
+}
+
+//main section
+
+@media only screen and (max-width: 1919px) {
+  .main-section {
+    padding-bottom: 51.65528%;
+    height: initial;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .main-section {
+    padding: 0;
+    height: 696px;
+    background: url("./mobile-m-1-bg.jpg") no-repeat center/cover;
+
+    svg{
+      top: initial;
+      -webkit-transform: translateX(-50%);
+      -moz-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      transform: translateX(-50%);
+      bottom: 13.5057%;
+      width: 66.1836%;
+    }
+  }
+
+  .main-section--content--text {
+    display: block;
+
+  }
+
+  .main-section--content--text__lower{
+    margin-top: 21px;
+    p {
+      font-size: 10px;
+      line-height: 16px;
+      letter-spacing: 0;
+    }
+  }
+
+  .main-section--content--text__upper{
+    h1 {
+      font-size: 17px;
+      margin-bottom: 9px;
+
+    }
+    p {
+      margin-top: 9px;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0;
+    }
+  }
+
+  .main-section--content {
+    top: 60.63218%;
+    left: 0;
+    display: block;
+  }
+
+
+
+
+}
+
+//반응형 모바일(대형)
+
+/*글자 크기*/
+
+@keyframes turnSvg {
+  from {
+    -webkit-transform: rotate(0);
+    -moz-transform: rotate(0);
+    -ms-transform: rotate(0);
+    -o-transform: rotate(0);
+    transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(20deg);
+    -moz-transform: rotate(20deg);
+    -ms-transform: rotate(20deg);
+    -o-transform: rotate(20deg);
+    transform: rotate(20deg);
+  }
+}
+

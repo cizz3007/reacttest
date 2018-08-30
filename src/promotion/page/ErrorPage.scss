@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+.error-section {
+  padding: 13.9166% 0;
+  text-align: center;
+  > div, img {
+    display: inline-block;
+    text-align: left;
+  }
+  .logo {
+    display: block;
+  }
+  .error-container {
+    margin-top: 30px;
+    .warn-icon {
+      width: 32px;
+    }
+    p {
+      margin-left: 30px;
+      font-size: 36px;
+      color: #3726af;
+      display: inline-block;
+    }
+  }
+
+  .little-one-graphic {
+    width: 36.1976%;
+    margin-left: 3.125vw;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .error-section > div {
+    text-align: center;
+  }
+  .error-section .error-container .warn-icon {
+    width: 26px;
+  }
+  .error-section .error-container p {
+    margin-left: 15px;
+    font-size: 22px;
+  }
+  .error-section .little-one-graphic {
+    display: block;
+    width: 75%;
+    margin: 70px auto 0;
+  }
+
+}

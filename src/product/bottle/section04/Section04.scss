@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+
+.fourth-section{
+  .fourth-section--desc{
+    text-align: center;
+
+    .fourth-section--integration{
+      margin-top: 3.8021vw;
+      display: inline-block;
+      width: 161px;
+      background: url("./app-integration@2x.png") no-repeat center/contain;
+
+      h2{
+        opacity: 0;
+        overflow: hidden;
+        text-indent: -9999px;
+
+      }
+
+    }//fourth-section--integration
+
+    h1{
+      font-size: 2.9166vw;
+      margin-top: 3.2292vw;
+      line-height: 3.5vw;
+      font-weight: 300;
+    }
+
+
+
+  }//fourth-section--desc
+
+
+
+
+}//fourth-section

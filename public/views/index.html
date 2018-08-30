@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <link rel="stylesheet" type="text/css" href="./dist/promotion/app.bundle.css"/>
+</head>
+<body>
+<noscript>
+    <div class="no-script">
+        <div class="outer" style="display: table; width:100%; min-height:900px;">
+            <div class="inner" style="display: table-cell; vertical-align: middle; text-align: center;">
+                <div class="centered"  style="width: 100%; position: relative; display: inline-block; height: 100%;">
+                    <h1 style="font-weight: bold;">you need to enable <em style="font-weight: bold; color:#ff5274; vertical-align: baseline; font-size: 18px;">JavaScript</em> to run this app.</h1> <br>
+                    <h1 style="font-weight: bold;">이 웹 어플리케이션을 실행시키기 위해서는 <em style="font-weight: bold; color:#ff5274; vertical-align: baseline; font-size: 18px;">'자바스크립트'</em>를 활성화 시켜주시기 바랍니다.</h1>
+                    <div class="noscript_browser" style="padding: 25px 0; text-align: left; width: 30%; margin: 0 auto; min-width: 360px;">
+                        <a href="chrome://settings/content/javascript" target="_blank" style="display: block; margin: 25px 0; color:#d62d20; font-weight: bold;">크롬 자바스크립트 설정하러 가기 ></a>
+                        <a href="chrome://settings/content/javascript" target="_blank" style="display: block; margin: 25px 0; color:#2BBCEC; font-weight: bold;">인터넷 익스플로어 자바스크립트 설정하러 가기 ></a>
+                        <a href="chrome://settings/content/javascript" target="_blank" style="display: block; margin: 25px 0; color:#22A8EB; font-weight: bold;">사파리 자바스크립트 설정하러 가기 ></a>
+                        <a href="chrome://settings/content/javascript" target="_blank" style="display: block; margin: 25px 0; color:#feec56; font-weight: bold;">파이어폭스 자바스크립트 설정하러 가기 ></a>
+                        <a href="chrome://settings/content/javascript" target="_blank" style="display: block; margin: 25px 0; color:#fd0a31; font-weight: bold;">오페라 자바스크립트 설정하러 가기 ></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</noscript>
+<div id="app"></div>
+<script src="./dist/promotion/app.bundle.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+    // $(function(){
+    //     var currentZindex = 0;
+    //
+    //     /*알람 메뉴 마우스 클릭시 메시지창 보여주기*/
+    //     $(document).on("click",".header--menu__alarm" ,function () {
+    //
+    //         let target = $(".header--menu__alarm__message");
+    //         target.toggleClass('active');
+    //         if (target.hasClass('active')) {
+    //             currentZindex++;
+    //             target.css('z-index', currentZindex);
+    //         } else {
+    //             target.css('z-index', '1');
+    //         }
+    //
+    //
+    //     });
+    //
+    //
+    //     /*햄버거 버튼 클릭*/
+    //     $(document).on("click",'.header--hamburger__menu', function () {
+    //         $(this).toggleClass("active");
+    //         if ($(this).hasClass("active")) {
+    //             currentZindex++;
+    //             $(".header--mobile").css('z-index', currentZindex);
+    //             $(".header--mobile").stop().animate({
+    //                 right: 0
+    //             }, 300);
+    //         } else {
+    //             $(".header--mobile").css('z-index', '1');
+    //             $(".header--mobile").stop().animate({
+    //                 right: "-100%"
+    //             }, 300);
+    //         }
+    //
+    //     });
+    //
+    //     /*디바이스 메뉴*/
+    //
+    //     $(".header--mobile--menu__device").on("click", function () {
+    //         $(this).find('ol').toggleClass('active');
+    //     });
+    //
+    //     /*데스트탑용 사용자 정보창*/
+    //     $(".header--menu__client-info").on("click", function () {
+    //         var target = $('>div', this);
+    //         target.toggleClass('active');
+    //
+    //         if (target.hasClass('active')) {
+    //             currentZindex++;
+    //             target.css('z-index', currentZindex);
+    //         } else {
+    //             target.css('z-index', '1');
+    //         }
+    //
+    //
+    //     });
+    //
+    //     $(".link_device").on("mouseover", function () {
+    //         $(".header--sublink").show();
+    //     });
+    //
+    //     $(".header").on("mouseleave", function () {
+    //         $('>.header--sublink', this).hide();
+    //     });
+    // });//JQB
+</script>
+</body>
+</html>
