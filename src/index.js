@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PromotionLayout from './promotion/index';
-import {BrowserRouter as Router,HashRouter, Route, Switch, Redirect} from 'react-router-dom';
+import {BrowserRouter as Router, HashRouter, Route, Switch, Redirect} from 'react-router-dom';
 import CheckWebBrowser from "./promotion/action/CheckWebBrowser";
 import ErrorPage from "./promotion/page/ErrorPage";
+import Ie10 from "./promotion/page/Ie10";
 
 const root = document.getElementById('app');
 
@@ -18,13 +19,11 @@ const applicationVersion = {
 
 if (browserVersion < applicationVersion.ie) {
     ReactDOM.render(
-        <div>
-            We don't support ie under 10 version.
-            please, get latest Google Chrome.
-            <a href={'https://www.google.com/chrome/'}/>
-        </div>, root
+        <Ie10/>, root
     );
+
 } else {
+
     ReactDOM.render(
         <Router basename={'/'}>
             <Switch>
@@ -34,6 +33,7 @@ if (browserVersion < applicationVersion.ie) {
             </Switch>
         </Router>, root
     );
+
 
 }
 
