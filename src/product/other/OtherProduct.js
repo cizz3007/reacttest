@@ -1,5 +1,5 @@
 import React from 'react';
-import * as styles from './OtherProduct.scss';
+import styles from './OtherProduct.scss';
 import classNames from 'classnames';
 import {Link} from 'react-router-dom';
 
@@ -22,7 +22,7 @@ class OtherProduct extends React.Component {
                         <p>유아의 배변활동을 감지하여<br/>
                             한 눈에 알아볼 수 있는<br/>
                             배변 리포트를 제공합니다.</p>
-                        <Link to={'/product'}>
+                        <Link to={'/smartpeepee'}>
                             <button type={'button'} role={'button'}>둘러보기</button>
                         </Link>                    </div>
                     <div className={styles['bottle']}>
@@ -31,7 +31,7 @@ class OtherProduct extends React.Component {
                         <p>온도, 수유자세 등을 감지하여<br/>
                             한 눈에 알아볼 수 있는<br/>
                             수유 리포트를 제공합니다.</p>
-                        <Link to={'/product'}>
+                        <Link to={'/smartbottle'}>
                             <button type={'button'} role={'button'}>둘러보기</button>
                         </Link>                    </div>
                     <div className={styles['temp']}>
@@ -40,7 +40,7 @@ class OtherProduct extends React.Component {
                         <p>유아의 체온을 감지하여<br/>
                             한 눈에 알아볼 수 있는<br/>
                             체온변화 리포트를 제공합니다.</p>
-                        <Link to={'/product'}>
+                        <Link to={'/smarttemp'}>
                             <button type={'button'} role={'button'}>둘러보기</button>
                         </Link>
                     </div>

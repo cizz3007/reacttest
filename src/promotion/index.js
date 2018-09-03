@@ -12,7 +12,6 @@ import Section07 from "./section7/Section07";
 import Section08 from "./section8/Section08";
 import Footer from "./footer/Footer";
 import Head from "./head/Head";
-import ErrorPage from "./page/ErrorPage";
 
 class PromotionLayout extends React.Component {
 

@@ -83,8 +83,6 @@ class Section06 extends React.Component {
                         </span>
                     </div>
                 </div>
-
-
             </div>
         )
     }
