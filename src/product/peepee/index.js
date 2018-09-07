@@ -14,10 +14,50 @@ import OtherProduct from "../other/OtherProduct";
 
 class PeepeeLayout extends React.Component {
 
+    constructor(props) {
+        super(props);
+    }
+
+    componentDidMount() {
+        new fullpage('#smart-peepee-section', {
+            //options here
+            licenseKey: 'C1CC5B53-80DD44AD-B875A4EB-2F0182E3',
+            autoScrolling: true,
+            keyboardScrolling: true,
+            animateAnchor: true,
+            recordHistory: false,
+            lazyLoading: true,
+            scrollingSpeed: 580,
+            onLeave: function (origin, destination, direction) {
+            },
+            afterLoad: function (origin, destination, direction) {
+            },
+            afterRender: function () {
+            },
+            afterResize: function (width, height) {
+            },
+            afterResponsive: function (isResponsive) {
+            },
+            afterSlideLoad: function (section, origin, destination, direction) {
+            },
+            onSlideLeave: function (section, origin, destination, direction) {
+            }
+        });
+    }
+
+    componentWillUnmount() {
+        fullpage_api.destroy();
+    }
+
+
+    componentWillMount() {
+
+    }
+
     render() {
         return (
             <div className={styles['smart-peepee-article']} id={'smart-peepee-section'}>
-                <Head/>
+                <Head title={"LITTLEONE, SMART PEEPEE"}/>
                 <Section01/>
                 <Section02/>
                 <Section03/>

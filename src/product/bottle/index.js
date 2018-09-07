@@ -13,52 +13,58 @@ import Section07 from "./section07/Section07";
 import Section08 from "./section08/Section08";
 import OtherProduct from "../other/OtherProduct";
 
+
 class BottleLayout extends React.Component {
 
     componentDidMount() {
-    new fullpage('#product-section', {
-        //options here
-        licenseKey: 'C1CC5B53-80DD44AD-B875A4EB-2F0182E3',
-        autoScrolling: true,
-        keyboardScrolling: true,
-        animateAnchor: true,
-        recordHistory: false,
-        lazyLoading: true,
-        scrollingSpeed: 580,
-        onLeave: function (origin, destination, direction) {
-        },
-        afterLoad: function (origin, destination, direction) {
-        },
-        afterRender: function () {
-        },
-        afterResize: function (width, height) {
-        },
-        afterResponsive: function (isResponsive) {
-        },
-        afterSlideLoad: function (section, origin, destination, direction) {
-        },
-        onSlideLeave: function (section, origin, destination, direction) {
-        }
-    })
+        new fullpage('#product-section', {
+            //options here
+            licenseKey: 'C1CC5B53-80DD44AD-B875A4EB-2F0182E3',
+            autoScrolling: true,
+            keyboardScrolling: true,
+            animateAnchor: true,
+            recordHistory: false,
+            lazyLoading: true,
+            scrollingSpeed: 580,
+            onLeave: function (origin, destination, direction) {
+            },
+            afterLoad: function (origin, destination, direction) {
+            },
+            afterRender: function () {
+            },
+            afterResize: function (width, height) {
+            },
+            afterResponsive: function (isResponsive) {
+            },
+            afterSlideLoad: function (section, origin, destination, direction) {
+            },
+            onSlideLeave: function (section, origin, destination, direction) {
+            }
+        })
+    }
 
-}
+    componentWillUnmount() {
+        fullpage_api.destroy();
+    }
 
-render() {
-    return (
-        <div className={styles['smart-bottle-article']} id={'product-section'}>
-            <Head/>
-            <Section01/>
-            <Section02/>
-            <Section03/>
-            <Section04/>
-            <Section05/>
-            <Section06/>
-            <Section07/>
-            <Section08/>
-            <OtherProduct/>
-        </div>
-    )
-}
+    render() {
+        return (
+
+            <div className={styles['smart-bottle-article']} id={'product-section'}>
+                <Head title={"LITTLEONE, SMART BOTTLE"}/>
+                <Section01/>
+                <Section02/>
+                <Section03/>
+                <Section04/>
+                <Section05/>
+                <Section06/>
+                <Section07/>
+                <Section08/>
+                <OtherProduct/>
+            </div>
+        )
+
+    }
 }
 
 export default BottleLayout;

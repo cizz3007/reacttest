@@ -14,18 +14,21 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.0.0",
+    "@babel/polyfill": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.0.0",
     "@types/react": "^16.4.2",
     "@types/react-dom": "^16.0.6",
     "animejs": "^2.2.0",
     "awesome-typescript-loader": "^5.2.0",
-    "babel": "^6.23.0",
-    "babel-cli": "^6.26.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-polyfill": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-loader": "^8.0.0",
     "better-react-spinkit": "^2.0.4",
+    "caniuse-lite": "^1.0.30000885",
     "classnames": "^2.2.6",
     "css-loader": "^0.28.11",
     "eslint": "^5.0.1",
@@ -49,6 +52,7 @@
     "react-dom": "^16.4.1",
     "react-helmet": "^5.2.0",
     "react-hot-loader": "^4.3.4",
+    "react-loadable": "^5.5.0",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
     "redux": "^4.0.0",
@@ -69,6 +73,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "fullpage.js": "^3.0.2",
-    "mongoose": "^5.2.5"
+    "mongoose": "^5.2.5",
+    "webpack-manifest-plugin": "^2.0.3"
   }
 }

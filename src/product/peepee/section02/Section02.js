@@ -57,8 +57,6 @@ class Section02 extends React.Component {
                         </div>
                     </div>
                 </div>
-
-
             </div>
         )
     }

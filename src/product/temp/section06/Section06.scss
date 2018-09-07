@@ -1,0 +1,488 @@
+@charset "UTF-8";
+
+.sixth-section {
+  position: relative;
+  .sixth-section--desc {
+    text-align: center;
+    > div {
+      display: inline-block;
+      margin-top: 73px;
+      width: 164px;
+      height: 12px;
+      background: url("./product-details.svg") no-repeat center/contain;
+
+      h2 {
+        margin-top: 3.8021vw;
+        overflow: hidden;
+        text-indent: -9999px;
+        opacity: 0;
+      }
+    }
+    //div
+
+    h1 {
+      margin-top: 3.2292vw;
+      font-size: 2.9166vw;
+      font-weight: 300;
+      line-height: 3.5vw;
+      font-family: 'Noto Sans CJK KR-light';
+      letter-spacing: -2.6px;
+    }
+    //h1
+
+    p{
+      margin-top: 30px;
+      font-size: 1.1458vw;
+      line-height: normal;
+      color: #8a8a8a;
+      font-weight: 500;
+    }
+
+  }
+  //sixth-section--desc
+
+  .sixth-section--bottle-image {
+    margin: 2.8646vw auto 8.4896vw;
+    background: url("./web-temp-6-temp@2x.png") no-repeat center/contain;
+    width: 19.8438vw;
+    min-width: 190px;
+    height: 21.6666vw;
+    min-height: 208px;
+
+  }
+  //sixth-section--bottle-image
+
+  .sixth-section--float-txt.left {
+
+    position: absolute;
+    width: 10.625vw;
+    > div {
+      position: relative;
+
+      em {
+        display: inline-block;
+        padding: 8px 0;
+        width: 5.416vw;
+        background-color: #a8ebf6;
+        text-align: center;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        font-size: 0.7292vw;
+      }
+
+      .sixth-section--float-txt__circle {
+        position: absolute;
+        top: -2px;
+        right: 0;
+        width: 36px;
+        height: 36px;
+        background-color: #a8ebf6;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        opacity: .8;
+        -webkit-animation: circleBeep 0.8s ease-out infinite alternate;
+        -o-animation: circleBeep 0.8s ease-out infinite alternate;
+        animation: circleBeep 0.8s ease-out infinite alternate;
+
+        span {
+          position: relative;
+          top: 5px;
+          left: 5px;
+          background-color: #56d7ed;
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          z-index: 2;
+
+        }
+      }
+
+      .sixth-section--float-txt__bar {
+        position: absolute;
+        top: 50%;
+        right: 15%;
+        width: 40%;
+        height: 1px;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: #a8ebf6;
+        opacity: .8;
+      }
+      //sixth-section--float-txt__bar
+
+    }
+
+  }
+
+  .sixth-section--float-txt.right {
+    position: absolute;
+    width: 10.625vw;
+    > div {
+      position: relative;
+      text-align: right;
+
+      em {
+        display: inline-block;
+        padding: 8px 0;
+        width: 5.416vw;
+        background-color: #a8ebf6;
+        text-align: center;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        font-size: 0.7292vw;
+      }
+
+      .sixth-section--float-txt__circle {
+        position: absolute;
+        top: -2px;
+        left: 0;
+        width: 36px;
+        height: 36px;
+        background-color: #a8ebf6;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        opacity: .8;
+        -webkit-animation: circleBeep 0.8s ease-out infinite alternate;
+        -o-animation: circleBeep 0.8s ease-out infinite alternate;
+        animation: circleBeep 0.8s ease-out infinite alternate;
+
+        span {
+          position: relative;
+          top: 5px;
+          right: 6px;
+          background-color: #56d7ed;
+          width: 25px;
+          height: 25px;
+          display: inline-block;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
+          z-index: 2;
+
+        }
+      }
+
+      .sixth-section--float-txt__bar {
+        position: absolute;
+        top: 50%;
+        width: 60%;
+        left: 15%;
+        height: 1px;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+        background-color: #a8ebf6;
+        opacity: .8;
+      }
+      //sixth-section--float-txt__bar
+
+    }
+
+  }
+
+  //sixth-section--float-txt
+  .bottle-cap {
+    top: 344px;
+    left: 38.0283vw;
+  }
+  .handle {
+    top: 533px;
+    left: 35.78125vw;
+  }
+
+  .straw {
+    top: 772px;
+    left: 40.2083vw;
+  }
+  .smart-base {
+    top: 930px;
+    left: 38.0282vw;
+  }
+  .nipple {
+    top: 423px;
+    right: 37.3958vw;
+  }
+  .glass {
+    top: 666px;
+    right: 37.3958vw;
+  }
+
+  @keyframes circleBeep {
+    from {
+      opacity: 0.2;
+    }
+    to {
+      opacity: 0.8;
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .sixth-section {
+    .sixth-section--desc {
+      > div {
+        width: 240px;
+        height: 20px;
+        margin-top: 14.4928vw;
+
+        h2 {
+
+        }
+      }
+      //div
+
+      h1 {
+        margin-top: 10.4928vw;
+        font-size: 8.6957vw;
+        line-height: normal;
+      }
+      //h1
+
+      p{
+        font-size: 3.8648vw;
+        margin-top: 7.2464vw;
+        line-height: 5.7971vw;
+      }
+
+    }
+    //sixth-section--desc
+
+    .sixth-section--bottle-image {
+      width: 32.8502vw;
+      height: 103.8647vw;
+    }
+    //sixth-section--bottle-image
+
+    .sixth-section--float-txt.left {
+      width: 26.625vw;
+      > div {
+
+        em {
+          width: 18.416vw;
+          font-size: 2.4155vw;
+        }
+
+        .sixth-section--float-txt__circle {
+          width: 28px;
+          height: 28px;
+
+
+          span {
+
+            top: 4px;
+            left: 5px;
+            width: 18px;
+            height: 18px;
+          }
+        }
+
+        .sixth-section--float-txt__bar {
+          right: 25%;
+        }
+        //sixth-section--float-txt__bar
+
+      }
+
+    }
+
+    .sixth-section--float-txt.right {
+      width: 26.625vw;
+      > div {
+
+        em {
+          position: relative;
+          z-index: 2;
+          width: 18.416vw;
+          font-size: 2.4155vw;
+        }
+
+        .sixth-section--float-txt__circle {
+          width: 28px;
+          height: 28px;
+
+          span {
+            top: 4px;
+            right: 5px;
+            width: 18px;
+            height: 18px;
+
+          }
+        }
+
+        .sixth-section--float-txt__bar {
+
+        }
+        //sixth-section--float-txt__bar
+
+      }
+
+    }
+
+    //sixth-section--float-txt
+    .bottle-cap {
+      top: 69.4928vw;
+      left: 19.625vw;
+    }
+    .handle {
+      top: 97.5845vw;
+      left: 12.78125vw;
+    }
+
+    .straw {
+      top: 134.5411vw;
+      left: 26.2083vw;
+    }
+    .smart-base {
+      top: 158.4541vw;
+      left: 19.0282vw;
+    }
+    .nipple {
+      top: 81.1594vw;
+      right: 18.3958vw;
+    }
+    .glass {
+      top: 118.3575vw;
+      right: 17.3958vw;
+    }
+
+  }
+
+}
+
+@media only screen and (max-width: 320px){
+  .sixth-section {
+    .sixth-section--desc {
+      > div {
+        width: 220px;
+        height: 18px;
+        margin-top: 7.4928vw;
+
+        h2 {
+
+        }
+      }
+      //div
+
+      h1 {
+        margin-top: 7.4928vw;
+        font-size: 6.6957vw;
+      }
+      //h1
+
+    }
+    //sixth-section--desc
+
+    .sixth-section--bottle-image {
+      width: 32.8502vw;
+      height: 103.8647vw;
+    }
+    //sixth-section--bottle-image
+
+    .sixth-section--float-txt.left {
+      width: 26.625vw;
+      > div {
+
+        em {
+          width: 18.416vw;
+        }
+
+        .sixth-section--float-txt__circle {
+          width: 28px;
+          height: 28px;
+
+
+          span {
+
+            top: 4px;
+            left: 5px;
+            width: 18px;
+            height: 18px;
+          }
+        }
+
+        .sixth-section--float-txt__bar {
+          right: 25%;
+        }
+        //sixth-section--float-txt__bar
+
+      }
+
+    }
+
+    .sixth-section--float-txt.right {
+      width: 26.625vw;
+      > div {
+
+        em {
+          position: relative;
+          z-index: 2;
+          width: 18.416vw;
+        }
+
+        .sixth-section--float-txt__circle {
+          width: 28px;
+          height: 28px;
+
+          span {
+            top: 4px;
+            right: 5px;
+            width: 18px;
+            height: 18px;
+
+          }
+        }
+
+        .sixth-section--float-txt__bar {
+
+        }
+        //sixth-section--float-txt__bar
+
+      }
+
+    }
+
+    //sixth-section--float-txt
+    .bottle-cap {
+      top: 50.4928vw;
+      left: 19.625vw;
+    }
+    .handle {
+      top: 78.5845vw;
+      left: 12.78125vw;
+    }
+
+    .straw {
+      top: 115.5411vw;
+      left: 26.2083vw;
+    }
+    .smart-base {
+      top: 139.4541vw;
+      left: 19.0282vw;
+    }
+    .nipple {
+      top: 62.1594vw;
+      right: 18.3958vw;
+    }
+    .glass {
+      top: 99.3575vw;
+      right: 17.3958vw;
+    }
+
+  }
+
+}
+
+
+

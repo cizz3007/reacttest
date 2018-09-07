@@ -71,8 +71,6 @@ class PromotionLayout extends React.Component {
                 </div>
                 <Footer/>
             </div>
-
-
         )
     }
 

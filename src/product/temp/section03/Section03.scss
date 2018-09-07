@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+.third-section {
+  position: relative;
+  background: url("./web-bottle-3-bg@2x.png") no-repeat center/cover;
+
+  .third-section--desc {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    .third-section--desc--integration {
+      display: inline-block;
+      margin-top: 3.8021vw;
+      width: 161px;
+      height: 12px;
+      background: url("./app-integration.svg") no-repeat center/contain;
+      h2 {
+        opacity: 0;
+        overflow: hidden;
+        text-indent: -9999px;
+      }
+    }
+    //third-section--desc--integration
+
+    h1 {
+      font-size: 2.916vw;
+      text-align: center;
+      margin-top: 3.2292vw;
+      font-weight: 300;
+      letter-spacing: -2.6px;
+      line-height: 3.5vw;
+      font-family: 'Noto Sans CJK KR-light';
+    }
+
+    p {
+      margin-top: 1.5625vw;
+      font-size: 1.1458vw;
+      color: #8a8a8a;
+      line-height: normal;
+      text-align: center;
+    }
+
+  }
+  //  .third-section--desc
+
+  .third-section--progress {
+    position: relative;
+    display: table;
+    margin: 4.375vw auto 0;
+
+    > div {
+      position: relative;
+      display: table-cell;
+      text-align: center;
+
+      span {
+        position: absolute;
+        left: 50%;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        transform: translateX(-50%);
+        bottom: -30px;
+        display: block;
+        width: 100%;
+        white-space: nowrap;
+        font-size: 0.9375vw;
+      }
+    }
+    .third-section--progress--device {
+      position: relative;
+      display: inline-block;
+      width: 5.7292vw;
+      min-width: 70px;
+      z-index: 1;
+
+    }
+    .third-section--progress--data {
+      position: relative;
+      display: inline-block;
+      width: 3.0208vw;
+      min-width: 50px;
+      padding: 0 2.3958vw;
+      z-index: 1;
+    }
+
+    .horizon-bar {
+      position: absolute;
+      top: 50%;
+      left: 3px;
+      -webkit-transform: translateY(-50%);
+      -moz-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      transform: translateY(-50%);
+      display: inline-block;
+      width: 95%;
+      height: 2px;
+      object-fit: contain;
+      background-image: linear-gradient(to right, #8ae0ed, #82e7c7);
+    }
+    //horizon-bar
+
+  }
+  //third-section--progress
+
+  .third-section--devices {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+    img {
+      display: inline-block;
+    }
+
+    img:first-child {
+      position: relative;
+      bottom: 35px;
+      width:12.7083vw;
+      min-width: 122px;
+    }
+    img:last-child {
+      margin-left: 2.239vw;
+      width: 15vw;
+      min-width: 144px;
+      vertical-align: bottom;
+
+    }
+
+  }
+  //third-section--devices
+
+}
+
+//third-section
+
+@media only screen and (max-width: 640px) {
+
+  .third-section {
+
+    .third-section--desc {
+
+      .third-section--desc--integration {
+        width: 240px;
+        height: 20px;
+        margin-top: 14.4928vw;
+        h2 {
+
+        }
+      }
+      //third-section--desc--integration
+
+      h1 {
+        margin-top: 10.4928vw;
+        font-size: 8.6957vw;
+        line-height: normal;
+      }
+
+      p {
+        font-size: 3.8648vw;
+        margin-top: 7.2464vw;
+      }
+
+    }
+    //  .third-section--desc
+
+    .third-section--progress {
+
+      > div {
+
+        span {
+          bottom: -20px;
+          font-size: 2.8986vw;
+        }
+      }
+      .third-section--progress--device {
+
+      }
+      .third-section--progress--data {
+
+      }
+
+      .horizon-bar {
+
+      }
+      //horizon-bar
+
+    }
+    //third-section--progress
+
+    .third-section--devices {
+
+      img {
+      }
+
+      img:first-child {
+        bottom: 10px;
+        width: 15.5521vw;
+
+      }
+      img:last-child {
+
+      }
+
+    }
+    //third-section--devices
+
+  }
+
+  //third-section
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .third-section {
+
+    .third-section--desc {
+
+      .third-section--desc--integration {
+        width: 220px;
+        height: 18px;
+        margin-top: 7.4928vw;
+        h2 {
+
+        }
+      }
+      //third-section--desc--integration
+
+      h1 {
+        margin-top: 7.4928vw;
+        font-size: 6.6957vw;
+        line-height: 8vw;
+      }
+
+      p {
+        font-size: 3.8648vw;
+        margin-top: 7.2464vw;
+      }
+
+    }
+    //  .third-section--desc
+
+    .third-section--progress {
+      width: 90%;
+
+      > div {
+
+        span {
+          bottom: -20px;
+          font-size: 2.8986vw;
+        }
+      }
+      .third-section--progress--device {
+        min-width: 50px;
+      }
+      .third-section--progress--data {
+        min-width: 30px;
+      }
+
+      .horizon-bar {
+        left: 7px;
+        width: 80%;
+
+      }
+      //horizon-bar
+
+    }
+    //third-section--progress
+
+    .third-section--devices {
+
+      img {
+      }
+
+      img:first-child {
+        display: none;
+
+      }
+      img:last-child {
+
+      }
+
+    }
+    //third-section--devices
+
+  }
+
+  //third-section
+
+}

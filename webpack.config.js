@@ -1,18 +1,20 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const webpack = require('webpack');
+const ManifestPlugin = require('webpack-manifest-plugin');
 
 module.exports = {
     entry:
         {
             // 'index/app': ['babel-polyfill', './src/test/'],
-            'product/app': ['babel-polyfill', './src/product/'],
-            'promotion/app': ['babel-polyfill', './src/'],
+            'product/app': ['@babel/polyfill', './src/product/'],
+            'promotion/app': ['@babel/polyfill', './src/'],
         }
     ,
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: "[name].bundle.js",
+        chunkFilename:'[name].bundle.js',
         publicPath: "/"
     },
     devtool: "source-map",
@@ -84,10 +86,20 @@ module.exports = {
         new ExtractTextPlugin({
             filename: '[name].bundle.css'
         }),
-    ]
-
-    // externals: {
-    //     "react": "React",
-    //     "react-dom": "ReactDOM"
-    // }
+        new ManifestPlugin({
+            filename:'assets.json',
+            basePath:'/'
+        })
+    ],
+    optimization: {
+        splitChunks:{
+            cacheGroups: {
+                vendors:{
+                    chunks: "all",
+                    name:'vendor',
+                    enforce:true,
+                }
+            }
+        }
+    }
 };
