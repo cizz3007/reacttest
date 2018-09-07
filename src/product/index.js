@@ -4,7 +4,7 @@ import {HashRouter, Route, Redirect, Switch} from 'react-router-dom';
 import BottleLayout from "./bottle";
 import ErrorPage from "../promotion/page/ErrorPage";
 import PeepeeLayout from "./peepee";
-import PromotionLayout from "../promotion";
+import PromotionLayout from "../promotion/promotionLayout";
 import TempLayout from "./temp";
 
 

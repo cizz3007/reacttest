@@ -1,10 +1,9 @@
 {
   "/product/app.js": "/product/app.bundle.js",
   "/product/app.js.map": "/product/app.bundle.js.map",
-  "/promotion/app.js": "/promotion/app.bundle.js",
-  "/promotion/app.js.map": "/promotion/app.bundle.js.map",
   "/vendor.js": "/vendor.bundle.js",
   "/vendor.css": "/vendor.bundle.css",
   "/vendor.js.map": "/vendor.bundle.js.map",
-  "/vendor.css.map": "/vendor.bundle.css.map"
+  "/vendor.css.map": "/vendor.bundle.css.map",
+  "/images/loader-alt.gif": "/images/3vMVDN0A.gif"
 }

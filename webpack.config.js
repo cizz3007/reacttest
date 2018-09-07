@@ -6,9 +6,8 @@ const ManifestPlugin = require('webpack-manifest-plugin');
 module.exports = {
     entry:
         {
-            // 'index/app': ['babel-polyfill', './src/test/'],
             'product/app': ['@babel/polyfill', './src/product/'],
-            'promotion/app': ['@babel/polyfill', './src/'],
+            // 'promotion/app': ['@babel/polyfill', './src/'],
         }
     ,
     output: {
@@ -75,7 +74,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     name: '[hash:base64:8].[ext]',
-                    publicPath: 'dist/images/',
+                    publicPath: 'images/',
                     outputPath: 'images/',
                     limit: 1000000,
                 }
@@ -97,7 +96,6 @@ module.exports = {
                 vendors:{
                     chunks: "all",
                     name:'vendor',
-                    enforce:true,
                 }
             }
         }

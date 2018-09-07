@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+.loading-progress{
+
+  position: absolute;
+  width: 31.25vw;
+  height: 31.25vw;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: url("./loader-alt.gif") no-repeat center/cover;
+}//loading-progress
