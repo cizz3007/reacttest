@@ -30,6 +30,7 @@ html, body {
   /*스크롤 제거*/
   -ms-overflow-style: none;
   overflow: auto;
+  -webkit-overflow-scrolling:touch;
 
 }
 

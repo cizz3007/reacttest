@@ -1,20 +1,22 @@
 import React from 'react';
-
 import '../library/_reset.scss';
-import Loadable from 'react-loadable';
-import Loading from "../component/loading/Loading";
-
-const LoadableComponent = Loadable({
-    loader: () => import('./index'),
-    loading(){
-        return <Loading/>
-    }
-});
+import styles from './index.scss'
+import Head from "./head/Head";
+import Section01 from "./section1/Section01";
+import Section02 from "./section2/Section02";
+import Section03 from "./section3/Section03";
+import Section04 from "./section4/Section04";
+import Section05 from "./section5/Section05";
+import Section06 from "./section6/Section06";
+import Section07 from "./section7/Section07";
+import Section08 from "./section8/Section08";
+import Footer from "./footer/Footer";
 
 class PromotionLayout extends React.Component {
 
 
     componentDidMount() {
+
         const color = {
             brown: "color:#560000;font-size:11px;",
             red: "color:#d83128;font-size:11px;",
@@ -55,7 +57,20 @@ class PromotionLayout extends React.Component {
 
     render() {
         return (
-           <LoadableComponent/>
+            <div className={styles['application']}>
+                <Head/>
+                <Section01/>
+                <Section02/>
+                <Section03/>
+                <div className={styles['application--background']}>
+                    <Section04/>
+                    <Section05/>
+                    <Section06/>
+                    <Section07/>
+                    <Section08/>
+                </div>
+                <Footer/>
+            </div>
         )
     }
 

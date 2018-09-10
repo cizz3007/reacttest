@@ -6,7 +6,7 @@ const app = express();
 
 /*devMode 개발용. productionMode: 서버 배포용*/
 const severRoot = {
-    devMode: 'C:/Users/user/Desktop/product_page/dist',
+    devMode: 'C:/Users/user/Desktop/reacttest/dist',
     productionMode: ''
 };
 

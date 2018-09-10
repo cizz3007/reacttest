@@ -1,24 +1,26 @@
 const path = require('path');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const webpack = require('webpack');
+const ExtractCssChunks = require("extract-css-chunks-webpack-plugin");
 const ManifestPlugin = require('webpack-manifest-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry:
         {
-            'product/app': ['@babel/polyfill', './src/product/'],
-            // 'promotion/app': ['@babel/polyfill', './src/'],
+            // 'app': ['@babel/polyfill', './src/product/'],
+            'promotion/app': ['@babel/polyfill', './src/'],
+            // 'app': ['@babel/polyfill', './src/test']
         }
     ,
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: "[name].bundle.js",
-        chunkFilename:'[name].bundle.js',
-        publicPath: "/"
+        filename: "[name].[chunkhash].bundle.js",
+        chunkFilename: '[id].[chunkhash].js',
+        publicPath: "/dist/"
     },
     devtool: "source-map",
     devServer: {
-        inline:true,
+        inline: true,
         port: 7777,
         historyApiFallback: true,
     },
@@ -48,6 +50,25 @@ module.exports = {
                 test: /\.js$/,
                 exclude: /node_modules/
             },
+            // {
+            //     test: /\.scss$/,
+            //     use: [
+            //         {
+            //             loader:'style-loader'
+            //         },
+            //         ExtractCssChunks.loader,
+            //         {
+            //             loader: 'css-loader',
+            //             options: {
+            //                 modules: true,
+            //                 localIdentName: '[name]__[local]--[hash:base64:5]',
+            //             },
+            //         },
+            //         {
+            //             loader: 'sass-loader',
+            //         }
+            //     ]
+            // }, css 청크화 시킴, 밑에 plugin 끄기 관련된 .
             {
                 test: /\.scss$/,
                 use: ExtractTextPlugin.extract({
@@ -74,7 +95,7 @@ module.exports = {
                 loader: 'url-loader',
                 options: {
                     name: '[hash:base64:8].[ext]',
-                    publicPath: 'images/',
+                    publicPath: '/dist/images/',
                     outputPath: 'images/',
                     limit: 1000000,
                 }
@@ -82,20 +103,46 @@ module.exports = {
         ]
     },
     plugins: [
+        // new ExtractCssChunks( css청크
+        //     {
+        //         filename: "[name].css",
+        //         chunkFilename: "[id].css",
+        //         hot: true
+        //     }
+        // ),
         new ExtractTextPlugin({
-            filename: '[name].bundle.css'
+            filename: '[name].[chunkhash].bundle.css',
+            allChunks: true
         }),
         new ManifestPlugin({
-            filename:'assets.json',
-            basePath:'/'
-        })
+            filename: 'assets.json',
+            basePath: '/'
+        }),
+        new HtmlWebpackPlugin({
+            filename: '../index.html',
+            inject: true,
+            template: './index.html',
+            title: 'LITTLEONE, next level parenting',
+        }),
     ],
     optimization: {
-        splitChunks:{
+        splitChunks: {
+            chunks: 'async',
+            minSize: 30000,
+            minChunks: 1,
+            maxAsyncRequests: 5,
+            maxInitialRequests: 3,
+            automaticNameDelimiter: '~',
+            name: true,
             cacheGroups: {
-                vendors:{
-                    chunks: "all",
-                    name:'vendor',
+                vendors: {
+                    test: /[\\/]node_modules[\\/]/,
+                    priority: -10
+                },
+                default: {
+                    minChunks: 2,
+                    priority: -20,
+                    reuseExistingChunk: true
                 }
             }
         }

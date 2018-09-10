@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import PromotionLayout from './promotion/promotionLayout';
-import {BrowserRouter as Router, HashRouter, Route, Switch, Redirect} from 'react-router-dom';
+import {HashRouter as Router, Route, Switch, Redirect} from 'react-router-dom';
 import CheckWebBrowser from "./promotion/action/CheckWebBrowser";
 import ErrorPage from "./promotion/page/ErrorPage";
 import Ie10 from "./promotion/page/Ie10";
+
 
 const root = document.getElementById('app');
 
