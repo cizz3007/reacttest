@@ -1,7 +1,22 @@
 {
-  "/promotion/app.js": "/dist/promotion/app.644af47d2d88fda03986.bundle.js",
-  "/promotion/app.css": "/dist/promotion/app.644af47d2d88fda03986.bundle.css",
-  "/promotion/app.js.map": "/dist/promotion/app.644af47d2d88fda03986.bundle.js.map",
-  "/promotion/app.css.map": "/dist/promotion/app.644af47d2d88fda03986.bundle.css.map",
-  "/../index.html": "/dist/../index.html"
+  "/vendors~bottle-index~peepee-index~promotion-page-ErrorPage~promotion-promotionLayout~temp-index.js": "/dist/0.7b3c3784fcf700795d41.js",
+  "/vendors~bottle-index~peepee-index~promotion-page-ErrorPage~promotion-promotionLayout~temp-index.js.map": "/dist/0.7b3c3784fcf700795d41.js.map",
+  "/vendors~bottle-index~peepee-index~temp-index.js": "/dist/1.41e53eeb843913365fe4.js",
+  "/vendors~bottle-index~peepee-index~temp-index.js.map": "/dist/1.41e53eeb843913365fe4.js.map",
+  "/vendors~promotion-promotionLayout.js": "/dist/2.c5d76e2ece9ddc117543.js",
+  "/vendors~promotion-promotionLayout.js.map": "/dist/2.c5d76e2ece9ddc117543.js.map",
+  "/promotion-page-ErrorPage.js": "/dist/3.95c22d294eeac5e7a404.js",
+  "/promotion-page-ErrorPage.js.map": "/dist/3.95c22d294eeac5e7a404.js.map",
+  "/temp-index.js": "/dist/4.68116f71f5a9089cc5a7.js",
+  "/temp-index.js.map": "/dist/4.68116f71f5a9089cc5a7.js.map",
+  "/peepee-index.js": "/dist/5.f96203708d140b91d021.js",
+  "/peepee-index.js.map": "/dist/5.f96203708d140b91d021.js.map",
+  "/bottle-index.js": "/dist/6.9f4466bc485be01abb83.js",
+  "/bottle-index.js.map": "/dist/6.9f4466bc485be01abb83.js.map",
+  "/promotion-promotionLayout.js": "/dist/7.5a347db365cfe897dcec.js",
+  "/promotion-promotionLayout.js.map": "/dist/7.5a347db365cfe897dcec.js.map",
+  "/product/app.js": "/dist/product/app.0928155f1ed5ce14fa18.bundle.js",
+  "/product/app.css": "/dist/product/app.0928155f1ed5ce14fa18.bundle.css",
+  "/product/app.js.map": "/dist/product/app.0928155f1ed5ce14fa18.bundle.js.map",
+  "/product/app.css.map": "/dist/product/app.0928155f1ed5ce14fa18.bundle.css.map"
 }

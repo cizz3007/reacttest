@@ -3,18 +3,25 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ExtractCssChunks = require("extract-css-chunks-webpack-plugin");
 const ManifestPlugin = require('webpack-manifest-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-
+//set NODE_ENV=production
+//set NODE_ENV=development
+console.log(process.env.NODE_ENV);
+if (process.env.NODE_ENV === 'development') {
+    console.log('-- 개발모드로 WEBPACK이 실행됩니다. --');
+} else if(process.env.NODE_ENV === 'production'){
+    console.log('-- 서버 배포모드로 WEBPACK이 실행됩니다! --');
+}
 module.exports = {
     entry:
         {
-            // 'app': ['@babel/polyfill', './src/product/'],
-            'promotion/app': ['@babel/polyfill', './src/'],
+            'product/app': ['@babel/polyfill', './src/product/'],
+            // 'promotion/app': ['@babel/polyfill', './src/'],
             // 'app': ['@babel/polyfill', './src/test']
         }
     ,
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename: "[name].[chunkhash].bundle.js",
+        filename:process.env.NODE_ENV !=='production' ? "[name].bundle.js":"[name].[chunkhash].bundle.js",
         chunkFilename: '[id].[chunkhash].js',
         publicPath: "/dist/"
     },
@@ -76,9 +83,10 @@ module.exports = {
                     use: [
                         {
                             loader: 'css-loader',
+
                             options: {
-                                modules: true,
-                                localIdentName: '_[hash:base64:11]',
+                                modules: process.env.NODE_ENV !=='production' ? 'false':'true',
+                                localIdentName: process.env.NODE_ENV !=='production' ? null:'_[hash:base64:11]',
                                 sourceMap: true,
                                 minimize: true,
                             }
@@ -111,19 +119,19 @@ module.exports = {
         //     }
         // ),
         new ExtractTextPlugin({
-            filename: '[name].[chunkhash].bundle.css',
+            filename: process.env.NODE_ENV !== 'production' ?'[name].bundle.css':'[name].[chunkhash].bundle.css',
             allChunks: true
         }),
         new ManifestPlugin({
             filename: 'assets.json',
             basePath: '/'
         }),
-        new HtmlWebpackPlugin({
-            filename: '../index.html',
-            inject: true,
-            template: './index.html',
-            title: 'LITTLEONE, next level parenting',
-        }),
+        // new HtmlWebpackPlugin({
+        //     filename: '../index.html',
+        //     inject: true,
+        //     template: './index.html',
+        //     title: 'LITTLEONE, next level parenting',
+        // }),
     ],
     optimization: {
         splitChunks: {

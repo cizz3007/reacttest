@@ -17,6 +17,7 @@ class PromotionLayout extends React.Component {
 
     componentDidMount() {
 
+
         const color = {
             brown: "color:#560000;font-size:11px;",
             red: "color:#d83128;font-size:11px;",

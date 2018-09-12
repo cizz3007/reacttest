@@ -6,7 +6,7 @@ const cx = classNames.bind(styles);
 class Section06 extends React.Component {
     render() {
         return (
-            <div className={cx(styles['sixth-section'], 'section')}>
+            <div className={cx(styles['sixth-section'], 'section','active')}>
                 <div className={styles['sixth-section--desc']}>
                     <div>
                         <h2>PRODUCT DETAILS</h2>
@@ -28,7 +28,7 @@ class Section06 extends React.Component {
                         </span>
                     </div>
                 </div>
-                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['handle'])}>
+                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['band'])}>
                     <div>
                         <em>통기성 밴드</em>
                         <span className={styles['sixth-section--float-txt__circle']}>
@@ -38,7 +38,7 @@ class Section06 extends React.Component {
                         </span>
                     </div>
                 </div>
-                <div className={cx(styles['sixth-section--float-txt'], styles['right'], styles['glass'])}>
+                <div className={cx(styles['sixth-section--float-txt'], styles['right'], styles['sensor'])}>
                     <div>
                         <em>정밀 온도 센서</em>
                         <span className={styles['sixth-section--float-txt__circle']}>

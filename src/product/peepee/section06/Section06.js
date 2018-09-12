@@ -6,7 +6,7 @@ const cx = classNames.bind(styles);
 class Section06 extends React.Component {
     render() {
         return (
-            <div className={cx(styles['sixth-section'], 'section')}>
+            <div className={cx(styles['sixth-section'], 'section','active')}>
                 <div className={styles['sixth-section--desc']}>
                     <div>
                         <h2>PRODUCT DETAILS</h2>
@@ -18,7 +18,7 @@ class Section06 extends React.Component {
                         아이에게 부담이 가지 않습니다.</p>
                 </div>
                 <div className={styles['sixth-section--bottle-image']}></div>
-                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['bottle-cap'])}>
+                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['sensor'])}>
                     <div>
                         <em>고감도 센서</em>
                         <span className={styles['sixth-section--float-txt__circle']}>
@@ -28,7 +28,7 @@ class Section06 extends React.Component {
                         </span>
                     </div>
                 </div>
-                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['handle'])}>
+                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['proof'])}>
                     <div>
                         <em>IP67 방수</em>
                         <span className={styles['sixth-section--float-txt__circle']}>
@@ -38,7 +38,7 @@ class Section06 extends React.Component {
                         </span>
                     </div>
                 </div>
-                <div className={cx(styles['sixth-section--float-txt'], styles['right'], styles['glass'])}>
+                <div className={cx(styles['sixth-section--float-txt'], styles['right'], styles['material'])}>
                     <div>
                         <em>안전한 소재</em>
                         <span className={styles['sixth-section--float-txt__circle']}>

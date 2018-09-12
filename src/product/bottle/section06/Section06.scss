@@ -36,8 +36,8 @@
   .sixth-section--bottle-image {
     margin: 24px auto 0;
     background: url("./web-bottle-6@2x.png") no-repeat center/contain;
-    width: 194px;
-    height: 670px;
+    width: 19.7355vh;
+    height: 68.1586vh;
 
   }
   //sixth-section--bottle-image
@@ -46,6 +46,7 @@
 
     position: absolute;
     width: 10.625vw;
+    min-width: 80px;
     > div {
       position: relative;
 
@@ -115,6 +116,8 @@
   .sixth-section--float-txt.right {
     position: absolute;
     width: 10.625vw;
+    min-width: 80px;
+
     > div {
       position: relative;
       text-align: right;
@@ -254,8 +257,11 @@
       > div {
 
         em {
+          position: relative;
+          left: -25px;
           width: 18.416vw;
           font-size: 2.4155vw;
+
         }
 
         .sixth-section--float-txt__circle {
@@ -287,6 +293,7 @@
 
         em {
           position: relative;
+          right: -25px;
           z-index: 2;
           width: 18.416vw;
           font-size: 2.4155vw;
