@@ -6,7 +6,7 @@ const cx = classNames.bind(styles);
 class Section06 extends React.Component {
     render() {
         return (
-            <div className={cx(styles['sixth-section'], 'section','active')}>
+            <div className={cx(styles['sixth-section'], 'section')}>
                 <div className={styles['sixth-section--desc']}>
                     <div>
                         <h2>PRODUCT DETAILS</h2>

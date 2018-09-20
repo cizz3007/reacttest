@@ -1,0 +1,18 @@
+{
+  "lang": {
+    "code": "en",
+    "dialects": "en-US",
+    "name": "English"
+  },
+  "actions": {
+    "index": {
+      "first": "LITTLEONE",
+      "second": "The next level parenting platform",
+      "third": "Let us help you with the hard work.",
+      "fourth": "Take care of your precious little one",
+      "fifth":"in a smart and secure way."
+    },
+    "product": {
+    }
+  }
+}

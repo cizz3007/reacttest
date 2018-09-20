@@ -11,11 +11,32 @@ import Section06 from "./section6/Section06";
 import Section07 from "./section7/Section07";
 import Section08 from "./section8/Section08";
 import Footer from "./footer/Footer";
+import {getCookie, setCookie} from "../library/_LittleoneScript";
 
 class PromotionLayout extends React.Component {
 
 
-    componentDidMount() {
+    constructor(props) {
+        super(props);
+        this.state = {
+            lang: getCookie('lang'),
+            language: require('../language/english')
+        }
+    }
+
+
+    componentDidUpdate() {
+
+        setCookie('lang', 'ko', 7);
+
+        if (this.state.lang === 'en') {
+            this.state.language = require('../language/english');
+        } else if (this.state.lang === 'ko') {
+            this.state.language = require('../language/korean');
+        }
+
+        console.log(this.state.lang);
+        console.log(this.state.language);
 
 
         const color = {
@@ -60,7 +81,7 @@ class PromotionLayout extends React.Component {
         return (
             <div className={styles['application']}>
                 <Head/>
-                <Section01/>
+                <Section01 language={this.state.language}/>
                 <Section02/>
                 <Section03/>
                 <div className={styles['application--background']}>
@@ -69,8 +90,8 @@ class PromotionLayout extends React.Component {
                     <Section06/>
                     <Section07/>
                     <Section08/>
+                    <Footer/>
                 </div>
-                <Footer/>
             </div>
         )
     }

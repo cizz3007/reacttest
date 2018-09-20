@@ -3,25 +3,40 @@
   <component name="ChangeListManager">
     <list default="true" id="5c1b285b-f934-44a0-a868-8258bb19cd1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0.7b3c3784fcf700795d41.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0.7b3c3784fcf700795d41.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/1.41e53eeb843913365fe4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/1.41e53eeb843913365fe4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/2.c5d76e2ece9ddc117543.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/2.c5d76e2ece9ddc117543.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3.95c22d294eeac5e7a404.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3.95c22d294eeac5e7a404.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/4.68116f71f5a9089cc5a7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/4.68116f71f5a9089cc5a7.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/5.f96203708d140b91d021.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/5.f96203708d140b91d021.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/6.9f4466bc485be01abb83.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/6.9f4466bc485be01abb83.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/7.5a347db365cfe897dcec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/7.5a347db365cfe897dcec.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/promotion/app.644af47d2d88fda03986.bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/promotion/app.644af47d2d88fda03986.bundle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/promotion/app.644af47d2d88fda03986.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/promotion/app.644af47d2d88fda03986.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/product/app.0928155f1ed5ce14fa18.bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/product/app.0928155f1ed5ce14fa18.bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/product/app.0928155f1ed5ce14fa18.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/product/app.0928155f1ed5ce14fa18.bundle.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/loading/Loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/loading/Loading.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/bottle/section05/Section05.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/bottle/section05/Section05.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/bottle/section06/Section06.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/bottle/section06/Section06.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/bottle/section07/Section07.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/bottle/section07/Section07.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/peepee/section05/Section05.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/peepee/section05/Section05.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/.bin/node-sass" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.bin/node-sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/node-sass/bin/node-sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/_LittleoneScript.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/_LittleoneScript.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/product/peepee/section06/Section06.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/peepee/section06/Section06.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/peepee/section06/Section06.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/peepee/section06/Section06.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/temp/section01/Section01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/temp/section01/Section01.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/temp/section05/Section05.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/temp/section05/Section05.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/product/temp/section06/Section06.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/temp/section06/Section06.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/product/temp/section06/Section06.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/product/temp/section06/Section06.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/promotion/footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion/main-smart-devices-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion/mobile-wave-bg@2x.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/mobile-wave-bg@2x.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/promotion/promotionLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/promotionLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion/section1/Section01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/section1/Section01.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -112,53 +127,58 @@
     <session id="935070243">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.2" value="2" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.closed" value="10" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.9" value="2" />
+          <entry key="project.opened" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="babelrc" value="26" />
-          <entry key="html" value="32" />
-          <entry key="js" value="3278" />
-          <entry key="scss" value="412" />
+          <entry key="html" value="56" />
+          <entry key="js" value="3949" />
+          <entry key="json" value="309" />
+          <entry key="scss" value="416" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="32" />
-          <entry key="JSON" value="26" />
-          <entry key="JavaScript" value="3278" />
-          <entry key="SCSS" value="412" />
+          <entry key="HTML" value="56" />
+          <entry key="JSON" value="335" />
+          <entry key="JavaScript" value="3949" />
+          <entry key="SCSS" value="416" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="2" />
           <entry key="css" value="3" />
-          <entry key="html" value="2" />
-          <entry key="js" value="61" />
-          <entry key="json" value="6" />
+          <entry key="html" value="4" />
+          <entry key="jpg" value="5" />
+          <entry key="js" value="70" />
+          <entry key="json" value="10" />
           <entry key="png" value="2" />
-          <entry key="scss" value="22" />
+          <entry key="scss" value="23" />
           <entry key="svg" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="3" />
-          <entry key="HTML" value="2" />
-          <entry key="Image" value="2" />
-          <entry key="JSON" value="8" />
-          <entry key="JavaScript" value="61" />
-          <entry key="SCSS" value="22" />
+          <entry key="HTML" value="4" />
+          <entry key="Image" value="7" />
+          <entry key="JSON" value="12" />
+          <entry key="JavaScript" value="70" />
+          <entry key="SCSS" value="23" />
           <entry key="SVG" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts" />
+      <usages-collector id="statistics.vcs.git.usages" />
     </session>
     <session id="1587177547">
       <usages-collector id="statistics.lifecycle.project">
@@ -221,77 +241,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/webpack.config.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-51">
-              <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/product/index.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="313">
-              <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/promotion/promotionLayout.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/promotion/footer/Footer.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-486">
-              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/product/bottle/section06/Section06.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="295" column="23" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/product/bottle/section07/Section07.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/component/loading/Loading.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+            <state relative-caret-position="162">
+              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -301,18 +255,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="json" />
         <option value="TypeScript File" />
         <option value="CSS File" />
         <option value="HTML File" />
         <option value="scss" />
         <option value="JavaScript File" />
+        <option value="json" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>flex</find>
       <find>jus</find>
       <find>__box</find>
       <find>address</find>
@@ -342,15 +295,16 @@
       <find>-webkit-overflow-scrolling</find>
       <find>anime</find>
       <find>bottle-cap</find>
+      <find>var</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>className</replace>
-      <replace>let</replace>
       <replace>href</replace>
       <replace>fillRule</replace>
       <replace>stopColor</replace>
       <replace>템프</replace>
+      <replace>let</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -359,12 +313,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/product/peepee/section02/Section02.js" />
-        <option value="$PROJECT_DIR$/src/product/temp/section02/Section02.js" />
-        <option value="$PROJECT_DIR$/src/product/temp/section02/Section02.scss" />
-        <option value="$PROJECT_DIR$/src/product/temp/section03/Section03.js" />
-        <option value="$PROJECT_DIR$/src/product/temp/section03/Section03.scss" />
-        <option value="$PROJECT_DIR$/src/product/temp/section04/Section04.js" />
         <option value="$PROJECT_DIR$/src/product/temp/section05/Section05.js" />
         <option value="$PROJECT_DIR$/src/product/temp/section06.js" />
         <option value="$PROJECT_DIR$/src/product/temp/section07/Section07.js" />
@@ -395,20 +343,26 @@
         <option value="$PROJECT_DIR$/src/promotion/head/Head.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/product/temp/section01/Section01.js" />
-        <option value="$PROJECT_DIR$/src/product/temp/section06/Section06.js" />
         <option value="$PROJECT_DIR$/src/product/temp/section06/Section06.scss" />
         <option value="$PROJECT_DIR$/src/product/temp/section05/Section05.scss" />
         <option value="$PROJECT_DIR$/src/product/peepee/section05/Section05.scss" />
         <option value="$PROJECT_DIR$/src/product/bottle/section05/Section05.scss" />
-        <option value="$PROJECT_DIR$/src/product/peepee/section06/Section06.js" />
         <option value="$PROJECT_DIR$/src/product/peepee/section06/Section06.scss" />
         <option value="$PROJECT_DIR$/src/component/loading/Loading.js" />
         <option value="$PROJECT_DIR$/src/product/index.js" />
-        <option value="$PROJECT_DIR$/src/promotion/promotionLayout.js" />
-        <option value="$PROJECT_DIR$/src/promotion/footer/Footer.scss" />
         <option value="$PROJECT_DIR$/src/product/bottle/section06/Section06.scss" />
         <option value="$PROJECT_DIR$/src/product/bottle/section07/Section07.scss" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
+        <option value="$PROJECT_DIR$/src/promotion/footer/Footer.scss" />
+        <option value="$PROJECT_DIR$/src/product/peepee/section06/Section06.js" />
+        <option value="$PROJECT_DIR$/src/product/temp/section06/Section06.js" />
+        <option value="$PROJECT_DIR$/src/promotion/index.scss" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/library/_LittleoneScript.js" />
+        <option value="$PROJECT_DIR$/src/language/korean.json" />
+        <option value="$PROJECT_DIR$/src/promotion/promotionLayout.js" />
+        <option value="$PROJECT_DIR$/src/language/english.json" />
+        <option value="$PROJECT_DIR$/src/promotion/section1/Section01.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -434,8 +388,8 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="848" />
+    <option name="y" value="58" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -445,9 +399,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -459,6 +410,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -479,19 +433,19 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\chk\Desktop\reacttest\public" />
-      <recent name="C:\Users\chk\Desktop\reacttest" />
-      <recent name="C:\Users\chk\Desktop\reacttest\src\test\component" />
-      <recent name="C:\Users\chk\Desktop\reacttest\src\test" />
-      <recent name="C:\Users\user\Desktop\reacttest\src\component\loading" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chk\Desktop\reacttest\dist\product" />
       <recent name="C:\Users\chk\Desktop\reacttest" />
       <recent name="C:\Users\chk\Desktop\reacttest\src\product" />
       <recent name="C:\Users\chk\Desktop\reacttest\src\product\products" />
       <recent name="C:\Users\user\Desktop\product_page\src\page\index\indexsection6" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\reacttest\src\promotion" />
+      <recent name="C:\Users\chk\Desktop\reacttest\public" />
+      <recent name="C:\Users\chk\Desktop\reacttest" />
+      <recent name="C:\Users\chk\Desktop\reacttest\src\test\component" />
+      <recent name="C:\Users\chk\Desktop\reacttest\src\test" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -644,11 +598,17 @@
       <workItem from="1536425927639" duration="7284000" />
       <workItem from="1536434152267" duration="28000" />
       <workItem from="1536759823674" duration="9204000" />
+      <workItem from="1537237479730" duration="3476000" />
+      <workItem from="1537241387387" duration="2041000" />
+      <workItem from="1537246616235" duration="266000" />
+      <workItem from="1537258063892" duration="417000" />
+      <workItem from="1537425148622" duration="4383000" />
+      <workItem from="1537429556459" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="589029000" />
+    <option name="totallyTimeSpent" value="599721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,8 +621,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66237944" visible="true" weight="0.23027718" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.66237944" visible="true" weight="0.30558482" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -680,7 +641,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.42337376" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5010661" side_tool="true" weight="0.35396308" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -741,48 +702,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/dist/product/app.41b1fb2629fe4860eb65.bundle.js" />
-    <entry file="file://$PROJECT_DIR$/0.647fc75131f291098a0a.js" />
-    <entry file="file://$PROJECT_DIR$/src/component/loading/Loading.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/_reset.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/bottle/Index.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/output.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/views/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/dist/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/images/2jEmv-jK.jpg" />
     <entry file="file://$PROJECT_DIR$/dist/images/2-cBwNRp.png" />
     <entry file="file://$PROJECT_DIR$/dist/images/1pJhAg6y.png" />
@@ -790,13 +709,6 @@
     <entry file="file://$PROJECT_DIR$/dist/images/O7oQ60e6.png" />
     <entry file="file://$PROJECT_DIR$/dist/images/yW40TNTV.png" />
     <entry file="file://$PROJECT_DIR$/dist/images/zMqHYsf3.jpg" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/app.bundle.css" />
     <entry file="file://$PROJECT_DIR$/dist/app.css" />
     <entry file="file://$PROJECT_DIR$/dist/7.css" />
@@ -813,9 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -823,9 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -840,9 +746,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="44" column="46" selection-start-line="44" selection-start-column="46" selection-end-line="44" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -850,19 +753,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="65" selection-start-line="9" selection-start-column="65" selection-end-line="9" selection-end-column="65" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/temp/section06/Section06.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="40" column="102" selection-start-line="40" selection-start-column="102" selection-end-line="40" selection-end-column="102" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -895,13 +785,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/product/peepee/section01/Section01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/product/peepee/section06/Section06.scss">
       <provider selected="true" editor-type-id="text-editor">
@@ -910,72 +794,128 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/peepee/section06/Section06.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="73" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/loading/Loading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/promotionLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/footer/Footer.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-486">
-          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/product/bottle/section06/Section06.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="295" column="23" selection-start-line="295" selection-start-column="23" selection-end-line="295" selection-end-column="23" />
+        <state relative-caret-position="5310">
+          <caret line="302" column="22" selection-start-line="302" selection-start-column="22" selection-end-line="302" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/product/bottle/section07/Section07.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="55" column="24" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="24" />
+        <state relative-caret-position="990">
+          <caret line="55" column="23" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="58" selection-end-line="41" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/main-smart-devices-bg.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/promotion/main-smart-devices-bg@2x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product/temp/section06/Section06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="8" column="65" selection-start-line="8" selection-start-column="65" selection-end-line="8" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/footer/Footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product/peepee/section06/Section06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="37" selection-end-line="12" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/mobile-wave-bg@2x.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product/peepee/section07/Section07.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product/peepee/section08/Section08.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/loading/Loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="6" column="26" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
+        <state relative-caret-position="216">
+          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language/korean.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/library/_LittleoneScript.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/promotionLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language/english.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/section1/Section01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="22" column="42" lean-forward="true" selection-start-line="22" selection-start-column="42" selection-end-line="22" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
+        <state relative-caret-position="162">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
         </state>
       </provider>
     </entry>

@@ -13,12 +13,13 @@ class Section01 extends React.Component {
                                 <div></div>
                                 <div className={styles['main-section--content--text']}>
                                     <div className={styles['main-section--content--text__upper']}>
-                                        <h1>LITTLEONE</h1>
-                                        <p>The next level parenting platform</p>
+                                        <h1>{this.props.language.actions.index.first}</h1>
+                                        <p>{this.props.language.actions.index.second}</p>
                                     </div>
                                     <div className={styles['main-section--content--text__lower']}>
-                                        <p>Let us help you with the hard work.</p>
-                                        <p>Take care of your precious little one <br/>in a smart and secure way.</p>
+                                        <p>{this.props.language.actions.index.third}</p>
+                                        <p>{this.props.language.actions.index.fourth}<br/>{this.props.language.actions.index.fifth}
+                                        </p>
                                     </div>
                                 </div>
                             </div>

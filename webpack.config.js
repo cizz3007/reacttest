@@ -105,7 +105,7 @@ module.exports = {
                     name: '[hash:base64:8].[ext]',
                     publicPath: '/dist/images/',
                     outputPath: 'images/',
-                    limit: 1000000,
+                    limit: 50000,
                 }
             },
         ]

@@ -1,0 +1,17 @@
+{
+  "lang": {
+    "code": "ko",
+    "dialects": "ko-KR",
+    "name": "Korean"
+  },
+  "actions": {
+    "index": {
+      "first": "리틀원",
+      "second": "다음 단계의 육아",
+      "third": "도와드림",
+      "fourth": "우리의 신명나는 방식으로 헬프해드림다."
+    },
+    "product": {
+    }
+  }
+}
