@@ -32,6 +32,10 @@ if (browserVersion < applicationVersion.ie) {
         <div className={'application'}>
             <Head/>
             <LadingHead/>
+            <Section01/>
+            <Section02/>
+            <Section03/>
+            <Section04/>
             <Section05/>
         </div>, root
     )
