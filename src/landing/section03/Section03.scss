@@ -1,0 +1,376 @@
+@charset "UTF-8";
+.bottle-summary--section {
+  position: relative;
+  width: 100%;
+  padding: 120px 0;
+  background-color: #f1fbf9;
+
+  &--text {
+    text-align: center;
+    margin-bottom: 80px;
+
+    h1 {
+      font-size: 35px;
+      line-height: 40px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    p {
+      font-size: 16px;
+      line-height: 20px;
+      color: #666;
+      font-weight: 300;
+      margin-top: 20px;
+    }
+  }
+  //text
+
+  &--image {
+    margin: 0 auto;
+    text-align: center;
+
+    .__bottle {
+      position: relative;
+      width: 19.6354vw;
+      height: 60.833vw;
+      background: url("./con03_img.png") no-repeat left/contain;
+      margin-right: 11.7187vw;
+
+      a {
+        position: absolute;
+      }
+
+      .__one {
+        top: 2.6041vw;
+        right: 4.42708vw;
+      }
+      //__one
+
+      .__two {
+        top: 8.3333vw;
+        left: 7.03125vw;
+      }
+      //__t0w
+      .__three {
+        top: 19.7916vw;
+        left: 0.52083vw;
+      }
+      .__four {
+        top: 34.375vw;
+        right: 3.3854vw;
+      }
+      .__five {
+        top: 44.7916vw;
+        left: 3.38541vw;
+      }
+      .__six {
+        bottom: 3.125vw;
+        right: 4.166vw;
+      }
+
+      .__hover-action {
+        display: table-cell;
+        vertical-align: middle;
+        position: relative;
+        width: 56px;
+        height: 56px;
+        background-color: rgba(138, 224, 237, 0.7);
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        color: rgba(0, 0, 0, 0);
+        white-space: nowrap;
+        overflow: hidden;
+        font-size: 14px;
+        letter-spacing: -30px;
+
+      }
+      //__hover-action
+    }
+
+    > div {
+      display: inline-block;
+
+      .bottle-spec {
+        padding: 2.6041vw 0;
+        img {
+          display: inline-block;
+          width: 5.5208vw;
+          min-width: 64px;
+        }
+
+        h2 {
+          font-size: 22px;
+          font-weight: 500;
+          color: #333;
+          margin-top: 15px;
+        }
+        p {
+          font-size: 16px;
+          line-height: 20px;
+          margin-top: 20px;
+          color: #666;
+        }
+      }
+
+    }
+  }
+
+}
+
+//bottle-summary--section
+
+@media only screen and (max-width: 1024px) {
+  .bottle-summary--section {
+
+    &--text {
+
+      h1 {
+        font-size: 28px;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+    //text
+
+    &--image {
+
+      .__bottle {
+        margin: 0 auto;
+        display: block;
+        a {
+
+        }
+
+        .__one {
+
+        }
+        //__one
+
+        .__two {
+
+        }
+        //__t0w
+        .__three {
+
+        }
+        .__four {
+
+        }
+        .__five {
+
+        }
+        .__six {
+
+        }
+
+        .__hover-action {
+          -webkit-transform: scale(0.75);
+          -moz-transform: scale(0.75);
+          -ms-transform: scale(0.75);
+          -o-transform: scale(0.75);
+          transform: scale(0.75);
+
+        }
+        //__hover-action
+      }
+
+      > div {
+
+        .bottle-spec {
+          img {
+
+          }
+
+          h2 {
+
+          }
+          p {
+
+          }
+        }
+
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .bottle-summary--section {
+    padding: 45px 0;
+
+    &--text {
+      margin-bottom: 50px;
+      h1 {
+        font-size: 20px;
+        line-height: 24px;
+      }
+
+      p {
+        font-size: 12px;
+        line-height: 16px;
+      }
+    }
+    //text
+
+    &--image {
+
+      .__bottle {
+        margin: 0 auto 40px;
+        width: 36.6354vw;
+        height: 111.833vw;
+        display: block;
+        a {
+
+        }
+
+        .__one {
+
+        }
+        //__one
+
+        .__two {
+          left: 9.03125vw;
+        }
+        //__t0w
+        .__three {
+          top: 32.7916vw;
+          left: -4.47917vw;
+        }
+        .__four {
+          top: 59.75vw;
+        }
+        .__five {
+          top: 78.7916vw;
+          left: 3.3854vw;
+        }
+        .__six {
+          bottom: 1.125vw;
+          right: 5.166vw;
+        }
+
+        .__hover-action {
+          -webkit-transform: scale(0.5);
+          -moz-transform: scale(0.5);
+          -ms-transform: scale(0.5);
+          -o-transform: scale(0.5);
+          transform: scale(0.5);
+
+        }
+        //__hover-action
+      }
+
+      > div {
+
+        .bottle-spec {
+          padding: 18px 0;
+          img {
+            width: 48px;
+            min-width: initial;
+
+          }
+
+          h2 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 10px;
+            line-height: 14px;
+            margin-top: 12px;
+          }
+        }
+
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .bottle-summary--section {
+
+    &--text {
+
+      h1 {
+        font-size: 18px;
+        line-height: 22px;
+      }
+
+      p {
+        font-size: 10px;
+        line-height: 14px;
+
+      }
+    }
+    //text
+
+    &--image {
+
+      .__bottle {
+        width: 36.6354vw;
+        height: 111.833vw;
+        display: block;
+        a {
+
+        }
+
+        .__one {
+
+        }
+        //__one
+
+        .__two {
+
+        }
+        //__t0w
+        .__three {
+
+        }
+        .__four {
+
+        }
+        .__five {
+
+        }
+        .__six {
+
+        }
+
+        .__hover-action {
+
+
+        }
+        //__hover-action
+      }
+
+      > div {
+
+        .bottle-spec {
+          padding: 18px 0;
+          img {
+            width: 48px;
+            min-width: initial;
+
+          }
+
+          h2 {
+            font-size: 14px;
+          }
+          p {
+            font-size: 10px;
+            line-height: 14px;
+            margin-top: 12px;
+          }
+        }
+
+      }
+    }
+
+  }
+}
+
+

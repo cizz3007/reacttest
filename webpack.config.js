@@ -14,8 +14,9 @@ if (process.env.NODE_ENV === 'development') {
 module.exports = {
     entry:
         {
-            'product/app': ['@babel/polyfill', './src/product/'],
+            // 'product/app': ['@babel/polyfill', './src/product/'],
             // 'promotion/app': ['@babel/polyfill', './src/'],
+            'landing/app': ['@babel/polyfill', './src/landing'],
             // 'app': ['@babel/polyfill', './src/test']
         }
     ,
@@ -105,7 +106,7 @@ module.exports = {
                     name: '[hash:base64:8].[ext]',
                     publicPath: '/dist/images/',
                     outputPath: 'images/',
-                    limit: 50000,
+                    limit: process.env.NODE_ENV !== 'production'? 1000000:1000000,
                 }
             },
         ]
@@ -133,26 +134,26 @@ module.exports = {
         //     title: 'LITTLEONE, next level parenting',
         // }),
     ],
-    optimization: {
-        splitChunks: {
-            chunks: 'async',
-            minSize: 30000,
-            minChunks: 1,
-            maxAsyncRequests: 5,
-            maxInitialRequests: 3,
-            automaticNameDelimiter: '~',
-            name: true,
-            cacheGroups: {
-                vendors: {
-                    test: /[\\/]node_modules[\\/]/,
-                    priority: -10
-                },
-                default: {
-                    minChunks: 2,
-                    priority: -20,
-                    reuseExistingChunk: true
-                }
-            }
-        }
-    }
+    // optimization: {
+    //     splitChunks: {
+    //         chunks: 'async',
+    //         minSize: 30000,
+    //         minChunks: 1,
+    //         maxAsyncRequests: 5,
+    //         maxInitialRequests: 3,
+    //         automaticNameDelimiter: '~',
+    //         name: true,
+    //         cacheGroups: {
+    //             vendors: {
+    //                 test: /[\\/]node_modules[\\/]/,
+    //                 priority: -10
+    //             },
+    //             default: {
+    //                 minChunks: 2,
+    //                 priority: -20,
+    //                 reuseExistingChunk: true
+    //             }
+    //         }
+    //     }
+    // }
 };

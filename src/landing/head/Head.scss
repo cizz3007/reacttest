@@ -1,0 +1,416 @@
+@charset "UTF-8";
+
+.header-section {
+  position: relative;
+  width: 60%;
+  margin: 0 auto;
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -ms-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+
+  .__link-logo {
+    display: inline-block;
+    padding: 10px 0;
+
+    img {
+      width: 244px;
+      height: 68px;
+    }
+  }
+
+  &--container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 24px 0;
+    display: inline-block;
+  }
+  .__sns-link {
+    display: inline-block;
+    width: 42px;
+    height: 42px;
+    overflow: hidden;
+    text-indent: -9999px;
+    margin-left: 14px;
+
+  }
+  //__sns-link
+  .email {
+    background: url("./icon_mail.png") no-repeat center/contain;
+  }
+  .facebook {
+    background: url("./icon_facebook.png") no-repeat center/contain;
+  }
+  .twitter {
+    background: url("./icon_twitter.png") no-repeat center/contain;
+  }
+
+  .__select-country {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 14px;
+    text-align: center;
+    div {
+      width: 42px;
+      height: 42px;
+      background: url("./icon_usa.png") no-repeat center/contain;
+    }
+    .__down-pointer {
+      display: inline-block;
+      width: 16px;
+      margin-top: 10px;
+      height: 8px;
+      background: url("./icon_point.png") no-repeat center/contain;
+    }
+    //__down-pointer
+
+    .country-box {
+      display: none;
+      background: #fff;
+
+
+      &--link {
+        padding: 10px 0;
+
+        span {
+          display: block;
+          width: 42px;
+          height: 42px;
+          overflow: hidden;
+          text-indent: -9999px;
+        }
+        .__lang-us {
+          background: url("./icon_usa.png") no-repeat center/contain;
+        }
+        .__lang-korea {
+          background: url("./icon_kor.png") no-repeat center/contain;
+        }
+        .__lang-japan {
+          background: url("./icon_jpn.png") no-repeat center/contain;
+        }
+        .__lang-china {
+          background: url("./icon_chi.png") no-repeat center/contain;
+        }
+      }
+      //link
+
+    }
+    //country-box
+
+  }
+  //__select-country
+
+  .__select-country.active {
+
+    .country-box {
+      position: absolute;
+      top: 7px;
+      right: -11px;
+      display: block;
+      -webkit-border-radius: 32px;
+      -moz-border-radius: 32px;
+      border-radius: 32px;
+      border: 1px solid #e5eae8;
+      padding: 5px 10px;
+      z-index: 99;
+    }
+  }
+
+}
+
+//header-section
+
+@media only screen and (max-width: 1024px) {
+  .header-section {
+    width: 90%;
+
+    .__link-logo {
+
+      img {
+
+      }
+    }
+
+    &--container {
+
+    }
+    .__sns-link {
+
+    }
+    //__sns-link
+    .email {
+    }
+    .facebook {
+    }
+    .twitter {
+    }
+
+    .__select-country {
+
+      div {
+
+      }
+      .__down-pointer {
+
+      }
+      //__down-pointer
+
+      .country-box {
+        &--link {
+
+          span {
+
+          }
+          .__lang-us {
+          }
+          .__lang-korea {
+          }
+          .__lang-japan {
+          }
+          .__lang-china {
+          }
+        }
+        //link
+
+      }
+      //country-box
+
+    }
+    //__select-country
+
+    .__select-country.active {
+
+      .country-box {
+
+
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header-section {
+
+    .__link-logo {
+
+      img {
+        width: 70%;
+        height: auto;
+      }
+    }
+
+    &--container {
+      padding: 19px 0;
+    }
+    .__sns-link {
+      width: 30px;
+      height: 30px;
+    }
+    //__sns-link
+    .email {
+    }
+    .facebook {
+    }
+    .twitter {
+    }
+
+    .__select-country {
+
+      div {
+        width: 30px;
+        height: 30px;
+      }
+      .__down-pointer {
+
+      }
+      //__down-pointer
+
+      .country-box {
+
+        &--link {
+
+          span {
+            width: 30px;
+            height: 30px;
+          }
+          .__lang-us {
+          }
+          .__lang-korea {
+          }
+          .__lang-japan {
+          }
+          .__lang-china {
+          }
+        }
+        //link
+
+      }
+      //country-box
+
+    }
+    //__select-country
+
+    .__select-country.active {
+
+      .country-box {
+        top: 4px;
+        right: -7px;
+        padding: 4px 6px;
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .header-section {
+
+    .__link-logo {
+
+      img {
+        width: 120px;
+      }
+    }
+
+    &--container {
+      display: inline-block;
+      position: absolute;
+      top: 10px;
+      padding: 0;
+
+    }
+    .__sns-link {
+      margin-left: 2.8985vw;
+    }
+    //__sns-link
+    .email {
+    }
+    .facebook {
+    }
+    .twitter {
+    }
+
+    .__select-country {
+      position: relative;
+
+      div {
+
+      }
+      .__down-pointer {
+      position: absolute;
+        bottom: -15px;
+        right: 6px;
+      }
+      //__down-pointer
+
+      .country-box {
+
+        &--link {
+
+          a {
+
+          }
+          .__lang-us {
+          }
+          .__lang-korea {
+          }
+          .__lang-japan {
+          }
+          .__lang-china {
+          }
+        }
+        //link
+
+      }
+      //country-box
+
+    }
+    //__select-country
+
+    .__select-country.active {
+
+      .country-box {
+        top: -4px;
+        padding: 0 6px;
+
+      }
+    }
+
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .header-section {
+
+    .__link-logo {
+
+      img {
+        width: 100px;
+      }
+    }
+
+    &--container {
+      top: 13px;
+
+    }
+    .__sns-link {
+      width: 22px;
+      height: 22px;
+    }
+    //__sns-link
+    .email {
+    }
+    .facebook {
+    }
+    .twitter {
+    }
+
+    .__select-country {
+
+      div {
+        width: 22px;
+        height: 22px;
+      }
+      .__down-pointer {
+        bottom: -14px;
+        right: 2px;
+      }
+      //__down-pointer
+
+      .country-box {
+
+        &--link {
+
+          a {
+            width: 22px;
+            height: 22px;
+          }
+          .__lang-us {
+          }
+          .__lang-korea {
+          }
+          .__lang-japan {
+          }
+          .__lang-china {
+          }
+        }
+        //link
+
+      }
+      //country-box
+
+    }
+    //__select-country
+
+    .__select-country.active {
+
+      .country-box {
+
+      }
+    }
+
+  }
+}
