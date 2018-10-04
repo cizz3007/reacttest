@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+.email-subscribe-component {
+  position: relative;
+  width: 282px;
+  overflow: hidden;
+  border: 1px solid #3726af;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+  label {
+    position: relative;
+    display: table-cell;
+  }
+  button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    background-color: #3726af;
+    width: 88px;
+    font-size: 12px;
+    padding: 13px 0;
+    display: inline-block;
+
+  }
+
+  input {
+    width: 194px;
+    text-indent: 10px;
+    border: none;
+    font-size: 12px;
+    font-weight: 300;
+    color: #9e9e9e;
+    padding: 13px 0;
+    display: inline-block;
+
+  }
+  input::-webkit-input-placeholder {
+    color: #9e9e9e;
+  }
+  input:-ms-input-placeholder {
+    color: #9e9e9e;
+
+  }
+  input::-moz-placeholder {
+    color: #9e9e9e;
+  }
+  input::placeholder {
+    color: #9e9e9e;
+
+  }
+
+  .__remove-email-text {
+    display: none;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    width: 14px;
+    height: 14px;
+    background: url("./web-promotion-btn-delete.svg") no-repeat center/contain;
+  }
+  .__remove-email-text.active{
+    display: block;
+  }
+
+}
+
+//email-subscribe-component

@@ -1,0 +1,41 @@
+{
+  "lang": {
+    "code": "en",
+    "dialects": "en-US",
+    "name": "Japanese"
+  },
+  "section03": {
+    "first": {
+      "line1": "テスト",
+      "line2": "テスト",
+      "line3": "テスト",
+      "line4": "テスト",
+      "line5": "テスト."
+    },
+    "second": {
+      "line1": "テスト",
+      "line2": "テスト",
+      "line3": "テスト",
+      "line4": "テスト",
+      "line5": "テスト",
+      "line6": "テスト"
+    },
+    "third": {
+      "line1": "テスト",
+      "line2": "テスト",
+      "line3": "テスト",
+      "line4": "テスト",
+      "line5": "テスト",
+      "line6": "テスト",
+      "line7": "テスト",
+      "line8": "テスト",
+      "line9": "テスト",
+      "line10": "テスト,",
+      "line11": "テスト",
+      "line12": "テスト",
+      "line13": "テスト",
+      "line14": "テスト",
+      "line15": "テスト"
+    }
+  }
+}

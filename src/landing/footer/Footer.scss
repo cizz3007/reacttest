@@ -1,0 +1,359 @@
+
+.footer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 80px;
+  z-index: 1;
+  background-color: #fff;
+
+
+  .footer--email-container{
+    position: absolute;
+    top: 13.4%;
+    right: 15vw;
+
+    >h3,div{
+      display: inline-block;
+    }
+
+    h3{
+      color:#3726af;
+      font-size:1.0416vw;
+      font-weight: 500;
+      letter-spacing: -0.4px;
+      margin-right: 2.0833vw;
+    }
+
+
+
+  }//footer--email-container
+
+
+
+  .footer--lower-container{
+    width: 100%;
+    border-top: 1px solid #cac6ec;
+
+
+    >a{
+      display: block;
+      margin-top: 80px;
+
+      div {
+        display: inline-block;
+        width: 80px;
+        height: 80px;
+        background: url("./Littleone Logo.svg") no-repeat 0/contain;
+      }
+    }
+
+    > p {
+      margin-top: 21px;
+      font-size: 12px;
+      color:#333;
+
+    }
+  }
+
+
+  .footer--container {
+    text-align: center;
+    width: 100%;
+
+    > ul {
+      width: 360px;
+      padding-top:56px;
+      padding-bottom:56px;
+      margin-left: 15vw;
+
+      li {
+        float: left;
+        width: 20%;
+
+        a {
+          display: inline-block;
+          width: 48px;
+          height: 48px;
+        }
+
+        .facebook {
+          background: url("./web-footer-btn-facebook.svg") no-repeat center/48px 48px;
+
+        }
+        .twitter {
+          background: url("./web-footer-btn-twitter.svg") no-repeat center/48px 48px;
+
+        }
+        .instagram {
+          background: url("./web-footer-btn-instagram.svg") no-repeat center/48px 48px;
+
+        }
+        .youtube {
+          background: url("./web-footer-btn-youtube.svg") no-repeat center/48px 48px;
+
+        }
+        .email {
+          background: url("./web-group-btn-email.svg") no-repeat center/48px 48px;
+
+        }
+      }
+
+    }
+
+
+  }
+
+}
+
+@media only screen and (max-width: 1440px){
+  .footer {
+
+    
+    .footer--email-container{
+
+      right: 8vw;
+
+      >h3,div{
+      }
+
+      h3{
+
+      }
+
+
+
+    }//footer--email-container
+
+
+
+    .footer--lower-container{
+
+
+
+      >a{
+
+
+        div {
+
+        }
+      }
+
+      > p {
+
+
+      }
+    }
+
+
+    .footer--container {
+
+
+      > ul {
+        margin-left: 8vw;
+
+        li {
+
+
+          a {
+
+          }
+
+          .facebook {
+
+          }
+          .twitter {
+
+          }
+          .instagram {
+
+          }
+          .youtube {
+
+          }
+          .email {
+
+          }
+        }
+
+      }
+
+
+    }
+
+  }
+}
+
+@media only screen and (max-width: 1024px){
+  .footer {
+
+
+    .footer--email-container{
+
+      right: initial;
+      position: relative;
+      display: block;
+      top: initial;
+
+      >h3,div{
+        display: block;
+        margin: 0 auto;
+      }
+
+      h3{
+        font-size: 16px;
+      }
+
+      div{
+        margin: 25px auto;
+      }
+
+
+
+    }//footer--email-container
+
+
+
+    .footer--lower-container{
+
+
+
+      >a{
+
+
+        div {
+
+        }
+      }
+
+      > p {
+
+
+      }
+    }
+
+
+    .footer--container {
+
+
+      > ul {
+        margin-left: 0;
+        display: inline-block;
+
+        li {
+
+
+          a {
+
+          }
+
+          .facebook {
+
+          }
+          .twitter {
+
+          }
+          .instagram {
+
+          }
+          .youtube {
+
+          }
+          .email {
+
+          }
+        }
+
+      }
+
+
+    }
+
+  }
+}
+
+@media only screen and (max-width: 640px){
+  @media only screen and (max-width: 1024px){
+    .footer {
+
+
+      .footer--email-container{
+
+
+        >h3,div{
+
+        }
+
+        h3{
+          font-size: 14px;
+        }
+
+        div{
+        }
+
+
+
+      }//footer--email-container
+
+
+
+      .footer--lower-container{
+
+
+
+        >a{
+
+
+          div {
+
+          }
+        }
+
+        > p {
+
+
+        }
+      }
+
+
+      .footer--container {
+
+
+        > ul {
+          width: 90%;
+
+
+          li {
+
+            a {
+            }
+
+            .facebook {
+              background-size: 36px 36px;
+
+            }
+            .twitter {
+              background-size: 36px 36px;
+
+            }
+            .instagram {
+              background-size: 36px 36px;
+
+            }
+            .youtube {
+              background-size: 36px 36px;
+
+            }
+            .email {
+              background-size: 36px 36px;
+
+            }
+          }
+
+        }
+
+
+      }
+
+    }
+  }
+}

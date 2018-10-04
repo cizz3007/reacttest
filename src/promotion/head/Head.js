@@ -61,7 +61,7 @@ class Head extends React.Component {
                 <link rel="icon" type="image/png" href="./favicon/icon-192.png" sizes="192x192"/>
                 <link rel="icon" type="image/png" href="./favicon/icon-196.png" sizes="196x196"/>
                 <link rel="shortcut icon" href="./favicon/favicon.ico"/>
-                <link rel="mask-icon" color="#5bbad5"/>
+                <link rel="mask-icon" color="#fff" href="./favicon/safari-pinned-tag-icon.svg"/>
                 <link rel="manifest" href="./favicon/manifest.json"/>
             </Helmet>
         );

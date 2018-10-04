@@ -27,6 +27,7 @@ class Section04 extends React.Component {
 
 
     clickHandler(e) {
+
         const nodes = e.currentTarget;
         nodes.classList.toggle('active');
         let isActive = nodes.classList.contains('active');
@@ -56,11 +57,13 @@ class Section04 extends React.Component {
                     nodes.dataset.isAnimated = 'false';
                 },
                 targets: nodes,
-                width: '190px',
+                width: '205px',
                 easing: 'easeInSine',
                 borderRadius: '32px',
                 color: 'rgba(255,255,255,255)',
-                duration: '200',
+                duration: '300',
+                paddingLeft:'15',
+                paddingRight:'15',
             }).add({
                 targets: nodes,
                 letterSpacing: '0px',
@@ -96,8 +99,9 @@ class Section04 extends React.Component {
                 easing: 'easeInSine',
                 borderRadius: '999px',
                 letterSpacing: '-30px',
-                delay: 50,
-                duration: 200,
+                paddingLeft:'0',
+                paddingRight:'0',
+                duration: 150,
 
 
             })

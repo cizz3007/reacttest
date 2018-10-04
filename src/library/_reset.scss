@@ -10,6 +10,7 @@
 
 a {
   color: #333;
+  -webkit-tap-highlight-color:transparent;
 }
 
 body::-webkit-scrollbar {
@@ -142,4 +143,9 @@ br {
 
 .no-js {
   display: none
+}
+.application{
+  max-width: 2560px;
+  width: 100%;
+  overflow: hidden;
 }

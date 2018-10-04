@@ -1,7 +1,10 @@
 @charset "UTF-8";
 
 .video-section{
-  position: relative;
+  position: fixed;
+  width: 100%;
+  top: 55px;
+  z-index: -1;
 
   .video-section--text{
     position: absolute;
@@ -91,9 +94,11 @@
 }
 
 
-@media only screen and (max-width: 640px){
+@media only screen and (max-width: 768px){
   .video-section{
     position: relative;
+    top: initial;
+    z-index: 0;
 
     .video-section--text{
       position: absolute;
@@ -135,7 +140,9 @@
 
     /*비디오*/
     .embed-container {
-
+      .scroll-cover{
+        z-index: -1;
+      }
     }
 
     .embed-container iframe,

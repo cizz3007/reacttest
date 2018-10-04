@@ -6,7 +6,6 @@ import CheckWebBrowser from "./promotion/action/CheckWebBrowser";
 import ErrorPage from "./promotion/page/ErrorPage";
 import Ie10 from "./promotion/page/Ie10";
 
-
 const root = document.getElementById('app');
 
 const browserVersion = CheckWebBrowser();
@@ -17,6 +16,9 @@ const applicationVersion = {
     firefox: '',
     chrome: ''
 };
+
+
+
 
 if (browserVersion < applicationVersion.ie) {
     ReactDOM.render(

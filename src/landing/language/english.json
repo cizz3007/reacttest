@@ -1,0 +1,39 @@
+{
+  "lang": {
+    "code": "en",
+    "dialects": "en-US",
+    "name": "English"
+  },
+  "section03": {
+    "first": {
+      "line1": "Intelligent feeding bottle",
+      "line2": "that helps comfortable feeding",
+      "line3": "Smart-Bottle monitors temperature and feeding posture",
+      "line4": "to help you feed your baby more safely and conveniently"
+    },
+    "second": {
+      "line1": "Bottle cap (pp)a",
+      "line2": "Nipple (Sillicone)",
+      "line3": "Ring and Handle (PP)",
+      "line4": "Straw (Sillicone)",
+      "line5": "Bottle body (Glass)",
+      "line6": "Smart base"
+    },
+    "third": {
+      "line1": "Keep Warm",
+      "line2": "When connected to power source, Smart-Bottle will",
+      "line3": "keep milk at ideal temperature so you can feed",
+      "line4": "your baby right away.",
+      "line5": "Prevent Burns",
+      "line6": "If temperature is too high for feeding,",
+      "line7": "Smart-Bottle will vibrate to warn you.",
+      "line8": "Feeding Angle",
+      "line9": "lf feeding posture is ina ppropriate,",
+      "line10": "Smart-Bottle will vibrate",
+      "line11": "to warn you of too much air intake.",
+      "line12": "Accurate Temp. Measurement",
+      "line13": "Prevents loss of nutrition",
+      "line14": "with the help of accurate temperature sensor."
+    }
+  }
+}

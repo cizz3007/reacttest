@@ -11,13 +11,14 @@ class Footer extends React.Component {
                 instagram: 'https://www.instagram.com/littleonesns/',
                 twitter: 'https://twitter.com/littleonesns',
                 youtube: 'https://www.youtube.com/channel/UC2viX5InWtasFUGrRRw3rwQ/'
-            }
+            },
+            bgColor: this.props.backGroundColor
         }
     }
 
     render() {
         return (
-            <footer className={styles['footer']}>
+            <footer className={styles['footer']} style={{backgroundImage: this.props.backGroundColor}}>
                 <div className={styles['footer--container']}>
                     <ul>
                         <li>
@@ -32,9 +33,10 @@ class Footer extends React.Component {
                         <li>
                             <a href={this.state.link.youtube} target={"_blank"} className={styles['youtube']}/>
                         </li>
-
                     </ul>
-                    <div></div>
+                    <a href={'/'}>
+                        <div></div>
+                    </a>
                     <p>© 2018 LITTLEONE All rights reserved.</p>
                 </div>
             </footer>

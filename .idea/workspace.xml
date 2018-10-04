@@ -2,11 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5c1b285b-f934-44a0-a868-8258bb19cd1a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/landing/app.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.bundle.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/landing/app.bundle.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/head/Head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/head/Head.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/head/Head.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/head/Head.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/head/icon_chi.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/head/icon_jpn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/head/icon_kor.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/head/icon_usa.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/landing/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/landing/section01/Section01.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section01/Section01.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section01/Section01.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section01/Section01.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section02/Section02.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section02/Section02.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section02/Section02.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section02/Section02.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section03/Section03.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section03/Section03.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section03/Section03.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section03/Section03.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section04/Section04.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section04/Section04.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section04/Section04.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section04/Section04.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section05/Section05.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section05/Section05.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section05/Section05.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section05/Section05.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/library/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/library/_reset.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion/action/EmailNotify.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/action/EmailNotify.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion/footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion/footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/promotion/head/Head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/promotion/head/Head.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -96,58 +120,60 @@
     <session id="935070243">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="22" />
           <entry key="project.open.time.1" value="9" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.18" value="1" />
           <entry key="project.open.time.2" value="4" />
           <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="19" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="babelrc" value="26" />
-          <entry key="css" value="44" />
-          <entry key="html" value="125" />
-          <entry key="js" value="12629" />
-          <entry key="json" value="368" />
-          <entry key="scss" value="5472" />
+          <entry key="css" value="59" />
+          <entry key="html" value="137" />
+          <entry key="js" value="21379" />
+          <entry key="json" value="545" />
+          <entry key="scss" value="8348" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="44" />
-          <entry key="HTML" value="125" />
-          <entry key="JSON" value="394" />
-          <entry key="JavaScript" value="12629" />
-          <entry key="SCSS" value="5472" />
+          <entry key="CSS" value="59" />
+          <entry key="HTML" value="137" />
+          <entry key="JSON" value="571" />
+          <entry key="JavaScript" value="21379" />
+          <entry key="SCSS" value="8348" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="babelrc" value="2" />
-          <entry key="css" value="8" />
-          <entry key="html" value="8" />
+          <entry key="css" value="10" />
+          <entry key="html" value="10" />
           <entry key="jpg" value="6" />
-          <entry key="js" value="107" />
-          <entry key="json" value="16" />
-          <entry key="png" value="5" />
-          <entry key="scss" value="48" />
-          <entry key="svg" value="8" />
+          <entry key="js" value="161" />
+          <entry key="json" value="36" />
+          <entry key="png" value="9" />
+          <entry key="scss" value="87" />
+          <entry key="svg" value="22" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="8" />
-          <entry key="HTML" value="8" />
-          <entry key="Image" value="11" />
-          <entry key="JSON" value="18" />
-          <entry key="JavaScript" value="107" />
-          <entry key="SCSS" value="48" />
-          <entry key="SVG" value="8" />
+          <entry key="CSS" value="10" />
+          <entry key="HTML" value="10" />
+          <entry key="Image" value="15" />
+          <entry key="JSON" value="38" />
+          <entry key="JavaScript" value="161" />
+          <entry key="SCSS" value="87" />
+          <entry key="SVG" value="22" />
           <entry key="TypeScript" value="1" />
         </counts>
       </usages-collector>
@@ -218,14 +244,23 @@
     <favorites_list name="product_page" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5245518">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/landing/section05/Section05.js">
+            <entry file="file://$PROJECT_DIR$/src/landing/section05/Section05.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+                <state relative-caret-position="-414">
+                  <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/promotion/action/EmailNotify.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="396">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -234,70 +269,66 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/promotion/section3/Section03.js">
+            <entry file="file://$PROJECT_DIR$/src/landing/language/english.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="32" column="22" selection-start-line="8" selection-start-column="10" selection-end-line="32" selection-end-column="22" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="117">
+                  <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/product/other/OtherProduct.scss">
+            <entry file="file://$PROJECT_DIR$/src/landing/language/chinese.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4392">
-                  <caret line="244" selection-start-line="237" selection-end-line="327" selection-end-column="1" />
+                <state relative-caret-position="-63">
+                  <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-end-line="13" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/product/other/OtherProduct.js">
+            <entry file="file://$PROJECT_DIR$/src/landing/language/japanese.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="126">
-                  <caret line="10" column="15" selection-start-line="10" selection-start-column="12" selection-end-line="49" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/landing/index.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/landing/section02/Section02.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="81">
+                  <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/landing/section01/Section01.js">
+            <entry file="file://$PROJECT_DIR$/src/landing/language/korean.json">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="396">
-                  <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+                <state relative-caret-position="486">
+                  <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/promotion/footer/Footer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-63">
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/landing/footer/Footer.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="409">
+                  <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/component/input/EmailSubscribe.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="297">
+                  <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
                 </state>
               </provider>
             </entry>
@@ -305,12 +336,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/landing/section05/Section05.scss">
+            <entry file="file://$PROJECT_DIR$/src/landing/section03/Section03.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="513">
-                  <caret line="407" selection-start-line="407" selection-end-line="407" />
+                <state relative-caret-position="3127">
+                  <caret line="187" column="64" selection-start-line="187" selection-start-column="64" selection-end-line="187" selection-end-column="64" />
                 </state>
               </provider>
             </entry>
@@ -326,22 +357,13 @@
         <option value="HTML File" />
         <option value="json" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="scss" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>view</find>
-      <find>th:href</find>
-      <find>th:</find>
-      <find>stop-color</find>
-      <find>77</find>
-      <find>title</find>
-      <find>462</find>
-      <find>none</find>
-      <find>html</find>
       <find>second-section-desc--title</find>
       <find>보틀</find>
       <find>span</find>
@@ -363,6 +385,15 @@
       <find>bottle</find>
       <find>box-sha</find>
       <find>third-section</find>
+      <find>#eff6f9</find>
+      <find>73PX</find>
+      <find>ppropriate</find>
+      <find>#</find>
+      <find>9013fe</find>
+      <find>288</find>
+      <find>10vw</find>
+      <find>font-fa</find>
+      <find>;</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -373,6 +404,8 @@
       <replace>let</replace>
       <replace>fillRule</replace>
       <replace>peepee</replace>
+      <replace>3726af</replace>
+      <replace>8vw</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -381,29 +414,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/component/c.js" />
-        <option value="$PROJECT_DIR$/src/test/index.js" />
-        <option value="$PROJECT_DIR$/src/component/loading/Loading.scss" />
-        <option value="$PROJECT_DIR$/src/library/_reset.scss" />
-        <option value="$PROJECT_DIR$/public/views/index.html" />
-        <option value="$PROJECT_DIR$/public/server.js" />
-        <option value="$PROJECT_DIR$/dist/app.bundle.css" />
-        <option value="$PROJECT_DIR$/.babelrc" />
-        <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/product/temp/section01/Section01.js" />
-        <option value="$PROJECT_DIR$/src/product/temp/section06/Section06.scss" />
-        <option value="$PROJECT_DIR$/src/product/temp/section05/Section05.scss" />
-        <option value="$PROJECT_DIR$/src/product/peepee/section05/Section05.scss" />
-        <option value="$PROJECT_DIR$/src/product/bottle/section05/Section05.scss" />
-        <option value="$PROJECT_DIR$/src/product/peepee/section06/Section06.scss" />
-        <option value="$PROJECT_DIR$/src/component/loading/Loading.js" />
-        <option value="$PROJECT_DIR$/src/product/index.js" />
-        <option value="$PROJECT_DIR$/src/product/bottle/section06/Section06.scss" />
-        <option value="$PROJECT_DIR$/src/product/bottle/section07/Section07.scss" />
-        <option value="$PROJECT_DIR$/src/promotion/footer/Footer.scss" />
-        <option value="$PROJECT_DIR$/src/product/peepee/section06/Section06.js" />
-        <option value="$PROJECT_DIR$/src/product/temp/section06/Section06.js" />
-        <option value="$PROJECT_DIR$/src/promotion/index.scss" />
         <option value="$PROJECT_DIR$/src/library/_LittleoneScript.js" />
         <option value="$PROJECT_DIR$/src/language/korean.json" />
         <option value="$PROJECT_DIR$/src/language/english.json" />
@@ -411,27 +421,50 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/promotion/section1/Section01.js" />
         <option value="$PROJECT_DIR$/src/promotion/section1/Section01.scss" />
-        <option value="$PROJECT_DIR$/src/promotion/head/Head.js" />
         <option value="$PROJECT_DIR$/favicon/manifest.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
-        <option value="$PROJECT_DIR$/src/landing/head/Head.js" />
-        <option value="$PROJECT_DIR$/src/landing/head/Head.scss" />
         <option value="$PROJECT_DIR$/src/landing/section02/bxSlider.scss" />
         <option value="$PROJECT_DIR$/src/library/bxSlider.css" />
         <option value="$PROJECT_DIR$/src/library/_bxSlider.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/src/landing/section02/Section02.js" />
-        <option value="$PROJECT_DIR$/src/landing/section02/Section02.scss" />
-        <option value="$PROJECT_DIR$/src/landing/section01/Section01.scss" />
-        <option value="$PROJECT_DIR$/src/landing/section04/Section04.js" />
-        <option value="$PROJECT_DIR$/src/landing/section04/Section04.scss" />
+        <option value="$PROJECT_DIR$/src/promotion/footer/Footer.js" />
+        <option value="$PROJECT_DIR$/src/promotion/footer/Footer.scss" />
+        <option value="$PROJECT_DIR$/src/landing/footer/web-footer-btn-youtube.svg" />
+        <option value="$PROJECT_DIR$/src/landing/footer/web-footer-btn-twitter.svg" />
+        <option value="$PROJECT_DIR$/src/landing/footer/web-footer-btn-instagram.svg" />
+        <option value="$PROJECT_DIR$/src/landing/footer/web-footer-btn-facebook.svg" />
         <option value="$PROJECT_DIR$/src/landing/section03/Section03.scss" />
-        <option value="$PROJECT_DIR$/src/landing/section03/Section03.js" />
-        <option value="$PROJECT_DIR$/dist/lib/bx.css" />
+        <option value="$PROJECT_DIR$/src/landing/section04/Section04.js" />
+        <option value="$PROJECT_DIR$/src/landing/footer/Footer.js" />
+        <option value="$PROJECT_DIR$/src/component/input/EmailSubscribe.scss" />
         <option value="$PROJECT_DIR$/src/landing/section05/Section05.js" />
-        <option value="$PROJECT_DIR$/src/landing/section05/Section05.scss" />
-        <option value="$PROJECT_DIR$/src/landing/index.js" />
+        <option value="$PROJECT_DIR$/src/landing/section04/Section04.scss" />
+        <option value="$PROJECT_DIR$/src/landing/section06/Section06.js" />
+        <option value="$PROJECT_DIR$/src/landing/section06/Section06.scss" />
+        <option value="$PROJECT_DIR$/src/index.scss" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/dist/lib/bx.css" />
+        <option value="$PROJECT_DIR$/src/landing/section01/Section01.scss" />
+        <option value="$PROJECT_DIR$/src/landing/mobileBox/MobileBox.js" />
+        <option value="$PROJECT_DIR$/src/landing/mobileBox/MobileBox.scss" />
+        <option value="$PROJECT_DIR$/src/library/_reset.scss" />
+        <option value="$PROJECT_DIR$/src/landing/footer/Footer.scss" />
+        <option value="$PROJECT_DIR$/src/landing/section02/Section02.scss" />
+        <option value="$PROJECT_DIR$/src/promotion/head/Head.js" />
         <option value="$PROJECT_DIR$/src/landing/section01/Section01.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/landing/head/Head.scss" />
+        <option value="$PROJECT_DIR$/src/landing/index.js" />
+        <option value="$PROJECT_DIR$/src/landing/section02/Section02.js" />
+        <option value="$PROJECT_DIR$/src/landing/LandpageLayout.js" />
+        <option value="$PROJECT_DIR$/src/landing/head/Head.js" />
+        <option value="$PROJECT_DIR$/src/landing/language/chinese.json" />
+        <option value="$PROJECT_DIR$/src/landing/section05/Section05.scss" />
+        <option value="$PROJECT_DIR$/src/component/input/EmailSubscribe.js" />
+        <option value="$PROJECT_DIR$/src/landing/section03/Section03.js" />
+        <option value="$PROJECT_DIR$/src/landing/language/english.json" />
+        <option value="$PROJECT_DIR$/src/landing/language/korean.json" />
+        <option value="$PROJECT_DIR$/src/landing/language/japanese.json" />
+        <option value="$PROJECT_DIR$/src/promotion/action/EmailNotify.js" />
       </list>
     </option>
   </component>
@@ -455,8 +488,9 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="696" />
+    <option name="y" value="264" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -466,6 +500,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -476,11 +511,6 @@
             <path>
               <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
               <item name="reacttest" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reacttest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -494,33 +524,12 @@
               <item name="reacttest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="section01" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reacttest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="section05" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reacttest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="promotion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reacttest" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="promotion" type="462c0819:PsiDirectoryNode" />
-              <item name="section3" type="462c0819:PsiDirectoryNode" />
+              <item name="language" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="PackagesPane" />
     </panes>
@@ -543,19 +552,19 @@
     <property name="typescript-compiler-editor-notification" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\Desktop\reacttest\src\landing\section05" />
-      <recent name="C:\Users\user\Desktop\reacttest\src\landing\section04" />
-      <recent name="C:\Users\user\Desktop\reacttest\src\landing\section03" />
-      <recent name="C:\Users\user\Desktop\reacttest\dist\lib" />
-      <recent name="C:\Users\user\Desktop\reacttest\src\landing\section02" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chk\Desktop\reacttest\dist\product" />
       <recent name="C:\Users\chk\Desktop\reacttest" />
       <recent name="C:\Users\chk\Desktop\reacttest\src\product" />
       <recent name="C:\Users\chk\Desktop\reacttest\src\product\products" />
       <recent name="C:\Users\user\Desktop\product_page\src\page\index\indexsection6" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\reacttest\dist\images" />
+      <recent name="C:\Users\user\Desktop\reacttest\src\landing\language" />
+      <recent name="C:\Users\user\Desktop\reacttest\src\landing\head" />
+      <recent name="C:\Users\user\Desktop\reacttest\src\landing\footer" />
+      <recent name="C:\Users\user\Desktop\reacttest\favicon" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -723,11 +732,14 @@
       <workItem from="1538106677920" duration="1123000" />
       <workItem from="1538357861909" duration="38018000" />
       <workItem from="1538398776324" duration="321000" />
+      <workItem from="1538441914912" duration="28970000" />
+      <workItem from="1538472112570" duration="141000" />
+      <workItem from="1538617357913" duration="17083000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="650115000" />
+    <option name="totallyTimeSpent" value="696309000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -739,10 +751,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66237944" visible="true" weight="0.3240253" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66237944" visible="true" weight="0.21970496" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -821,299 +833,191 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/product/peepee/section06/Section06.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="51" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/mobile-wave-bg@2x.jpg">
+    <entry file="file://$PROJECT_DIR$/src/landing/footer/web-footer-btn-facebook.svg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/peepee/section07/Section07.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/peepee/section08/Section08.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/component/loading/Loading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="3" selection-start-column="3" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/_LittleoneScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="39" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/language/english.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/language/korean.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="87" column="23" selection-start-line="87" selection-start-column="23" selection-end-line="87" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/promotionLayout.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-973">
-          <caret line="22" column="50" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/images/2aTtWpR9.jpg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/section1/Section01.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="503">
-          <caret line="227" column="17" lean-forward="true" selection-start-line="227" selection-start-column="17" selection-end-line="227" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/section1/Section01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1998">
-          <caret line="111" column="30" selection-start-line="111" selection-start-column="30" selection-end-line="111" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon/icon-192.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/manifest.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/head/Head.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="39" column="29" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/favicon/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/webpack.config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1201">
-          <caret line="17" column="60" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section02/con02_01.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/jquery-3.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/node_modules/@types/react/index.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="388" column="8" selection-start-line="388" selection-start-column="8" selection-end-line="388" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/head/Head.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/head/Head.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="234" column="14" selection-start-line="234" selection-start-column="14" selection-end-line="234" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/library/bxslider.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-864" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section02/bxSlider.scss" />
-    <entry file="file://$PROJECT_DIR$/src/library/_bxSlider.scss" />
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section01/Section01.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section03/con03_img.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/temp/section07/Section07.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/temp/section08/Section08.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/temp/section07/Section07.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section04/Section04.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="70" column="5" selection-start-line="70" selection-start-column="5" selection-end-line="83" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section03/Section03.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landing/section04/Section04.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="67" column="14" lean-forward="true" selection-start-line="63" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
+        <state relative-caret-position="738">
+          <caret line="63" column="28" selection-start-line="63" selection-start-column="28" selection-end-line="63" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section03/Section03.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1314">
-          <caret line="73" selection-start-line="73" selection-end-line="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section02/Section02.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/lib/bx.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section05/ic-community.svg">
+    <entry file="file://$PROJECT_DIR$/src/component/input/web-promotion-btn-delete.svg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/section3/Section03.scss">
+    <entry file="file://$PROJECT_DIR$/src/product/peepee/section06/Section06.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="14" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="14" />
+        <state relative-caret-position="-540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product/peepee/section07/Section07.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-113" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/product/peepee/section08/Section08.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1296">
+          <caret line="81" column="49" lean-forward="true" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/footer/web-group-btn-email.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section03/Section03.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="328" column="9" lean-forward="true" selection-start-line="311" selection-start-column="4" selection-end-line="328" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landing/section05/Section05.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="77" column="69" selection-start-line="77" selection-start-column="69" selection-end-line="77" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section04/Section04.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section06/Section06.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section06/Section06.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.scss" />
+    <entry file="file://$PROJECT_DIR$/src/component/input/EmailSubscribe.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/lib/bx.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/mobileBox/MobileBox.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/mobileBox/MobileBox.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/library/_reset.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="149" column="18" selection-start-line="149" selection-start-column="18" selection-end-line="149" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon/safari-pinned-tag-icon.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/footer/Footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5148">
+          <caret line="286" column="25" selection-start-line="286" selection-start-column="25" selection-end-line="286" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section02/Section02.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/head/icon_jpn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/footer/flags/web-footer-icn-cn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/footer/web-footer-icn-cn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/head/web-footer-btn-facebook.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/head/web-footer-icn-cn.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section01/Section01.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="513">
-          <caret line="80" column="34" selection-start-line="80" selection-start-column="34" selection-end-line="80" selection-end-column="34" />
+          <caret line="143" column="19" selection-start-line="143" selection-start-column="19" selection-end-line="143" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/promotionLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/promotion/section3/Section03.js">
+    <entry file="file://$PROJECT_DIR$/src/promotion/section1/Section01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="32" column="22" selection-start-line="8" selection-start-column="10" selection-end-line="32" selection-end-column="22" />
+        <state relative-caret-position="-594">
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
+            <element signature="e#0#25#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/other/OtherProduct.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4392">
-          <caret line="244" selection-start-line="237" selection-end-line="327" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/product/other/OtherProduct.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="10" column="15" selection-start-line="10" selection-start-column="12" selection-end-line="49" selection-end-column="18" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section05/Section05.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="407" selection-start-line="407" selection-end-line="407" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/dist/images/web-footer-icn-cn.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landing/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="14" lean-forward="true" selection-start-line="20" selection-start-column="14" selection-end-line="20" selection-end-column="14" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section02/Section02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="450">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -1122,11 +1026,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landing/section01/Section01.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="22" column="98" selection-start-line="22" selection-start-column="98" selection-end-line="22" selection-end-column="98" />
+        <state relative-caret-position="-81">
+          <caret line="7" column="78" selection-start-line="7" selection-start-column="78" selection-end-line="7" selection-end-column="78" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/head/Head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="63" column="49" selection-start-line="63" selection-start-column="49" selection-end-line="63" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/head/Head.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="45" selection-start-line="45" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section02/Section02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="432">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/LandpageLayout.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="79" column="30" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section05/Section05.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-414">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/footer/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/footer/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/component/input/EmailSubscribe.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/head/Head.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="68" column="20" selection-start-line="68" selection-start-column="20" selection-end-line="68" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/language/english.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section03/Section03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3127">
+          <caret line="187" column="64" selection-start-line="187" selection-start-column="64" selection-end-line="187" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/promotion/action/EmailNotify.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/language/english.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/language/chinese.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="12" column="16" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/language/korean.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
         </state>
       </provider>
     </entry>

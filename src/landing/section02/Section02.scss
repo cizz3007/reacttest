@@ -1,13 +1,29 @@
 @charset "UTF-8";
 .slider-section-upper{
-  position: relative;
   width: 100%;
   overflow: hidden;
+  margin-top: 60.25vw;
+  -webkit-box-shadow: 0px -10px 52px -8px rgba(0,0,0,0.40);
+  -moz-box-shadow: 0px -10px 52px -8px rgba(0,0,0,0.40);
+  box-shadow: 0px -10px 52px -8px rgba(0,0,0,0.40);
 
-
-  .slider{
+  .slider-top{
     position: relative;
   }//slider
 
 
 }//slider-section-upper
+
+@media only screen and (max-width: 768px) {
+  .slider-section-upper{
+    margin: 0;
+    -webkit-box-shadow:  initial;
+    -moz-box-shadow: initial;
+    box-shadow: initial;
+    .slider-top{
+    }//slider
+
+
+  }//slider-section-upper
+
+}

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+
+.mobile-box{
+  display: none;
+  height: 20px;
+  width: 100%;
+  background-color: #f1fbf9;
+}
+@media only screen and (max-width: 640px) {
+
+  .mobile-box{
+    display: block;
+  }
+}

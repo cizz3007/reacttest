@@ -15,8 +15,7 @@ class Section05 extends React.Component {
 
     componentDidMount() {
         const slider = '.' + styles['slider'];
-
-        $(slider).bxSlider({
+        let bxSlider = $(slider).bxSlider({
             touchEnabled: true,
             responsive: true,
             pager: true,
@@ -31,6 +30,23 @@ class Section05 extends React.Component {
 
             },
         });
+        let windowSize = $(window).width();
+
+        $(window).on('resize', function (e) {
+            windowSize = $(window).width();
+            bxSlider.reloadSlider();
+
+            if (windowSize > 1024) {
+
+            }
+            if (windowSize < 1024) {
+                bxSlider.destroySlider();
+            }
+
+        });
+        if (windowSize > 1024) {
+            bxSlider;
+        }
 
 
     }
@@ -55,26 +71,39 @@ class Section05 extends React.Component {
                     </div>
                     <div>
                         <section className={styles["third-section"]}>
+                            <div className={styles['third-section--desc']}>
+                                <div>
+                                    <h2>LITTLEONE PLATFORM</h2>
+                                </div>
+                                <h1>The next level parenting platform</h1>
+                            </div>
                             <ul className={styles['third-section--content']}>
                                 <li className={cx(styles['third-section--content--list'], styles['health-care'])}>
                                     <div>
                                         <img src={require('./ic-healthcare.svg')} alt="메인페이지의 헬스케어 소개 아이콘입니다."/>
                                         <h1>Healthcare</h1>
-                                        <p>You can check the health condition of your baby through data collected by IoT devices. Also, we offer parenting consultation and helpful tips through our affiliated professionals.</p>
+                                        <p>You can check the health condition of your baby through data collected by IoT
+                                            devices. Also, we offer parenting consultation and helpful tips through our
+                                            affiliated professionals.</p>
                                     </div>
                                 </li>
                                 <li className={cx(styles["third-section--content--list"], styles['community'])}>
                                     <div>
                                         <img src={require('./ic-community.svg')} alt="메인페이지의 커뮤니티 소개 아이콘입니다."/>
                                         <h1>Community</h1>
-                                        <p>We provide a space where parents can freely share parenting tips or write review on baby products. Or you can simply post the pictures of your little one.</p>
+                                        <p>We provide a space where parents can freely share parenting tips or write
+                                            review on baby products. Or you can simply post the pictures of your little
+                                            one.</p>
                                     </div>
                                 </li>
                                 <li className={cx(styles["third-section--content--list"], styles['shopping'])}>
                                     <div>
                                         <img src={require('./ic-shopping.svg')} alt="메인페이지의 쇼핑 소개 아이콘입니다."/>
                                         <h1>Shopping</h1>
-                                        <p>Utilizing patented algorithm, we offer smart subscription commerce. We will deliver baby products such as diaper or formula to your doorstep and even adjust the size, step, and quantity automatically according to your baby’s needs.</p>
+                                        <p>Utilizing patented algorithm, we offer smart subscription commerce. We will
+                                            deliver baby products such as diaper or formula to your doorstep and even
+                                            adjust the size, step, and quantity automatically according to your baby’s
+                                            needs.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -84,36 +113,25 @@ class Section05 extends React.Component {
                         <div className={cx(styles['other-product-section'], 'section')}>
                             <div className={styles['other-product-section--desc']}>
                                 <div>
-                                    <h2>SMART SERIES</h2>
+                                    <h2>LITTLEONE IoTs</h2>
                                 </div>
-                                <h1>다른 제품 둘러보기</h1>
+                                <h1>LITTLEONE IoTs</h1>
                             </div>
                             <div className={styles['other-product-section--products']}>
                                 <div className={styles['pee-pee']}>
                                     <div className={styles["other-product-section--products--image"]}></div>
-                                    <h5>스마트 피피<br/>(배변 알리미)</h5>
-                                    <p>유아의 배변활동을 감지하여<br/>
-                                        한 눈에 알아볼 수 있는<br/>
-                                        배변 리포트를 제공합니다.</p>
-                                    <button type={'button'} role={'button'}>둘러보기</button>
-
+                                    <h5>SMART-PEEPEE<br/>(Diaper sensor)</h5>
+                                    <p>Detects baby's bowel activities<br/> and provides reports</p>
                                 </div>
                                 <div className={styles['bottle']}>
                                     <div className={styles["other-product-section--products--image"]}></div>
-                                    <h5>스마트 보틀<br/>(젖병)</h5>
-                                    <p>온도, 수유자세 등을 감지하여<br/>
-                                        한 눈에 알아볼 수 있는<br/>
-                                        수유 리포트를 제공합니다.</p>
-                                    <button type={'button'} role={'button'}>둘러보기</button>
+                                    <h5>SMART-BOTTLE<br/>(Feeding Bottle)</h5>
+                                    <p>Detects temperature, feeding angle,<br/> and provides reports.</p>
                                 </div>
                                 <div className={styles['temp']}>
                                     <div className={styles["other-product-section--products--image"]}></div>
-                                    <h5>스마트 템프<br/>(체온계)</h5>
-                                    <p>유아의 체온을 감지하여<br/>
-                                        한 눈에 알아볼 수 있는<br/>
-                                        체온변화 리포트를 제공합니다.</p>
-                                    <button type={'button'} role={'button'}>둘러보기</button>
-
+                                    <h5>SMART-TEMP<br/>(Thermometer)</h5>
+                                    <p>Monitor baby's temperature<br/> and provides statistics.</p>
                                 </div>
                             </div>
                         </div>
