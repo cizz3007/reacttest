@@ -37,5 +37,33 @@
       "line14": "한국어 출력 테스트",
       "line15": "한국어 출력 테스트"
     }
+  },
+  "section04": {
+    "first": {
+      "line1": "Intelligent feeding bottle",
+      "line2": "that helps comfortable feeding",
+      "line3": "Smart-Bottle monitors temperature and feeding posture",
+      "line4": "to help you feed your baby more safely and conveniently"
+    },
+    "second": {
+      "line1": "Sensing unit(Temp. Humid)",
+      "line2": "Waterproof Body(IP67)",
+      "line3": "Removable battery"
+    },
+    "third": {
+      "line1": "Easy to Use",
+      "line2": "Use the supplied patch to apply",
+      "line3": "to any brand your baby likes",
+      "line4": "Real-time Alerts",
+      "line5": "Once bowel activity is detected,",
+      "line6": "it will alert you through the app.",
+      "line7": "Reliable Data",
+      "line8": "Keeps track of bowel activities",
+      "line9": "to predict the next one to come.",
+      "line10": "Intelligent Analysis",
+      "line11": "Accurately predicts bowel activities",
+      "line12": "to reduce the risk of skin rash and infections."
+    }
   }
+
 }
