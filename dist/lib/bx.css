@@ -187,3 +187,11 @@ ul.bxslider {
     font-size: .85em;
     padding: 10px;
 }
+
+@media only screen and (max-width: 640px){
+    .bx-wrapper .bx-controls-direction a{
+        width: 24px;
+        opacity: .7;
+        height: 24px;
+    }
+}

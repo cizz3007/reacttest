@@ -19,6 +19,7 @@ class Footer extends React.Component {
     }
 
     render() {
+        let language = this.props.language;
         return (
             <footer className={styles['footer']} style={{backgroundImage: this.props.backGroundColor}}>
                 <div className={styles['footer--container']}>
@@ -41,7 +42,7 @@ class Footer extends React.Component {
 
                     </ul>
                     <div className={styles['footer--email-container']}>
-                        <h3>MEET THE NEXT LEVEL PARENTING ASSISTANT</h3>
+                        <h3>{language.footer.first['01']}</h3>
                         <div>
                             <EmailSubscribe inputType={'email'} inputName={'email_subscribe'}/>
                         </div>

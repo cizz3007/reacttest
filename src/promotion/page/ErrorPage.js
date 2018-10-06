@@ -7,17 +7,13 @@ class ErrorPage extends React.Component {
     render() {
         return (
             <div className={styles['error-section']}>
-                <Head title={'404Error - '}/>
                 <div>
-                    <Link to={"/"} className={styles['logo']}>
-                        <img src={require('./litttlone-logo.svg')}/>
-                    </Link>
-                    <div className={styles['error-container']}>
-                        <img src={require('./404-icn-warning-sign@2x.png')} className={styles['warn-icon']}/>
-                        <p>404 ERROR</p>
+                    <div className={styles['error-section-type']}>
+                        <h3>404ERROR</h3>
                     </div>
+                    <a href="/" className={styles['__link-return-home']}></a>
                 </div>
-                <img src={require('./404-littleone-graphic@2x.png')} className={styles['little-one-graphic']}/>
+                <img src={require('./404-littleone-graphic@2x.png')} alt="404 ERROR"/>
             </div>
         )
     }

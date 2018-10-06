@@ -13,10 +13,10 @@ class Section02 extends React.Component {
         const slider = '.' + styles['slider-top'];
         setTimeout(function () {
             let upperSlider = $(slider).bxSlider({
-                touchEnabled: true,
                 responsive: true,
                 pager: true,
                 infiniteLoop: true,
+                touchEnabled:false,
                 onSliderLoad: function () {
 
                 },

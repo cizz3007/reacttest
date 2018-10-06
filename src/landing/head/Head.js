@@ -2,6 +2,8 @@ import React from 'react';
 import * as styles from './Head.scss';
 import classNames from 'classnames'
 import {getCookie, setCookie} from "../../library/_LittleoneScript";
+import {Link} from 'react-router-dom';
+import anime from 'animejs'
 
 const cx = classNames.bind(styles);
 
@@ -11,7 +13,8 @@ class LadingHead extends React.Component {
     constructor(props) {
         super(props);
 
-
+        this.onMouserHandler = this.onMouserHandler.bind(this);
+        this.onMouserOutHandler = this.onMouserOutHandler.bind(this);
     };
 
 
@@ -40,11 +43,47 @@ class LadingHead extends React.Component {
 
     }
 
+    onMouserHandler(e) {
+        const target = e.currentTarget.childNodes[0];
+        console.log(target);
+        anime.remove(target);
+
+        const CSStransforms = anime({
+            targets: target,
+            translateY: -5,
+            scale: 1.25,
+            rotate: '1turn',
+            duration:500
+        });
+    }
+
+    onMouserOutHandler(e) {
+        const target = e.currentTarget.childNodes[0];
+        console.log(target);
+        anime.remove(target);
+        const CSStransforms = anime({
+            targets: target,
+            translateY: 0,
+            scale: 1,
+            rotate: '2turn',
+            duration:300
+        });
+    }
+
+
     render() {
         return (
             <header className={styles['header-section']}>
+                <span className={styles['header-section-category']}>
+                    <Link to={'/smartbottle'} className={styles['__link-smartbottle']} onMouseEnter={this.onMouserHandler} onMouseLeave={this.onMouserOutHandler}>
+                        <img src={require('./web-menu-icn-bottle.svg')} width={'auto'} height={'auto'}/>
+                    </Link>
+                    <Link to={'/smartpeepee'} className={styles['__link-smarttemp']} onMouseEnter={this.onMouserHandler} onMouseLeave={this.onMouserOutHandler}>
+                        <img src={require('./web-menu-icn-peepee.svg')} width={'auto'} height={'auto'}/>
+                    </Link>
+                </span>
                 <a href="/" className={styles['__link-logo']}>
-                    <img src={require('./littleone-logo.png')} alt={'next level parenting littleone'}/>
+                    <img src={require('./littleone-logo.png')} alt={'next level parenting littleone'} width={'auto'} height={'auto'}/>
                 </a>
                 <ul className={styles['language-box']}>
                     <li>

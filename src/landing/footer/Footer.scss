@@ -186,7 +186,6 @@
 @media only screen and (max-width: 1024px){
   .footer {
 
-
     .footer--email-container{
 
       right: initial;
@@ -272,8 +271,8 @@
 }
 
 @media only screen and (max-width: 640px){
-  @media only screen and (max-width: 1024px){
     .footer {
+      padding-bottom: 25px;
 
 
       .footer--email-container{
@@ -302,9 +301,10 @@
 
         >a{
 
-
+          margin-top: 25px;
           div {
-
+            width: 48px;
+            height: 48px;
           }
         }
 
@@ -356,4 +356,3 @@
 
     }
   }
-}

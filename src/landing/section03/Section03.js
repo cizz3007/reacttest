@@ -1,13 +1,9 @@
 import React from 'react';
 import styles from './Section03.scss';
-import $ from 'jquery';
 import classNames from 'classnames';
-
-const cx = classNames.bind(styles);
 import anime from 'animejs';
 
-window.jQuery = $;
-window.$ = $;
+const cx = classNames.bind(styles);
 
 class Section03 extends React.Component {
 
@@ -17,7 +13,10 @@ class Section03 extends React.Component {
         this.state = {
             active: false,
         };
-        this.clickHandler = this.clickHandler.bind(this);
+        this.onMouseEnterHandler = this.onMouseEnterHandler.bind(this);
+        this.onMouseLeavHandler = this.onMouseLeavHandler.bind(this);
+
+
 
     }
 
@@ -25,94 +24,42 @@ class Section03 extends React.Component {
         return nextProps;
     }
 
-    clickHandler(e) {
+    onMouseEnterHandler(e){
         const nodes = e.currentTarget;
-        nodes.classList.toggle('active');
-        let isActive = nodes.classList.contains('active');
+        nodes.classList.toggle(styles['active']);
 
+        anime.remove(nodes);
 
-        if (isActive) {
-
-
-            let timeLine1 = anime.timeline();
-
-            timeLine1.add({
-                begin: function () {
-                    if (nodes.dataset['isAnimated'] === 'true') {
-                        return;
-                    }
-                    nodes.dataset.isAnimated = 'true';
-
-
-                },
-                run: function () {
-
-                    nodes.dataset.isAnimated = 'true';
-
-                },
-                complete: function () {
-                    nodes.dataset.isAnimated = 'false';
-                },
-                targets: nodes,
-                width: '205px',
-                translate: '300',
-                easing: 'easeInSine',
-                borderRadius: '32px',
-                color: 'rgba(255,255,255,255)',
-                paddingLeft: '15',
-                paddingRight: '15',
-                duration: '300',
-            }).add({
-                targets: nodes,
-                letterSpacing: '0px',
-                duration: '200',
-            })
-
-
-        }
-        if (!isActive) {
-            let timeLine1 = anime.timeline();
-
-            timeLine1.add({
-                begin: function () {
-                    if (nodes.dataset['isAnimated'] === 'true') {
-                        return;
-                    }
-                    nodes.dataset.isAnimated = 'true';
-
-                },
-                run: function () {
-
-                    nodes.dataset.isAnimated = 'true';
-
-                },
-                complete: function () {
-                    nodes.dataset.isAnimated = 'false';
-
-                },
-                targets: nodes,
-                width: '56px',
-                color: 'rgba(0,0,0,0)',
-                translate: '0',
-                easing: 'easeInSine',
-                borderRadius: '999px',
-                letterSpacing: '-30px',
-                paddingLeft: '0',
-                paddingRight: '0',
-                delay: 50,
-                duration: 150,
-
-
-            })
-
-
-        }
-
-        this.setState(() => {
-            return {
-                active: !this.state.active
-            }
+        let actions = anime({
+            targets: nodes,
+            width: '175px',
+            easing: 'easeInSine',
+            color: 'rgba(255,255,255,255)',
+            paddingLeft: '15',
+            paddingRight: '15',
+            letterSpacing: '0px',
+            textIndent: '0',
+            duration: '300',
         });
+    }
+
+    onMouseLeavHandler(e){
+        const nodes = e.currentTarget;
+        nodes.classList.toggle(styles['active']);
+
+        anime.remove(nodes);
+        let actions = anime({
+            targets: nodes,
+            width: '56px',
+            color: 'rgba(0,0,0,0)',
+            easing: 'easeInSine',
+            letterSpacing: '-30px',
+            paddingLeft: '0',
+            paddingRight: '0',
+            textIndent: '-999px',
+            duration: 250
+        });
+
     }
 
 
@@ -121,71 +68,63 @@ class Section03 extends React.Component {
         return (
             <section className={styles['bottle-summary--section']}>
                 <div className={styles['bottle-summary--section--text']}>
-                    <h1>{language.section03.first.line1}<br/>
-                        {language.section03.first.line2}</h1>
-                    <p>{language.section03.first.line3}<br/>
-                        {language.section03.first.line4}
+                    <h1>{language.section03.first['01']}<br/>
+                        {language.section03.first['02']}</h1>
+                    <p>{language.section03.first['03']}<br/>
+                        {language.section03.first['04']}
                     </p>
                 </div>
                 <div className={styles['bottle-summary--section--image']}>
                     <div className={styles['__bottle']}>
-                        <a href={'javascript:void(0)'} className={styles['__one']}>
-                            <div className={cx(styles['__hover-action'])} onClick={this.clickHandler}>
-                                {language.section03.second.line1}
-                            </div>
+                        <a href={'javascript:void(0)'} className={cx(styles['__hover-action'],styles['__one'])} onMouseEnter={this.onMouseEnterHandler} onMouseLeave={this.onMouseLeavHandler}>
+                            {language.section03.second['01']}
                         </a>
-                        <a href={'javascript:void(0)'} className={styles['__two']}>
-                            <div className={cx(styles['__hover-action'])} onClick={this.clickHandler}>
-                                {language.section03.second.line2}
-                            </div>
+                        <a href={'javascript:void(0)'} className={cx(styles['__hover-action'],styles['__two'])} onMouseEnter={this.onMouseEnterHandler} onMouseLeave={this.onMouseLeavHandler}>
+                            {language.section03.second['02']}
                         </a>
-                        <a href={'javascript:void(0)'} className={styles['__three']}>
-                            <div className={cx(styles['__hover-action'])} onClick={this.clickHandler}>
-                                {language.section03.second.line3}
-                            </div>
+                        <a href={'javascript:void(0)'} className={cx(styles['__hover-action'],styles['__three'])} onMouseEnter={this.onMouseEnterHandler} onMouseLeave={this.onMouseLeavHandler}>
+                            {language.section03.second['03']}
                         </a>
-                        <a href={'javascript:void(0)'} className={styles['__four']}>
-                            <div className={cx(styles['__hover-action'])} onClick={this.clickHandler}>
-                                {language.section03.second.line4}
-                            </div>
+                        <a href={'javascript:void(0)'} className={cx(styles['__hover-action'],styles['__four'])} onMouseEnter={this.onMouseEnterHandler} onMouseLeave={this.onMouseLeavHandler}>
+                            {language.section03.second['04']}
                         </a>
-                        <a href={'javascript:void(0)'} className={styles['__five']}>
-                            <div className={cx(styles['__hover-action'])} onClick={this.clickHandler}>
-                                {language.section03.second.line5}
-                            </div>
+                        <a href={'javascript:void(0)'} className={cx(styles['__hover-action'],styles['__five'])} onMouseEnter={this.onMouseEnterHandler} onMouseLeave={this.onMouseLeavHandler}>
+                            {language.section03.second['05']}
                         </a>
-                        <a href={'javascript:void(0)'} className={styles['__six']}>
-                            <div className={cx(styles['__hover-action'])} onClick={this.clickHandler}>
-                                {language.section03.second.line6}
-                            </div>
+                        <a href={'javascript:void(0)'} className={cx(styles['__hover-action'],styles['__six'])} onMouseEnter={this.onMouseEnterHandler} onMouseLeave={this.onMouseLeavHandler}>
+                            {language.section03.second['06']}
                         </a>
                     </div>
                     <div>
                         <div className={styles['bottle-spec']}>
-                            <img src={require('./con03_01.png')} alt={'keep warm,When connected to power source, Smart-Bottle will keep milk at ideal temperature so you can feed  your baby right away. '}/>
-                            <h2>{language.section03.third.line1}</h2>
-                            <p>{language.section03.third.line2}<br/>
-                                {language.section03.third.line3}<br/>
-                                {language.section03.third.line4}</p>
+                            <img src={require('./con03_01.png')}
+                                 alt={'keep warm,When connected to power source, Smart-Bottle will keep milk at ideal temperature so you can feed  your baby right away. '}/>
+                            <h2>{language.section03.third['01']}</h2>
+                            <p>{language.section03.third['02']}<br/>
+                                {language.section03.third['03']}<br/>
+                                {language.section03.third['04']}</p>
                         </div>
                         <div className={styles['bottle-spec']}>
-                            <img src={require('./con03_02.png')} alt={'prevent burns,If temperature is too high for feeding, Smart-Bottle will vibrate to warn you.'}/>
-                            <h2>{language.section03.third.line5}</h2>
-                            <p>{language.section03.third.line6}<br/>
-                                {language.section03.third.line7}</p>
+                            <img src={require('./con03_02.png')}
+                                 alt={'prevent burns,If temperature is too high for feeding, Smart-Bottle will vibrate to warn you.'}/>
+                            <h2>{language.section03.third['05']}</h2>
+                            <p>{language.section03.third['06']}<br/>
+                                {language.section03.third['07']}</p>
                         </div>
                         <div className={styles['bottle-spec']}>
-                            <img src={require('./con03_03.png')} alt={'feeding angle, lf feeding posture is ina ppropriate, Smart-Bottle will vibrate to warn you of too much air intake.'}/>
-                            <h2>{language.section03.third.line8}</h2>
-                            <p>{language.section03.third.line9}<br/>
-                                {language.section03.third.line10}<br/>
-                                {language.section03.third.line11}</p>
+                            <img src={require('./con03_03.png')}
+                                 alt={'feeding angle, lf feeding posture is ina ppropriate, Smart-Bottle will vibrate to warn you of too much air intake.'}/>
+                            <h2>{language.section03.third['08']}</h2>
+                            <p>{language.section03.third['09']}<br/>
+                                {language.section03.third['10']}<br/>
+                                {language.section03.third['11']}</p>
                         </div>
                         <div className={styles['bottle-spec']}>
-                            <img src={require('./con03_04.png')} alt={'accurate temp, Prevents loss of nutrition with the help of accurate temperature sensor.'}/>
-                            <h2>{language.section03.third.line12}</h2>
-                            <p>{language.section03.third.line13}<br/>
-                                {language.section03.third.line14}</p>
+                            <img src={require('./con03_04.png')}
+                                 alt={'accurate temp, Prevents loss of nutrition with the help of accurate temperature sensor.'}/>
+                            <h2>{language.section03.third['12']}</h2>
+                            <p>{language.section03.third['13']}<br/>
+                                {language.section03.third['14']}</p>
                         </div>
                     </div>
                 </div>

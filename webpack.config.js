@@ -106,7 +106,7 @@ module.exports = {
                     name: '[hash:base64:8].[ext]',
                     publicPath: '/dist/images/',
                     outputPath: 'images/',
-                    limit: process.env.NODE_ENV !== 'production'? 1000000:1000000,
+                    limit: process.env.NODE_ENV !== 'production'? 1000000:100000,
                 }
             },
         ]
@@ -134,26 +134,26 @@ module.exports = {
         //     title: 'LITTLEONE, next level parenting',
         // }),
     ],
-    // optimization: {
-    //     splitChunks: {
-    //         chunks: 'async',
-    //         minSize: 30000,
-    //         minChunks: 1,
-    //         maxAsyncRequests: 5,
-    //         maxInitialRequests: 3,
-    //         automaticNameDelimiter: '~',
-    //         name: true,
-    //         cacheGroups: {
-    //             vendors: {
-    //                 test: /[\\/]node_modules[\\/]/,
-    //                 priority: -10
-    //             },
-    //             default: {
-    //                 minChunks: 2,
-    //                 priority: -20,
-    //                 reuseExistingChunk: true
-    //             }
-    //         }
-    //     }
-    // }
+    optimization: {
+        splitChunks: {
+            chunks: 'async',
+            minSize: 30000,
+            minChunks: 1,
+            maxAsyncRequests: 5,
+            maxInitialRequests: 3,
+            automaticNameDelimiter: '~',
+            name: true,
+            cacheGroups: {
+                vendors: {
+                    test: /[\\/]node_modules[\\/]/,
+                    priority: -10
+                },
+                default: {
+                    minChunks: 2,
+                    priority: -20,
+                    reuseExistingChunk: true
+                }
+            }
+        }
+    }
 };
