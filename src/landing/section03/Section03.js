@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Section03.scss';
 import classNames from 'classnames';
 import anime from 'animejs';
+import {getCookie} from "../../library/_LittleoneScript";
 
 const cx = classNames.bind(styles);
 
@@ -12,6 +13,7 @@ class Section03 extends React.Component {
         super(props);
         this.state = {
             active: false,
+            language:getCookie('lang')
         };
         this.onMouseEnterHandler = this.onMouseEnterHandler.bind(this);
         this.onMouseLeavHandler = this.onMouseLeavHandler.bind(this);
@@ -65,7 +67,7 @@ class Section03 extends React.Component {
 
     render() {
         let language = this.props.language;
-        return (
+         return (
             <section className={styles['bottle-summary--section']}>
                 <div className={styles['bottle-summary--section--text']}>
                     <h1>{language.section03.first['01']}<br/>
@@ -97,7 +99,7 @@ class Section03 extends React.Component {
                     </div>
                     <div>
                         <div className={styles['bottle-spec']}>
-                            <img src={require('./con03_01.png')}
+                            <img src={getCookie('lang') ==='en'? require('./web-bottle-2-icon-1-us.svg'):require('./web-bottle-2-icon-1.svg')}
                                  alt={'keep warm,When connected to power source, Smart-Bottle will keep milk at ideal temperature so you can feed  your baby right away. '}/>
                             <h2>{language.section03.third['01']}</h2>
                             <p>{language.section03.third['02']}<br/>

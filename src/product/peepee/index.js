@@ -10,12 +10,20 @@ import Section05 from "./section05/Section05";
 import fullpage from "fullpage.js";
 import Section06 from "./section06/Section06";
 import Head from "../../promotion/head/Head";
-import OtherProduct from "../other/OtherProduct";
+import {getCookie} from "../../library/_LittleoneScript";
+import Section09 from "./section09/Section09";
 
 class PeepeeLayout extends React.Component {
 
     constructor(props) {
         super(props);
+        this.state = {
+            language: getCookie('lang') === 'ko' ? require('../../landing/language/korean/product/smartpeepee') : null ||
+            getCookie('lang') === 'en' ? require('../../landing/language/english/product/smartpeepee') : null ||
+            getCookie('lang') === 'cn' ? require('../../landing/language/chinese/product/smartpeepee') : null ||
+            getCookie('lang') === 'ja' ? require('../../landing/language/japanese/product/smartpeepee') : null ||
+            getCookie('lang') === undefined || null || false ? require('../../landing/language/english/product/smartpeepee') : require('../../landing/language/english/product/smartpeepee')
+        };
     }
 
     componentDidMount() {
@@ -58,15 +66,15 @@ class PeepeeLayout extends React.Component {
         return (
             <div className={styles['smart-peepee-article']} id={'smart-peepee-section'}>
                 <Head title={"LITTLEONE, SMART PEEPEE"}/>
-                <Section01/>
-                <Section02/>
-                <Section03/>
-                <Section04/>
-                <Section05/>
-                <Section06/>
-                <Section07/>
-                <Section08/>
-                <OtherProduct/>
+                <Section01 language={this.state.language}/>
+                <Section02 language={this.state.language}/>
+                <Section03 language={this.state.language}/>
+                <Section04 language={this.state.language}/>
+                <Section05 language={this.state.language}/>
+                <Section06 language={this.state.language}/>
+                <Section07 language={this.state.language}/>
+                <Section08 language={this.state.language}/>
+                <Section09 language={this.state.language}/>
             </div>
         )
     }

@@ -4,21 +4,29 @@ import classNames from 'classnames';
 
 const cx = classNames.bind(styles);
 
-class Section07 extends React.Component{
-    render(){
-        return(
+class Section07 extends React.Component {
+
+    shouldComponentUpdate(nextProps) {
+        return nextProps
+    }
+
+    render() {
+
+        let language = this.props.language;
+
+        return (
             <div className={cx(styles['seventh-section'], 'section')}>
                 <div className={styles['seventh-section--desc']}>
                     <div className={styles['seventh-section--desc--app-integration']}>
                         <h2>PRODUCT DETAIL</h2>
                     </div>
                     <h1>
-                        기존 체온계의<br/>
-                        단점을 보완
+                        {language.smarttemp.section07['00']}<br/>
+                        {language.smarttemp.section07['01']}
                     </h1>
                     <p>
-                        지속적인 체온 측정과 고온 알림, 편리한 기록 확인<br/>
-                        건전지 교체형으로 반영구적인 사용
+                        {language.smarttemp.section07['02']}<br/>
+                        {language.smarttemp.section07['03']}
                     </p>
                 </div>
                 <div className={styles['seventh-section--temp-image']}>

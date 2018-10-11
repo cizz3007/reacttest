@@ -11,10 +11,27 @@ import Section05 from "./section05/Section05";
 import Section06 from "./section06/Section06";
 import Section07 from "./section07/Section07";
 import Section08 from "./section08/Section08";
-import OtherProduct from "../other/OtherProduct";
+import Section09 from "./section09/Section09";
+import {getCookie} from "../../library/_LittleoneScript";
 
 
 class BottleLayout extends React.Component {
+
+    constructor(props) {
+        super(props);
+        this.state = {
+            language: getCookie('lang') === 'ko' ? require('../../landing/language/korean/product/smartbottle') : null ||
+            getCookie('lang') === 'en' ? require('../../landing/language/english/product/smartbottle') : null ||
+            getCookie('lang') === 'cn' ? require('../../landing/language/chinese/product/smartbottle') : null ||
+            getCookie('lang') === 'ja' ? require('../../landing/language/japanese/product/smartbottle') : null ||
+            getCookie('lang') === undefined || null || false ? require('../../landing/language/english/product/smartbottle') : require('../../landing/language/english/product/smartbottle')
+        };
+
+    }
+
+    shouldComponentUpdate(nextState) {
+        return nextState;
+    }
 
     componentDidMount() {
         new fullpage('#product-section', {
@@ -48,19 +65,20 @@ class BottleLayout extends React.Component {
     }
 
     render() {
-        return (
+        console.log(this.state.language);
 
+        return (
             <div className={styles['smart-bottle-article']} id={'product-section'}>
                 <Head title={"LITTLEONE, SMART BOTTLE"}/>
-                <Section01/>
-                <Section02/>
-                <Section03/>
-                <Section04/>
-                <Section05/>
-                <Section06/>
-                <Section07/>
-                <Section08/>
-                <OtherProduct/>
+                <Section01 language={this.state.language}/>
+                <Section02 language={this.state.language}/>
+                <Section03 language={this.state.language}/>
+                <Section04 language={this.state.language}/>
+                <Section05 language={this.state.language}/>
+                <Section06 language={this.state.language}/>
+                <Section07 language={this.state.language}/>
+                <Section08 language={this.state.language}/>
+                <Section09 language={this.state.language}/>
             </div>
         )
 

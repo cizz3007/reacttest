@@ -9,37 +9,33 @@ require('../../library/bxslider.min');
 
 class Section02 extends React.Component {
 
-    componentDidMount() {
+
+    constructor(props){
+        super(props);
+
+        this.onloadComplete = this.onloadComplete.bind(this);
+    }
+
+
+    onloadComplete(){
         const slider = '.' + styles['slider-top'];
-        setTimeout(function () {
-            let upperSlider = $(slider).bxSlider({
-                responsive: true,
-                pager: true,
-                infiniteLoop: true,
-                touchEnabled:false,
-                onSliderLoad: function () {
-
-                },
-                onSlideNext: function (e) {
-
-                },
-                onSlidePrev: function (e) {
-
-                },
-            });
-        }, 200);
-
+        const upperSlider = $(slider).bxSlider({
+            responsive: true,
+            pager: true,
+            infiniteLoop: true,
+            touchEnabled: false
+        });
     }
 
 
     render() {
         return (
             <section className={styles['slider-section-upper']}>
-                <div className={styles['slider-top']}>
-                    <img src={require('./con02_01.png')}/>
-                    <img src={require('./con02_02.png')}/>
-                    <img src={require('./con02_03.png')}/>
-                    <img src={require('./con02_04.png')}/>
+                <div className={styles['slider-top']} onLoad={this.onloadComplete}>
+                    <img src={require('./promotion-pic-1@2x-compressor.jpg')}/>
+                    <img src={require('./promotion-pic-2@2x-compressor.jpg')}/>
+                    <img src={require('./promotion-pic-3@2x-compressor.jpg')}/>
+                    <img src={require('./promotion-pic-4@2x-compressor.jpg')}/>
                 </div>
             </section>
         )

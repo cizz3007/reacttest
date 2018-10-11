@@ -12,7 +12,7 @@ class Footer extends React.Component {
                 instagram: 'https://www.instagram.com/littleonesns/',
                 twitter: 'https://twitter.com/littleonesns',
                 youtube: 'https://www.youtube.com/channel/UC2viX5InWtasFUGrRRw3rwQ/',
-                email: 'mailto:smart@littleone.krs'
+                email: 'mailto:smart@littleone.kr'
             },
             bgColor: this.props.backGroundColor
         }

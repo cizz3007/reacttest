@@ -5,20 +5,27 @@ import classNames from 'classnames';
 const cx = classNames.bind(styles);
 
 class Section05 extends React.Component {
+
+    shouldComponentUpdate(nextProps){
+        return nextProps;
+    }
+
     render() {
+
+        let language = this.props.language;
         return (
             <div className={cx(styles['fifth-section'], 'section')}>
                 <div className={styles['fifth-section--desc']}>
                     <div className={styles['fifth-section--desc--head']}>
                         <h2>PARENTING REPORTS</h2>
                     </div>
-                    <h1>육아 정보를 한 눈에,<br/>
-                        Health Care Report
+                    <h1>{language.smartbottle.section05['00']}<br/>
+                        {language.smartbottle.section05['01']}
                     </h1>
-                    <p>수유 일지, 수유 알림, 분유 소비량 등 수집된 데이터를<br/>
-                        언제든 쉽게 확인할 수 있습니다.</p>
+                    <p>{language.smartbottle.section05['02']}<br/>
+                        {language.smartbottle.section05['03']}</p>
                 </div>
-                <div className={styles['fifth-section--image']}>리틀원의 대시보드로 편리할 육아를 경험해 보세요.</div>
+                <div className={styles['fifth-section--image']}>{language.smartbottle.section05['04']}</div>
             </div>
         )
     }

@@ -26,46 +26,51 @@ class Section08 extends React.Component {
         });
     }
 
+    shouldComponentUpdate(nextProps){
+        return nextProps
+    }
+
 
     render() {
+        let language = this.props.language;
         return (
             <div className={cx(styles['eighth-section'], 'section', 'active')}>
                 <div className={styles['eighth-section--desc']}>
                     <div>
                         <h2>PRODUCT SPECIFICATION</h2>
                     </div>
-                    <h1>스마트 보틀 제품사양</h1>
+                    <h1>{language.smartbottle.section08['00']}</h1>
                 </div>
                 <div className={styles['eighth-section--spec']}>
                     <div className={styles['eighth-section--spec--image']}></div>
                     <ul className={styles['eighth-section--spec--desc']}>
                         <li className={styles['eighth-section--spec--desc--list']}>
-                            <h4>앱호환</h4>
-                            <span>Android 4.3 이상</span>
+                            <h4>{language.smartbottle.section08['01']}</h4>
+                            <span>{language.smartbottle.section08['02']}</span>
                         </li>
                         <li className={styles['eighth-section--spec--desc--list']}>
-                            <h4>크기</h4>
-                            <span>70*23.5mm</span>
+                            <h4>{language.smartbottle.section08['03']}</h4>
+                            <span>{language.smartbottle.section08['04']}</span>
                         </li>
                         <li className={styles['eighth-section--spec--desc--list']}>
-                            <h4>용량</h4>
-                            <span>160 / 240ml</span>
+                            <h4>{language.smartbottle.section08['05']}</h4>
+                            <span>{language.smartbottle.section08['06']}</span>
                         </li>
                         <li className={styles['eighth-section--spec--desc--list']}>
-                            <h4>재질</h4>
-                            <span>실리콘, 유리, ABS</span>
+                            <h4>{language.smartbottle.section08['07']}</h4>
+                            <span>{language.smartbottle.section08['08']}</span>
                         </li>
                         <li className={styles['eighth-section--spec--desc--list']}>
-                            <h4>통신방식</h4>
-                            <span>블루투스 4.0</span>
+                            <h4>{language.smartbottle.section08['09']}</h4>
+                            <span>{language.smartbottle.section08['10']}</span>
                         </li>
                         <li className={styles['eighth-section--spec--desc--list']}>
-                            <h4>충전규격</h4>
-                            <span>5V 2A</span>
+                            <h4>{language.smartbottle.section08['11']}</h4>
+                            <span>{language.smartbottle.section08['12']}</span>
                         </li>
                         <li className={styles['eighth-section--spec--desc--list']}>
-                            <h4>배터리용량</h4>
-                            <span>180 mAh</span>
+                            <h4>{language.smartbottle.section08['13']}</h4>
+                            <span>{language.smartbottle.section08['14']}</span>
                         </li>
                         <li className={cx(styles['authentication-list'], {active: this.state.active})}
                             onClick={this.handleClick}>
@@ -78,28 +83,28 @@ class Section08 extends React.Component {
                     <div className={styles['kc-image']}></div>
                     <div className={styles['kc-spec']}>
                         <div>
-                            <h5>상호 :</h5>
-                            <span></span>
+                            <h5>{language.smartbottle.section08['15']}</h5>
+                            <span>{language.smartbottle.section08['16']}</span>
                         </div>
                         <div>
-                            <h5>기자재명칭 :</h5>
-                            <span>특정소출력무선기기</span>
+                            <h5>{language.smartbottle.section08['17']}</h5>
+                            <span>{language.smartbottle.section08['18']}</span>
                         </div>
                         <div>
-                            <h5>모델명 :</h5>
-                            <span>NP1881</span>
+                            <h5>{language.smartbottle.section08['19']}</h5>
+                            <span>{language.smartbottle.section08['20']}</span>
                         </div>
                         <div>
-                            <h5>인증번호 :</h5>
-                            <span>R-CMM-BK0-NP188I</span>
+                            <h5>{language.smartbottle.section08['21']}</h5>
+                            <span>{language.smartbottle.section08['22']}</span>
                         </div>
                         <div>
-                            <h5>제조연월 :</h5>
-                            <span>별도표기</span>
+                            <h5>{language.smartbottle.section08['23']}</h5>
+                            <span>{language.smartbottle.section08['24']}</span>
                         </div>
                         <div>
-                            <h5>제조자/제조국가 :</h5>
-                            <span>리틀원/중국</span>
+                            <h5>{language.smartbottle.section08['25']}</h5>
+                            <span>{language.smartbottle.section08['26']}</span>
                         </div>
                     </div>
                 </div>

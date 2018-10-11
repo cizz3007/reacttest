@@ -10,63 +10,99 @@ import Section05 from "./section05/Section05";
 import Section06 from "./section06/Section06";
 import Footer from "./footer/Footer";
 import {getCookie, setCookie} from "../library/_LittleoneScript";
+import * as styles from "./head/Head.scss";
+import PlayPause from "./playpause/PlayPause";
 
 class LandpageLayout extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            language: getCookie('lang') === 'ko' ? require('./language/korean') : null ||
-            getCookie('lang') === 'en' ? require('./language/english') : null ||
-            getCookie('lang') === 'cn' ? require('./language/chinese') : null ||
-            getCookie('lang') === 'ja' ? require('./language/japanese') : null ||
-            getCookie('lang') === undefined || null || false ? require('./language/english') : require('./language/english'),
+            language: getCookie('lang') === 'ko' ? require('./language/korean/korean') : null ||
+            getCookie('lang') === 'en' ? require('./language/english/english') : null ||
+            getCookie('lang') === 'cn' ? require('./language/chinese/chinese') : null ||
+            getCookie('lang') === 'ja' ? require('./language/japanese/japanese') : null ||
+            getCookie('lang') === undefined || null || false ? require('./language/english/english') : require('./language/english/english')
         };
         this.setLanguage = this.setLanguage.bind(this);
+    }
 
+    componentDidMount() {
+        const body = document.getElementsByTagName('body')[0];
+        if (getCookie('lang') === 'en') {
+            document.getElementsByTagName('html')[0].lang = 'en';
+            body.setAttribute('class','lang-english');
+
+        } else if (getCookie('lang') === 'ja') {
+            document.getElementsByTagName('html')[0].lang = 'ja';
+            body.setAttribute('class','lang-japanese');
+
+        } else if (getCookie('lang') === 'cn') {
+            document.getElementsByTagName('html')[0].lang = 'zh';
+            body.setAttribute('class','lang-chinese');
+
+        } else if (getCookie('lang') === 'ko') {
+            document.getElementsByTagName('html')[0].lang = 'ko';
+            body.setAttribute('class','lang-korean');
+
+        }
     }
 
 
-
-    setLanguage(e){
+    setLanguage(e) {
+        const langBox = document.querySelector("." + styles['language-box']);
+        const body = document.getElementsByTagName('body')[0];
+        langBox.classList.toggle(styles['active']);
         let dataSet = e.currentTarget.dataset['lang'];
         let target = document.getElementsByClassName('current-language')[0];
         if (dataSet === 'ko') {
             setCookie('lang', 'ko');
             this.setState(function () {
                 return {
-                    language: require('./language/korean')
+                    language: require('./language/korean/korean')
                 }
             });
             target.style.background = '#fff url(' + require('./head/web-footer-icn-ko.svg') + ') no-repeat center/contain';
+            document.getElementsByTagName('html')[0].lang = 'ko';
+            body.setAttribute('class', 'lang-korean');
+
 
         } else if (dataSet === 'en') {
             setCookie('lang', 'en');
             this.setState(function () {
                 return {
-                    language: require('./language/english')
+                    language: require('./language/english/english')
                 }
             });
             target.style.background = '#fff url(' + require('./head/web-footer-icn-us.svg') + ') no-repeat center/contain';
+            document.getElementsByTagName('html')[0].lang = 'en';
+            body.setAttribute('class', 'lang-english');
+
         }
         else if (dataSet === 'cn') {
             setCookie('lang', 'cn');
             this.setState(function () {
                 return {
-                    language: require('./language/chinese')
+                    language: require('./language/chinese/chinese')
                 }
             });
             target.style.background = '#fff url(' + require('./head/web-footer-icn-cn.svg') + ') no-repeat center/contain';
+            document.getElementsByTagName('html')[0].lang = 'zh';
+            body.setAttribute('class', 'lang-chinese');
+
 
         }
         else if (dataSet === 'ja') {
             setCookie('lang', 'ja');
             this.setState(function () {
                 return {
-                    language: require('./language/japanese')
+                    language: require('./language/japanese/japanese')
                 }
             });
             target.style.background = '#fff url(' + require('./head/web-footer-icn-jp.svg') + ') no-repeat center/contain';
+            document.getElementsByTagName('html')[0].lang = 'ja';
+            body.setAttribute('class', 'lang-japanese');
+
         }
     }
 
@@ -79,6 +115,7 @@ class LandpageLayout extends React.Component {
             <div className={'application'}>
                 <Head language={this.state.language}/>
                 <LadingHead language={this.state.language} action={this.setLanguage}/>
+                <PlayPause/>
                 <Section01 language={this.state.language}/>
                 <MobileBox language={this.state.language}/>
                 <Section02 language={this.state.language}/>

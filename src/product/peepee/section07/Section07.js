@@ -5,7 +5,12 @@ import classNames from 'classnames';
 const cx = classNames.bind(styles);
 
 class Section07 extends React.Component {
+
+    shouldComponentUpdate(nextProps){
+        return nextProps;
+    }
     render() {
+        let language = this.props.language;
         return (
             <div className={cx(styles['seventh-section'], 'section')}>
                 <div className={styles['seventh-section--desc']}>
@@ -13,15 +18,15 @@ class Section07 extends React.Component {
                         <h2>PRODUCT DETAIL</h2>
                     </div>
                     <h1>
-                        벨크로 방식으로<br/>
-                        간편하게
+                        {language.smartpeepee.section07['00']}<br/>
+                        {language.smartpeepee.section07['01']}
                     </h1>
                     <p>
-                        패치에 부착해 기저귀 종류에 관계없이 사용할 수 있습니다.
+                        {language.smartpeepee.section07['02']}
                     </p>
                 </div>
                 <div className={styles['seventh-section--bottle-image']}>
-                    스마트보틀의 하단 이미지부분 입니다.
+                    {language.smartpeepee.section07['03']}
                 </div>
             </div>
         )

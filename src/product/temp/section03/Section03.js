@@ -5,23 +5,31 @@ import classNames from 'classnames';
 const cx = classNames.bind(styles);
 
 class Section03 extends React.Component{
+
+
+    shouldComponentUpdate(nextProps){
+        return nextProps;
+    }
+
     render(){
+        let language = this.props.language;
+
         return(
             <div className={cx(styles['third-section'], 'section')}>
                 <div className={styles['third-section--desc']}>
                     <div className={styles['third-section--desc--integration']}>
                         <h2>APP INTEGRATION</h2>
                     </div>
-                    <h1>앱 연동으로<br/>
-                        연속 체온 관리!</h1>
-                    <p>스마트템프와 실시간 연동되는 앱을 통해<br/>
-                        고온 알림, 체온 변화 추적이 가능합니다.</p>
+                    <h1>{language.smarttemp.section03['00']}<br/>
+                        {language.smarttemp.section03['01']}</h1>
+                    <p>{language.smarttemp.section03['02']}<br/>
+                        {language.smarttemp.section03['03']}</p>
                 </div>
                 <div className={styles['third-section--progress']}>
                     <div>
                         <img className={styles['third-section--progress--device']}
                              src={require('./web-temp-3-icon-1.svg')} alt={'스마트템프와 앱의 연동'}/>
-                        <span>스마트템프</span>
+                        <span>{language.smarttemp.section03['04']}</span>
                     </div>
                     <div>
                         <img className={styles['third-section--progress--data']}
@@ -30,7 +38,7 @@ class Section03 extends React.Component{
                     <div>
                         <img className={styles['third-section--progress--device']}
                              src={require('./web-temp-3-icon-2.svg')} alt={'스마트템프와 앱의 연동'}/>
-                        <span>앱/웹</span>
+                        <span>{language.smarttemp.section03['05']}</span>
                     </div>
                     <div>
                         <img className={styles['third-section--progress--data']}
@@ -39,7 +47,7 @@ class Section03 extends React.Component{
                     <div>
                         <img className={styles['third-section--progress--device']}
                              src={require('./web-temp-3-icon-3.svg')} alt={'스마트템프와 앱의 연동'}/>
-                        <span>보호자</span>
+                        <span>{language.smarttemp.section03['06']}</span>
                     </div>
                     <span className={styles['horizon-bar']}></span>
                 </div>

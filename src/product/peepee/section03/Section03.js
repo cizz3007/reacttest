@@ -5,22 +5,27 @@ const cx = classNames.bind(styles);
 
 class Section03 extends React.Component {
 
+    shouldComponentUpdate(nextProps){
+        return nextProps;
+    }
+
     render() {
+        let language = this.props.language;
         return (
             <div className={cx(styles['third-section'], 'section')}>
                 <div className={styles['third-section--desc']}>
                     <div className={styles['third-section--desc--integration']}>
                         <h2>APP INTEGRATION</h2>
                     </div>
-                    <h1>앱 연동으로<br/>수유를 더욱 쉽게!</h1>
-                    <p>스마트보틀과 실시간 연동되는 앱을 통해<br/>
-                        자동 수유일지 작성, 수유알림이 가능합니다.</p>
+                    <h1>{language.smartpeepee.section03['00']}<br/>{language.smartpeepee.section03['01']}</h1>
+                    <p>{language.smartpeepee.section03['02']}<br/>
+                        {language.smartpeepee.section03['03']}</p>
                 </div>
                 <div className={styles['third-section--progress']}>
                     <div>
                         <img className={styles['third-section--progress--device']}
                              src={require('./web-peepee-3-icon-1.svg')} alt={'스마트보틀과 앱의 연동'}/>
-                        <span>스마트보틀</span>
+                        <span>{language.smartpeepee.section03['04']}</span>
                     </div>
                     <div>
                         <img className={styles['third-section--progress--data']}
@@ -29,7 +34,7 @@ class Section03 extends React.Component {
                     <div>
                         <img className={styles['third-section--progress--device']}
                              src={require('./web-peepee-3-icon-2.svg')} alt={'스마트보틀과 앱의 연동'}/>
-                        <span>앱/웹</span>
+                        <span>{language.smartpeepee.section03['05']}</span>
                     </div>
                     <div>
                         <img className={styles['third-section--progress--data']}
@@ -38,7 +43,7 @@ class Section03 extends React.Component {
                     <div>
                         <img className={styles['third-section--progress--device']}
                              src={require('./web-peepee-3-icon-3.svg')} alt={'스마트보틀과 앱의 연동'}/>
-                        <span>보호자</span>
+                        <span>{language.smartpeepee.section03['06']}</span>
                     </div>
                     <span className={styles['horizon-bar']}></span>
                 </div>
@@ -46,8 +51,6 @@ class Section03 extends React.Component {
                     <img src={require('./web-peepee-3-peepee@2x.png')} alt={'스마트 보틀'}/>
                     <img src={require('./web-peepee-3-mobile@2x.png')} alt={'앱 어플리케이션의 이미지'}/>
                 </div>
-
-
             </div>
         )
     }

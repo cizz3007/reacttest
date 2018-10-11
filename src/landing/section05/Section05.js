@@ -13,7 +13,7 @@ class Section05 extends React.Component {
     componentDidMount() {
         const slider = '.' + styles['slider'];
         let bxSlider = $(slider).bxSlider({
-            touchEnabled: true,
+            touchEnabled: false,
             responsive: true,
             pager: true,
             infiniteLoop: true,

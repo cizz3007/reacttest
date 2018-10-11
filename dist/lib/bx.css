@@ -92,19 +92,21 @@ ul.bxslider {
 
 /* DIRECTION CONTROLS (NEXT / PREV) */
 .bx-wrapper .bx-prev {
-    left: 10px;
+    left: 25px;
     background-image: url("./left_btn.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    opacity: .75;
 }
 
 .bx-wrapper .bx-next {
-    right: 10px;
+    right: 25px;
     background-image: url("./right_btn.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
+    opacity: .75;
 }
 
 .bx-wrapper .bx-controls-direction a {
@@ -187,11 +189,29 @@ ul.bxslider {
     font-size: .85em;
     padding: 10px;
 }
-
+.lang-korean{
+    font-family:"Noto Sans Korean", system, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", Sans-serif, serif !important;
+}
+.lang-japanese{
+    font-family:"Noto Sans Japanese", system, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", Sans-serif, serif !important;
+}
+.lang-chinese{
+    font-family:"Noto Sans Chinese", system, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", Sans-serif, serif !important;
+}
+.lang-english{
+    font-family:"Noto Sans Korean", system, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", Sans-serif, serif !important;
+}
 @media only screen and (max-width: 640px){
     .bx-wrapper .bx-controls-direction a{
         width: 24px;
         opacity: .7;
         height: 24px;
+    }
+    .bx-wrapper .bx-prev {
+        left: 15px;
+    }
+
+    .bx-wrapper .bx-next {
+        right: 15px;
     }
 }

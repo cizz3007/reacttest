@@ -36,6 +36,9 @@ class EmailSubscribe extends React.Component {
             });
         }
     }
+    shouldComponentUpdate(nextState){
+        return nextState;
+    }
 
     removeClickHanlder(){
         let targetElement = `input[name=${this.state.inputName}]`;

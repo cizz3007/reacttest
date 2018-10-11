@@ -70,6 +70,11 @@ class LadingHead extends React.Component {
         });
     }
 
+    onAuto(e){
+        const langBox = document.querySelector("."+styles['language-box']);
+        langBox.classList.toggle(styles['active']);
+    }
+
 
     render() {
         return (
@@ -87,27 +92,27 @@ class LadingHead extends React.Component {
                 </a>
                 <ul className={styles['language-box']}>
                     <li>
-                        <a href="javascript:void(0)">
+                        <a href="javascript:void(0)" onMouseEnter={this.onAuto}>
                             <div className={cx(styles['__lang-en'], 'current-language')}></div>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" onClick={this.props.action} data-lang={'en'}>
+                        <a href="javascript:void(0)" onClick={this.props.action}  data-lang={'en'}>
                             <div className={styles['__lang-en']}></div>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" onClick={this.props.action} data-lang={'cn'}>
+                        <a href="javascript:void(0)" onClick={this.props.action}  data-lang={'cn'}>
                             <div className={styles['__lang-cn']}></div>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" onClick={this.props.action} data-lang={'ja'}>
+                        <a href="javascript:void(0)" onClick={this.props.action}  data-lang={'ja'}>
                             <div className={styles['__lang-ja']}></div>
                         </a>
                     </li>
                     <li>
-                        <a href="javascript:void(0)" onClick={this.props.action} data-lang={'ko'}>
+                        <a href="javascript:void(0)" onClick={this.props.action}  data-lang={'ko'}>
                             <div className={styles['__lang-ko']}></div>
                         </a>
                     </li>

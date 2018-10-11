@@ -1,12 +1,69 @@
+/*한국*/
 @font-face {
-  font-family: "Noto Sans CJK KR";
-  src: url("/fonts/NotoSansCJKkr-Regular.woff") format("woff");
+  font-family: 'Noto Sans Korean';
+  src: local('Noto Sans Light'), local('NotoSans-Light'),
+  url(/fonts/NotoSansKR-Light.woff) format('woff');
+  font-weight: 300;
+}
+
+
+@font-face {
+  font-family: 'Noto Sans Korean';
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+  url(/fonts/NotoSansKR-Medium.woff) format('woff');
+  font-weight: 500;
 }
 
 @font-face {
-  font-family: 'Noto Sans CJK KR-light';
-  src: url("/fonts/NotoSansCJKkr-Light.woff") format('woff');
+  font-family: 'Noto Sans Korean';
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+  url(/fonts/NotoSansKR-Bold.woff) format('woff');
+  font-weight: 800;
 }
+/*재팬*/
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  src: local('Noto Sans Light'), local('NotoSans-Light'),
+  url(/fonts/NotoSansJP-Light.woff) format('woff');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+  url(/fonts/NotoSansJP-Medium.woff) format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Noto Sans Japanese';
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+  url(/fonts/NotoSansJP-Bold.woff) format('woff');
+  font-weight: 800;
+}
+/*중국*/
+@font-face {
+  font-family: 'Noto Sans Chinese';
+  src: local('Noto Sans Light'), local('NotoSans-Light'),
+  url(/fonts/NotoSansSC-Light.woff) format('woff');
+  font-weight: 300;
+}
+
+
+@font-face {
+  font-family: 'Noto Sans Chinese';
+  src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+  url(/fonts/NotoSansSC-Medium.woff) format('woff');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Noto Sans Chinese';
+  src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+  url(/fonts/NotoSansSC-Bold.woff) format('woff');
+  font-weight: 800;
+}
+
 
 a {
   color: #333;
@@ -16,9 +73,8 @@ a {
 body::-webkit-scrollbar {
   display: none;
 }
-
 html, body {
-  font-family: system, -apple-system, BlinkMacSystemFont, "Noto Sans CJK KR", "Noto Sans", "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", Sans-serif;
+  font-family:"Noto Sans Korean", system, -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "애플 SD 산돌고딕 Neo", Sans-serif, serif;
   width: 100%;
   height: 100%;
   /*드래그 방지 (+IE9)*/
@@ -53,7 +109,9 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
   font-style: normal;
   font-weight: normal;
   -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased
+  -webkit-font-smoothing: antialiased;
+  font-smooth: always;
+
 }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, main {
