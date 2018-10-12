@@ -9,7 +9,6 @@ import anime from 'animejs';
 
 class Section04 extends React.Component {
 
-
     constructor(props) {
         super(props);
         this.state = {
@@ -85,27 +84,27 @@ class Section04 extends React.Component {
                     </div>
                     <div className={styles['peepee-section']}>
                         <div className={styles['peepee-spec']}>
-                            <img src={require('./con04_01.png')}
+                            <img src={require('./web-peepee-2-icon-1.svg')}
                                  alt={'easy to use,Use the supplied patch to apply to any brand your baby likes'}/>
                             <h2>{language.section04.third['01']}</h2>
                             <p>{language.section04.third['02']}<br/>
                                 {language.section04.third['03']}</p>
                         </div>
                         <div className={styles['peepee-spec']}>
-                            <img src={require('./con04_02.png')}
+                            <img src={require('./web-peepee-2-icon-2.svg')}
                                  alt={'real-time alerts, Once bowel activity is detected, it will alert you through the app.'}/>
                             <h2>{language.section04.third['04']}</h2>
                             <p>{language.section04.third['05']}<br/>{language.section04.third['06']}</p>
                         </div>
                         <div className={styles['peepee-spec']}>
-                            <img src={require('./con04_03.png')}
+                            <img src={require('./web-peepee-2-icon-3.svg')}
                                  alt={'reliable data, Keeps track of bowel activities to predict the next one to come.'}/>
                             <h2>{language.section04.third['07']}</h2>
                             <p>{language.section04.third['08']}<br/>
                                 {language.section04.third['09']}</p>
                         </div>
                         <div className={styles['peepee-spec']}>
-                            <img src={require('./con04_04.png')}
+                            <img src={require('./web-peepee-2-icon-4.svg')}
                                  alt={'Intelligent Analysis, Accurately predicts bowel activities to reduce the risk of skin rash and infections.'}/>
                             <h2>{language.section04.third['10']}</h2>
                             <p> {language.section04.third['11']}<br/>

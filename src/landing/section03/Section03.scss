@@ -4,6 +4,7 @@
   width: 100%;
   padding: 120px 0;
   background-color: #f1fbf9;
+  z-index: 3;
 
   @keyframes opaAni {
     from {
@@ -164,8 +165,9 @@
         padding: 2.6041vw 0;
         img {
           display: inline-block;
-          width: 5.5208vw;
           min-width: 64px;
+          width: 5.723vw;
+          height: 5.723vw;
         }
 
         h2 {
@@ -348,6 +350,7 @@
           padding: 18px 0;
           img {
             width: 48px;
+            height: 48px;
             min-width: initial;
 
           }
@@ -430,6 +433,7 @@
           padding: 18px 0;
           img {
             width: 48px;
+            height: 48px;
             min-width: initial;
 
           }

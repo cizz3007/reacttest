@@ -45,7 +45,11 @@ class LandpageLayout extends React.Component {
             document.getElementsByTagName('html')[0].lang = 'ko';
             body.setAttribute('class','lang-korean');
 
+        } else{
+            document.getElementsByTagName('html')[0].lang = 'en';
+            body.setAttribute('class','lang-english');
         }
+
     }
 
 

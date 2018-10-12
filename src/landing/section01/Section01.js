@@ -6,17 +6,11 @@ class Section01 extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            video: 'https://player.vimeo.com/video/292665914?autoplay=1&loop=1',
+            video: 'https://player.vimeo.com/video/292665914?background=1',
             play: false,
             width:window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth
 
-    };
-    }
-
-
-    componentDidMount(e) {
-        const video = document.querySelector('iframe');
-        let vimeo = new Player(video);
+        };
     }
 
     componentWillMount() {

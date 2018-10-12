@@ -99,30 +99,28 @@ class Section03 extends React.Component {
                     </div>
                     <div>
                         <div className={styles['bottle-spec']}>
-                            <img src={getCookie('lang') ==='en'? require('./web-bottle-2-icon-1-us.svg'):require('./web-bottle-2-icon-1.svg')}
-                                 alt={'keep warm,When connected to power source, Smart-Bottle will keep milk at ideal temperature so you can feed  your baby right away. '}/>
+                            <img src={getCookie('lang') ==='en' || undefined || false || null||'' ? require('./web-bottle-2-icon-1-us.svg'):require('./web-bottle-2-icon-1.svg')}
+                              width={"auto"}  height={"auto"}  alt={'keep warm,When connected to power source, Smart-Bottle will keep milk at ideal temperature so you can feed  your baby right away. '}/>
                             <h2>{language.section03.third['01']}</h2>
                             <p>{language.section03.third['02']}<br/>
                                 {language.section03.third['03']}<br/>
                                 {language.section03.third['04']}</p>
                         </div>
                         <div className={styles['bottle-spec']}>
-                            <img src={require('./con03_02.png')}
-                                 alt={'prevent burns,If temperature is too high for feeding, Smart-Bottle will vibrate to warn you.'}/>
+                            <img src={require('./web-bottle-2-icon-2.svg')} width={"auto"} height={"auto"} alt={'prevent burns,If temperature is too high for feeding, Smart-Bottle will vibrate to warn you.'}/>
                             <h2>{language.section03.third['05']}</h2>
                             <p>{language.section03.third['06']}<br/>
                                 {language.section03.third['07']}</p>
                         </div>
                         <div className={styles['bottle-spec']}>
-                            <img src={require('./con03_03.png')}
-                                 alt={'feeding angle, lf feeding posture is ina ppropriate, Smart-Bottle will vibrate to warn you of too much air intake.'}/>
+                            <img src={require('./web-bottle-2-icon-3.svg')} width={"auto"} height={"auto"} alt={'feeding angle, lf feeding posture is ina ppropriate, Smart-Bottle will vibrate to warn you of too much air intake.'}/>
                             <h2>{language.section03.third['08']}</h2>
                             <p>{language.section03.third['09']}<br/>
                                 {language.section03.third['10']}<br/>
                                 {language.section03.third['11']}</p>
                         </div>
                         <div className={styles['bottle-spec']}>
-                            <img src={require('./con03_04.png')}
+                            <img src={require('./web-bottle-2-icon-4.svg')}
                                  alt={'accurate temp, Prevents loss of nutrition with the help of accurate temperature sensor.'}/>
                             <h2>{language.section03.third['12']}</h2>
                             <p>{language.section03.third['13']}<br/>

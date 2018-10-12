@@ -4,7 +4,7 @@
   width: 100%;
   background-color: #fff;
   padding: 120px 0;
-  z-index: 1;
+  z-index: 3;
 
   @keyframes opaAni {
     from {
@@ -147,7 +147,8 @@
         padding: 2.6041vw 0;
         img {
           display: inline-block;
-          width: 5.5208vw;
+          width: 5.723vw;
+          height:5.723vw;
           min-width: 64px;
         }
 
@@ -349,6 +350,7 @@
           padding: 18px 0;
           img {
             width: 48px;
+            height: 48px;
             min-width: initial;
 
           }
@@ -428,8 +430,8 @@
         .peepee-spec {
           padding: 18px 0;
           img {
-            width: 48px;
-            min-width: initial;
+
+
 
           }
 
