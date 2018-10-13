@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "scss": "node-sass -w src/main/resources/static/scss  --output-style compressed  -o src/main/resources/static/css/",
     "server": "nodemon ./public/server.js",
-    "development": "NODE_ENV=development",
-    "production": "NODE_ENV=production",
+    "development": "set NODE_ENV=development",
+    "production": "set NODE_ENV=production",
     "start": "npm run development && webpack --mode=development --watch",
     "deploy": "npm run production && webpack --mode=production"
   },

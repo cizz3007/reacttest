@@ -1,14 +1,55 @@
 import React from 'react';
 import * as styles from './Section06.scss';
 import classNames from 'classnames';
+import anime from 'animejs';
 
 const cx = classNames.bind(styles);
 
 class Section06 extends React.Component {
 
-    shouldComponentUpdate(nextProps){
+    constructor(props) {
+        super(props);
+        this.onClickHandler = this.onClickHandler.bind(this);
+    }
+
+
+    onClickHandler(e) {
+        const target = e.currentTarget.childNodes[0];
+
+       target.classList.toggle(styles['active']);
+
+       const isActive = target.classList.contains(styles['active']);
+
+       if(isActive){
+           let actions = anime({
+               targets: target,
+               width: '104',
+               easing: 'easeInSine',
+               color: 'rgba(0,0,0,1)',
+               paddingLeft: '15',
+               paddingRight: '15',
+               textIndent: '0',
+               duration: '200',
+           });
+       } else{
+           let actions = anime({
+               targets: target,
+               width: '38px',
+               easing: 'easeInSine',
+               color: 'rgba(0,0,0,0)',
+               paddingLeft: '0',
+               paddingRight: '0',
+               duration: '200',
+           });
+       }
+
+
+    }
+
+    shouldComponentUpdate(nextProps) {
         return nextProps;
     }
+
     render() {
         let language = this.props.language;
         return (
@@ -21,72 +62,38 @@ class Section06 extends React.Component {
                         {language.smartbottle.section06['01']}
                     </h1>
                 </div>
-                <div className={styles['sixth-section--bottle-image']}></div>
-
-                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['bottle-cap'])}>
-                    <div>
-                        <em>{language.smartbottle.section06['02']}</em>
+                <div className={styles['sixth-section--bottle-image']}>
+                    <a href={"javascript:void(0)"} className={cx(styles['sixth-section--float-txt'],  styles['bottle-cap'])} onClick={this.onClickHandler}>
                         <span className={styles['sixth-section--float-txt__circle']}>
-                            <span></span>
+                            {language.smartbottle.section06['02']}
                         </span>
-                        <span className={styles['sixth-section--float-txt__bar']}>
-                        </span>
-                    </div>
-                </div>
-
-                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['handle'])}>
-                    <div>
-                        <em>{language.smartbottle.section06['03']}</em>
+                    </a>
+                    <a href={"javascript:void(0)"} className={cx(styles['sixth-section--float-txt'],   styles['handle'])} onClick={this.onClickHandler}>
                         <span className={styles['sixth-section--float-txt__circle']}>
-                            <span></span>
+                              {language.smartbottle.section06['03']}
                         </span>
-                        <span className={styles['sixth-section--float-txt__bar']}>
-                        </span>
-                    </div>
-                </div>
-
-                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['straw'])}>
-                    <div>
-                        <em>{language.smartbottle.section06['04']}</em>
+                    </a>
+                    <a href={"javascript:void(0)"} className={cx(styles['sixth-section--float-txt'],  styles['straw'])} onClick={this.onClickHandler}>
                         <span className={styles['sixth-section--float-txt__circle']}>
-                            <span></span>
+                             {language.smartbottle.section06['04']}
                         </span>
-                        <span className={styles['sixth-section--float-txt__bar']}>
-                        </span>
-                    </div>
-                </div>
-
-                <div className={cx(styles['sixth-section--float-txt'], styles['left'], styles['smart-base'])}>
-                    <div>
-                        <em>{language.smartbottle.section06['05']}</em>
+                    </a>
+                    <a href={"javascript:void(0)"} className={cx(styles['sixth-section--float-txt'], styles['smart-base'])} onClick={this.onClickHandler}>
                         <span className={styles['sixth-section--float-txt__circle']}>
-                            <span></span>
+                            {language.smartbottle.section06['05']}
                         </span>
-                        <span className={styles['sixth-section--float-txt__bar']}>
-                        </span>
-                    </div>
-                </div>
-
-                <div className={cx(styles['sixth-section--float-txt'], styles['right'], styles['nipple'])}>
-                    <div>
-                        <em>{language.smartbottle.section06['06']}</em>
+                    </a>
+                    <a href={"javascript:void(0)"} className={cx(styles['sixth-section--float-txt'],  styles['nipple'])} onClick={this.onClickHandler}>
                         <span className={styles['sixth-section--float-txt__circle']}>
-                            <span></span>
+                            {language.smartbottle.section06['06']}
                         </span>
-                        <span className={styles['sixth-section--float-txt__bar']}>
-                        </span>
-                    </div>
-                </div>
 
-                <div className={cx(styles['sixth-section--float-txt'], styles['right'], styles['glass'])}>
-                    <div>
-                        <em>{language.smartbottle.section06['07']}</em>
+                    </a>
+                    <a href={"javascript:void(0)"} className={cx(styles['sixth-section--float-txt'], styles['glass'])} onClick={this.onClickHandler}>
                         <span className={styles['sixth-section--float-txt__circle']}>
-                            <span></span>
+                            {language.smartbottle.section06['07']}
                         </span>
-                        <span className={styles['sixth-section--float-txt__bar']}>
-                        </span>
-                    </div>
+                    </a>
                 </div>
             </div>
         )

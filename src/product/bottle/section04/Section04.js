@@ -24,7 +24,7 @@ class Section04 extends React.Component {
                 </div>
                 <div className={styles['fourth-section--spec']}>
                     <div className={styles['fourth-section--spec--box']}>
-                        <img src={require('./web-bottle-4-icon-1@2x .png')}/>
+                        <img src={require('./web-bottle-4-icon-1@2x .png')} width={"auto"} height={"auto"}/>
                         <div className={styles['fourth-section--spec--box--txt']}>
                             <h3>{language.smartbottle.section04['02']}</h3>
                             <p>{language.smartbottle.section04['03']}<br/>
@@ -32,7 +32,7 @@ class Section04 extends React.Component {
                         </div>
                     </div>
                     <div className={styles['fourth-section--spec--box']}>
-                        <img src={require('./web-bottle-4-icon-2@2x .png')}/>
+                        <img src={require('./web-bottle-4-icon-2@2x .png')} width={"auto"} height={"auto"}/>
                         <div className={styles['fourth-section--spec--box--txt']}>
                             <h3>{language.smartbottle.section04['05']}</h3>
                             <p>{language.smartbottle.section04['06']}<br/>
@@ -40,7 +40,7 @@ class Section04 extends React.Component {
                         </div>
                     </div>
                     <div className={styles['fourth-section--spec--box']}>
-                        <img src={require('./web-bottle-4-icon-3@2x.png')}/>
+                        <img src={require('./web-bottle-4-icon-3@2x.png')} width={"auto"} height={"auto"}/>
                         <div className={styles['fourth-section--spec--box--txt']}>
                             <h3>{language.smartbottle.section04['08']}</h3>
                             <p>{language.smartbottle.section04['09']}<br/>

@@ -20,11 +20,12 @@
     }
 
     h1 {
-      font-size: 56px;
       margin-top: 62px;
+      font-size: 56px;
       font-weight: 300;
+      line-height: 62px;
+      letter-spacing: -2.6px;
       text-align: center;
-      font-family: 'Noto Sans CJK KR-light';
     }
 
   }
@@ -51,7 +52,7 @@
         margin-top: 39px;
         width: 100%;
         h4 {
-          width: 93px;
+          width: 130px;
           text-align: right;
           display: inline-block;
           font-size: 20px;
@@ -66,6 +67,7 @@
           display: inline-block;
           font-size: 18px;
           font-weight: 300;
+          white-space: nowrap;
         }
 
       }
@@ -79,7 +81,7 @@
         margin-top: 40px;
 
         > div {
-          width: 248px;
+          width: 100%;
           height: 29px;
           background: url("./certifications@2x.png") no-repeat center/contain;
         }
@@ -157,9 +159,10 @@
       }
 
       h1 {
-        margin-top: 6.4928vw;
-        font-size: 8.6957vw;
-        line-height: normal;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -1px;
       }
 
     }
@@ -236,91 +239,91 @@
 }
 
 @media only screen and(max-width: 320px) {
-    .eighth-section {
+  .eighth-section {
 
-      .eighth-section--desc {
+    .eighth-section--desc {
 
-        > div {
-          width: 220px;
-          height: 18px;
-          margin-top: 7.4928vw;
-        }
-
-        h1 {
-          margin-top: 7.4928vw;
-          font-size: 6.6957vw;
-          line-height: 8vw;
-        }
-
+      > div {
+        width: 220px;
+        height: 18px;
+        margin-top: 7.4928vw;
       }
-      //eighth-section--desc
 
-      .eighth-section--spec {
-        margin-top: 25px;
-        .eighth-section--spec--image {
-          width: 70px;
-          height: 136px;
-
-        }
-        //eighth-section--spec--image
-
-        .eighth-section--spec--desc {
-          margin-left: 0;
-          margin-top: 25px;
-          display: block;
-
-          .eighth-section--spec--desc--list {
-            margin-top: 5px;
-
-            h4 {
-              font-size: 12px;
-
-            }
-
-            span {
-              font-size: 10px;
-              margin-left: 20px;
-
-            }
-
-          }
-          //eighth-section--spec--desc--list
-
-          .eighth-section--spec--desc--list:first-child {
-            margin-top: 0;
-          }
-
-          .authentication-list {
-            margin-top: 15px;
-            text-align: center;
-            > div {
-              width: 160px;
-              height: 18px;
-              display: inline-block;
-            }
-
-          }
-          //authentication-list
-        }
-        //eighth-section--spec--desc
-
-      }
-      //eighth-section--spec
-
-      .kc {
-        position: absolute;
-        width: 100%;
-        bottom: 0;
-        right: 0;
-        opacity: 0.9;
-        background-color: #eff6f9;
-        padding: 28px 0;
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        border-radius: 10px;
-        text-align: center;
-
+      h1 {
+        margin-top: 7.4928vw;
+        font-size: 6.6957vw;
+        line-height: 8vw;
       }
 
     }
+    //eighth-section--desc
+
+    .eighth-section--spec {
+      margin-top: 25px;
+      .eighth-section--spec--image {
+        width: 70px;
+        height: 136px;
+
+      }
+      //eighth-section--spec--image
+
+      .eighth-section--spec--desc {
+        margin-left: 0;
+        margin-top: 25px;
+        display: block;
+
+        .eighth-section--spec--desc--list {
+          margin-top: 5px;
+
+          h4 {
+            font-size: 12px;
+
+          }
+
+          span {
+            font-size: 10px;
+            margin-left: 20px;
+
+          }
+
+        }
+        //eighth-section--spec--desc--list
+
+        .eighth-section--spec--desc--list:first-child {
+          margin-top: 0;
+        }
+
+        .authentication-list {
+          margin-top: 15px;
+          text-align: center;
+          > div {
+            width: 160px;
+            height: 18px;
+            display: inline-block;
+          }
+
+        }
+        //authentication-list
+      }
+      //eighth-section--spec--desc
+
+    }
+    //eighth-section--spec
+
+    .kc {
+      position: absolute;
+      width: 100%;
+      bottom: 0;
+      right: 0;
+      opacity: 0.9;
+      background-color: #eff6f9;
+      padding: 28px 0;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      text-align: center;
+
+    }
+
   }
+}

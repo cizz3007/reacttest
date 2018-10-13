@@ -16,7 +16,7 @@ class Section01 extends React.Component {
     render() {
         let language = this.props.language;
         return (
-            <div className={cx(styles['first-section'], 'section', 'active')}>
+            <div className={cx(styles['first-section'], 'section')}>
                 <div className={styles['first-section--txt']}>
                     <div className={styles['first-section--txt__title']}>
                         <h1>{language.smartbottle.section01['00']}</h1>

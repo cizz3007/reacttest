@@ -27,10 +27,10 @@
 
     h1 {
       font-size: 2.9166vw;
-      line-height: normal;
+      line-height: 3.22916vw;
       font-weight: 300;
-      font-family: 'Noto Sans CJK KR-light';
       letter-spacing: -2.6px;
+      color: #333;
 
     }
 
@@ -52,23 +52,24 @@
   .seventh-section {
 
     .seventh-section--bottle-image {
-      width: 77.8550vw;
-      height: 80.1354vw;
+      width: 61.855vw;
+      height: 70.1354vw;
     }
     //seventh-section--bottle-image
 
     .seventh-section--desc {
-
+      margin-top: 30px;
       h1 {
-        margin-top: 10.4928vw;
-        font-size: 8.6957vw;
-        line-height: normal;
-
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -1px;
       }
 
       p {
-        font-size: 3.8648vw;
-        margin-top: 7.2464vw;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 15px;
       }
     }
     //seventh-section--desc

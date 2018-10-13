@@ -6,7 +6,7 @@
   },
   "section03": {
     "first": {
-      "01": "Intelligent feeding bottle",
+      "01": "Baby bottle",
       "02": "that helps comfortable feeding",
       "03": "Smart-Bottle monitors temperature and feeding posture",
       "04": "to help you feed your baby more safely and conveniently"
@@ -20,80 +20,80 @@
       "06": "Smart base"
     },
     "third": {
-      "01": "Keep Warm",
-      "02": "When connected to power source, Smart-Bottle will",
-      "03": "keep milk at ideal temperature so you can feed",
-      "04": "your baby right away.",
-      "05": "Prevent Burns",
+      "01": "Keep warm",
+      "02": "When connected to power source,",
+      "03": "Smart-Bottle keeps milk at ideal temperature.",
+      "04": null,
+      "05": "Prevent burns",
       "06": "If temperature is too high for feeding,",
       "07": "Smart-Bottle will vibrate to warn you.",
-      "08": "Feeding Angle",
-      "09": "lf feeding posture is inappropriate,",
-      "10": "Smart-Bottle will vibrate",
-      "11": "to warn you of too much air intake.",
-      "12": "Accurate Temp. Measurement",
+      "08": "Feeding posture",
+      "09": "If the angle is inappropriate,",
+      "10": "Smart-Bottle will vibrate to warn you",
+      "11": null,
+      "12": "Accurate measurement",
       "13": "Prevents loss of nutrition",
-      "14": "with the help of accurate temperature sensor."
+      "14": "with the help of accurate sensors."
     }
   },
   "section04": {
     "first": {
-      "01": "Smart Bowel Activity Sensor",
+      "01": "Smart diaper sensor",
       "02": "Smart-Peepee monitors baby's bowel activities",
       "03": "so you can always change the diaper on time."
     },
     "second": {
-      "01": "Sensing unit(Temp. Humid)",
-      "02": "Waterproof Body(IP67)",
+      "01": "Sensing unit",
+      "02": "Waterproof body (IP67)",
       "03": "Removable battery"
     },
     "third": {
-      "01": "Easy to Use",
+      "01": "Easy to use",
       "02": "Use the supplied patch to apply",
-      "03": "to any brand your baby likes",
-      "04": "Real-time Alerts",
+      "03": "to *any brand your baby likes",
+      "04": "Real-time alerts",
       "05": "Once bowel activity is detected,",
       "06": "it will alert you through the app.",
-      "07": "Reliable Data",
+      "07": "Intelligent analysis",
       "08": "Keeps track of bowel activities",
       "09": "to predict the next one to come.",
-      "10": "Intelligent Analysis",
+      "10": "Reliable data",
       "11": "Accurately predicts bowel activities",
       "12": "to reduce the risk of skin rash and infections."
     }
   },
   "section05": {
     "first": {
-      "01": "PARENTING REPORTS",
-      "02": "All parenting information at a glance",
-      "03": "- Healthcare Report",
-      "04": "Check collected data such as feeding Statistics,",
-      "05": "Feeding Alerts, Milk Consumption at your fingertip"
+      "01": "Parenting reports",
+      "02": "Parenting information at a glance",
+      "03": "- Healthcare report",
+      "04": "Check collected data such as feeding records,",
+      "05": "bowel activity, and temperature changes at your fingertip"
     },
     "second": {
-      "01": "LITTLEONE PLATFORM",
+      "01": "LITTLEONE",
       "02": "The next level parenting platform",
       "03": "Healthcare",
-      "04": "You can check the health condition of your baby through data collected by IoT devices. Also, we offer parenting consultation and helpful tips through our affiliated professionals.",
+      "04": "Check the health condition of your baby through data collected by IoTs. Also, parenting consultation and helpful tips through *professionals.",
       "05": "Community",
-      "06": "We provide a space where parents can freely share parenting tips or write review on baby products. Or you can simply post the pictures of your littleone.",
+      "06": "A space where parents can freely share parenting tips or write review on baby products. Or simply post the pictures of your little ones.",
       "07": "Shopping",
-      "08": "Utilizing patented algorithm, we offer smart subscription commerce. We will deliver baby products such as diaper or formula to your doorstep and even adjust the size, step, and quantity automatically according to your baby’s needs."
+      "08": "Smart subscription commerce will deliver baby products such as diaper or formula to your doorstep and even adjust the size, step, and quantity automatically according to your baby’s needs."
     },
     "third": {
       "01": "LITTLEONE IoTs",
-      "02": "SMART-PEEPEE",
+      "02": "Smart-Peepee",
       "03": "(Diaper sensor)",
       "04": "Detects baby's bowel activities",
       "05": "and provides reports",
-      "06": "SMART-BOTTLE.",
+      "06": "Smart-Bottle",
       "07": "(Feeding Bottle)",
       "08": "Detects temperature, feeding angle,",
       "09": "and provides reports.",
-      "10": "SMART-TEMP",
+      "10": "Smart-Temp",
       "11": "(Thermometer)",
       "12": "Monitor baby's temperature",
-      "13": "and provides statistics."
+      "13": "and provides reports."
     }
   },
   "footer":{

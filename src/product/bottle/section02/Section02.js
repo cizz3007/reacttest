@@ -27,39 +27,39 @@ class Section02 extends React.Component {
                 </div>
                 <div className={styles['second-section-spec']}>
                     <div className={styles['second-section-spec--container']}>
-                        <img src={require('./web-bottle-2-icon-1@2x.png')} alt={'자동 보온'}/>
+                        <img src={require('./web-bottle-2-icon-1@2x.png')} alt={'자동 보온'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartbottle.section02['05']}</h3>
                             <p>{language.smartbottle.section02['06']}</p>
                         </div>
                     </div>
                     <div className={styles['second-section-spec--container']}>
-                        <img src={require('./web-bottle-2-icon-2@2x.png')} alt={'자동 보온'}/>
+                        <img src={require('./web-bottle-2-icon-2@2x.png')} alt={'자동 보온'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartbottle.section02['07']}</h3>
                             <div>
-                                <p>{language.smartbottle.section02['08']}<br/>
-                                    {language.smartbottle.section02['09']}<br/>
+                                <p>{language.smartbottle.section02['08']}
+                                    {language.smartbottle.section02['09']}
                                     {language.smartbottle.section02['10']}
                                 </p>
                             </div>
                         </div>
                     </div>
                     <div className={styles['second-section-spec--container']}>
-                        <img src={require('./web-bottle-2-icon-3@2x.png')} alt={'자동 보온'}/>
+                        <img src={require('./web-bottle-2-icon-3@2x.png')} alt={'자동 보온'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartbottle.section02['11']}</h3>
-                            <p>{language.smartbottle.section02['12']}<br/>
-                                {language.smartbottle.section02['13']}<br/>
+                            <p>{language.smartbottle.section02['12']}
+                                {language.smartbottle.section02['13']}
                                 {language.smartbottle.section02['14']}</p>
                         </div>
                     </div>
                     <div className={styles['second-section-spec--container']}>
-                        <img src={require('./web-bottle-2-icon-4@2x.png')} alt={'자동 보온'}/>
+                        <img src={require('./web-bottle-2-icon-4@2x.png')} alt={'자동 보온'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartbottle.section02['15']}</h3>
-                            <p>{language.smartbottle.section02['16']}<br/>
-                                {language.smartbottle.section02['17']}<br/>
+                            <p>{language.smartbottle.section02['16']}
+                                {language.smartbottle.section02['17']}
                                 {language.smartbottle.section02['18']}</p>
                         </div>
                     </div>

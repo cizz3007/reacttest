@@ -99,7 +99,7 @@ class Section03 extends React.Component {
                     </div>
                     <div>
                         <div className={styles['bottle-spec']}>
-                            <img src={getCookie('lang') ==='en' || undefined || false || null||'' ? require('./web-bottle-2-icon-1-us.svg'):require('./web-bottle-2-icon-1.svg')}
+                            <img src={getCookie('lang') ==='en' ||getCookie('lang')=== undefined ||getCookie('lang')=== false ||getCookie('lang')=== null||getCookie('lang')==='' ? require('./web-bottle-2-icon-1-us.svg'):require('./web-bottle-2-icon-1.svg')}
                               width={"auto"}  height={"auto"}  alt={'keep warm,When connected to power source, Smart-Bottle will keep milk at ideal temperature so you can feed  your baby right away. '}/>
                             <h2>{language.section03.third['01']}</h2>
                             <p>{language.section03.third['02']}<br/>

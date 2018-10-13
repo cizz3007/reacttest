@@ -28,14 +28,14 @@
       margin-top: 3.2292vw;
       font-weight: 300;
       letter-spacing: -2.6px;
-      line-height: 3.5vw;
-      font-family: 'Noto Sans CJK KR-light';
+      line-height: 3.2291vw;
     }
 
     p {
       margin-top: 1.5625vw;
       font-size: 1.1458vw;
       color: #8a8a8a;
+      font-weight: 500;
       line-height: normal;
       text-align: center;
     }
@@ -63,15 +63,16 @@
         transform: translateX(-50%);
         bottom: -30px;
         display: block;
-        width: 100%;
-        font-size: 0.9375vw;
+        width: 150px;
+        font-size: 18px;
+        font-weight: 500;
       }
     }
     .third-section--progress--device {
       position: relative;
       display: inline-block;
       width: 5.7292vw;
-      min-width: 70px;
+      height: 5.7292vw;
       z-index: 1;
 
     }
@@ -87,12 +88,12 @@
     .horizon-bar {
       position: absolute;
       top: 50%;
-      left: 3px;
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      -o-transform: translateY(-50%);
-      transform: translateY(-50%);
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      -o-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%);
       display: inline-block;
       width: 95%;
       height: 2px;
@@ -155,36 +156,45 @@
       //third-section--desc--integration
 
       h1 {
-        margin-top: 10.4928vw;
-        font-size: 8.6957vw;
-        line-height: normal;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -1px;
       }
 
       p {
-        font-size: 3.8648vw;
-        margin-top: 7.2464vw;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 15px;
+
       }
 
     }
     //  .third-section--desc
 
     .third-section--progress {
-
+      width: 85%;
       > div {
 
         span {
           bottom: -20px;
           font-size: 2.8986vw;
+          width: 100px;
+
         }
       }
       .third-section--progress--device {
-
+        width: 11.5942vw;
+        height: 11.5942vw;
       }
       .third-section--progress--data {
-
+        width: 7.2464vw;
+        height: 6.2802vw;
+        min-width: initial;
       }
 
       .horizon-bar {
+        width: 85%;
 
       }
       //horizon-bar
@@ -245,6 +255,7 @@
 
     .third-section--progress {
       width: 90%;
+      margin: 30px auto 0;
 
       > div {
 
@@ -254,15 +265,11 @@
         }
       }
       .third-section--progress--device {
-        min-width: 50px;
       }
       .third-section--progress--data {
-        min-width: 30px;
       }
 
       .horizon-bar {
-        left: 7px;
-        width: 80%;
 
       }
       //horizon-bar

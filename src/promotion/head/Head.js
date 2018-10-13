@@ -9,8 +9,8 @@ class Head extends React.Component {
             <Helmet defer={false}>
                 <meta charSet="UTF-8"/>
                 <meta name="description" content="전세계 육아의 넘버 1 해결사! 리틀원"/>
-                <meta name="keywords"
-                      content="육아, 초보엄마, 스마트보틀, 스마트피피, 스마트템프, 정기배송, 기저귀, 분유, 커뮤니티, 아기, 아이, 엄마, 아빠, 가족, 육아일기, 다이어리"/>
+                <meta name="keywords" content="육아, 초보엄마, 스마트보틀, 스마트피피, 스마트템프, 정기배송, 기저귀, 분유, 커뮤니티, 아기, 아이, 엄마, 아빠, 가족, 육아일기, 다이어리"/>
+                <meta name="google" content="notranslate" />
                 <meta name="author" content="리틀원"/>
                 <meta name="title" content={this.props.title}/>
                 <title>{this.props.title}</title>

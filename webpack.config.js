@@ -3,12 +3,13 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const ExtractCssChunks = require("extract-css-chunks-webpack-plugin");
 const ManifestPlugin = require('webpack-manifest-plugin');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-//set NODE_ENV=production
-//set NODE_ENV=development
+//  set/export NODE_ENV=production
+//  set/export NODE_ENV=development
 console.log(process.env.NODE_ENV);
-if (process.env.NODE_ENV === 'development') {
+const deployEnv = process.env.NODE_ENV === 'production';
+if (!deployEnv) {
     console.log('-- 개발모드로 WEBPACK이 실행됩니다. --');
-} else if(process.env.NODE_ENV === 'production'){
+} else if (deployEnv) {
     console.log('-- 서버 배포모드로 WEBPACK이 실행됩니다! --');
 }
 module.exports = {
@@ -22,7 +23,7 @@ module.exports = {
     ,
     output: {
         path: path.resolve(__dirname, 'dist'),
-        filename:process.env.NODE_ENV !=='production' ? "[name].bundle.js":"[name].[chunkhash].bundle.js",
+        filename: !deployEnv ? "[name].bundle.js" : "[name].[chunkhash].bundle.js",
         chunkFilename: '[id].[chunkhash].js',
         publicPath: "/dist/"
     },
@@ -86,8 +87,8 @@ module.exports = {
                             loader: 'css-loader',
 
                             options: {
-                                modules: process.env.NODE_ENV !=='production' ? 'false':'true',
-                                localIdentName: process.env.NODE_ENV !=='production' ? null:'_[hash:base64:11]',
+                                modules: !deployEnv ? 'false' : 'true',
+                                localIdentName: !deployEnv ? null : '_[hash:base64:11]',
                                 sourceMap: true,
                                 minimize: true,
                             }
@@ -106,7 +107,7 @@ module.exports = {
                     name: '[hash:base64:8].[ext]',
                     publicPath: '/dist/images/',
                     outputPath: 'images/',
-                    limit: process.env.NODE_ENV !== 'production'? 1000000:100000,
+                    limit: !deployEnv ? 1000000 : 100000,
                 }
             },
         ]
@@ -120,7 +121,7 @@ module.exports = {
         //     }
         // ),
         new ExtractTextPlugin({
-            filename: process.env.NODE_ENV !== 'production' ?'[name].bundle.css':'[name].[chunkhash].bundle.css',
+            filename: !deployEnv ? '[name].bundle.css' : '[name].[chunkhash].bundle.css',
             allChunks: true
         }),
         new ManifestPlugin({
@@ -134,26 +135,26 @@ module.exports = {
         //     title: 'LITTLEONE, next level parenting',
         // }),
     ],
-    optimization: {
-        splitChunks: {
-            chunks: 'async',
-            minSize: 30000,
-            minChunks: 1,
-            maxAsyncRequests: 5,
-            maxInitialRequests: 3,
-            automaticNameDelimiter: '~',
-            name: true,
-            cacheGroups: {
-                vendors: {
-                    test: /[\\/]node_modules[\\/]/,
-                    priority: -10
-                },
-                default: {
-                    minChunks: 2,
-                    priority: -20,
-                    reuseExistingChunk: true
+    optimization: deployEnv ?{
+            splitChunks: {
+                chunks: 'async',
+                minSize: 30000,
+                minChunks: 1,
+                maxAsyncRequests: 5,
+                maxInitialRequests: 3,
+                automaticNameDelimiter: '~',
+                name: true,
+                cacheGroups: {
+                    vendors: {
+                        test: /node_modules/,
+                        priority: -10
+                    },
+                    default: {
+                        minChunks: 2,
+                        priority: -20,
+                        reuseExistingChunk: true
+                    }
                 }
             }
-        }
-    }
+        }:void(0)
 };

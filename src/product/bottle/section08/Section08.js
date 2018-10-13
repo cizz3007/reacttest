@@ -34,7 +34,7 @@ class Section08 extends React.Component {
     render() {
         let language = this.props.language;
         return (
-            <div className={cx(styles['eighth-section'], 'section', 'active')}>
+            <div className={cx(styles['eighth-section'], 'section')}>
                 <div className={styles['eighth-section--desc']}>
                     <div>
                         <h2>PRODUCT SPECIFICATION</h2>

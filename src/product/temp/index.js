@@ -20,9 +20,9 @@ class TempLayout extends React.Component {
         super(props);
         this.state = {
             language: getCookie('lang') === 'ko' ? require('../../landing/language/korean/product/smarttemp') : null ||
-            getCookie('lang') === 'en' ? require('../../landing/language/japanese/product/smarttemp') : null ||
+            getCookie('lang') === 'en' ? require('../../landing/language/english/product/smarttemp') : null ||
             getCookie('lang') === 'cn' ? require('../../landing/language/chinese/product/smarttemp') : null ||
-            getCookie('lang') === 'ja' ? require('../../landing/language/english/product/smarttemp') : null ||
+            getCookie('lang') === 'ja' ? require('../../landing/language/japanese/product/smarttemp') : null ||
             getCookie('lang') === undefined || false || null || '' ? require('../../landing/language/english/product/smarttemp') : require('../../landing/language/english/product/smarttemp')
         }
     }

@@ -1,4 +1,9 @@
-
+.application{
+    overflow: hidden;
+    width: 100%;
+    max-width: 100%;
+    min-width: 300px;
+}
 .bx-wrapper {
     position: relative;
     padding: 0;
