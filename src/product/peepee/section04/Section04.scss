@@ -24,9 +24,9 @@
     h1 {
       font-size: 2.9166vw;
       margin-top: 3.2292vw;
-      line-height: 3.5vw;
+      line-height: 3.2291vw;
       font-weight: 300;
-      font-family: 'Noto Sans CJK KR-light';
+      color:#333;
       letter-spacing: -2.6px;
     }
 
@@ -55,6 +55,8 @@
         h3 {
           font-size: 1.5625vw;
           font-weight: 300;
+          letter-spacing: -1px;
+          color:#333;
         }
 
         p {
@@ -62,6 +64,7 @@
           font-size: 0.9375vw;
           color: #8a8a8a;
           line-height: 1.4vw;
+          letter-spacing: -1px;
         }
       }
 
@@ -104,9 +107,10 @@
       //fourth-section--integration
 
       h1 {
-        margin-top: 10.4928vw;
-        font-size: 8.6957vw;
-        line-height: normal;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -1px;
       }
 
     }
@@ -114,7 +118,7 @@
 
     .fourth-section--spec {
       width: 80%;
-      margin-top: 50px;
+      margin-top: 30px;
 
       .fourth-section--spec--box {
         margin-bottom: 30px;
@@ -133,7 +137,7 @@
 
           p {
             margin-top: 10px;
-            font-size: 11px;
+            font-size: 12px;
             line-height: 18px;
           }
         }
@@ -145,19 +149,7 @@
     //fourth-section--spec
 
     .fourth-section--app-image {
-      width: 38.0938vw;
-      min-width: initial;
-      min-height: initial;
-      height: 40.2396vw;
-      position: absolute;
-      bottom: 0;
-      right: initial;
-      left: 50%;
-      -webkit-transform: translateX(-50%);
-      -moz-transform: translateX(-50%);
-      -ms-transform: translateX(-50%);
-      -o-transform: translateX(-50%);
-      transform: translateX(-50%);
+      display: none;
     }
     //fourth-section--app-image
 
@@ -213,7 +205,7 @@
           p {
             margin-top: 10px;
             font-size: 10px;
-            line-height: 18px;
+            line-height: 16px;
 
             br {
               display: none;
@@ -227,11 +219,7 @@
     }
     //fourth-section--spec
 
-    .fourth-section--app-image {
-      width: 25.0938vw;
-      height: 29.2396vw;
-    }
-    //fourth-section--app-image
+
 
   }
 

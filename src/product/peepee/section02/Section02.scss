@@ -28,8 +28,7 @@
       margin-top: 3.2292vw;
       font-weight: 300;
       letter-spacing: -2.6px;
-      line-height: normal;
-      font-family: 'Noto Sans CJK KR-light';
+      line-height: 3.229vw;
     }
 
     .second-section-desc--paragraph {
@@ -65,13 +64,18 @@
         font-size: 1.5625vw;
         font-weight: 300;
         letter-spacing: -1px;
+        white-space: nowrap;
       }
       p {
+        -ms-word-break: keep-all;
+        word-break: keep-all;
         margin-top: 27px;
         font-size: 0.9375vw;
         letter-spacing: -1px;
         line-height: 1.5vw;
         color: #8a8a8a;
+        min-height: 80px;
+
       }
       //img
     }
@@ -103,13 +107,16 @@
       //second-section-desc--sub
 
       .second-section-desc--title {
-        margin-top: 10.4928vw;
-        font-size: 8.6957vw;
+        margin-top: 20px;
+        font-size: 20px;
+        line-height: 26px;
+        letter-spacing: -1px;
       }
 
       .second-section-desc--paragraph {
-        font-size: 3.8648vw;
-        margin-top: 7.2464vw;
+        font-size: 12px;
+        line-height: 18px;
+        margin-top: 15px;
       }
       //second-section-desc--paragraph
 
@@ -151,6 +158,7 @@
             margin-top: 10px;
             line-height: 5.5vw;
             font-size: 14px;
+            min-height: initial;
           }
         }
 

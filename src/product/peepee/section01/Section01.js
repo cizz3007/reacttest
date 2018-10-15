@@ -17,7 +17,6 @@ class Section01 extends React.Component{
     shouldComponentUpdate(nextProps){
         return nextProps;
     }
-
     render(){
         let language = this.props.language;
         return(

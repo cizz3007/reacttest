@@ -1,5 +1,5 @@
 import React from 'react';
-import * as styles from "../../bottle/section02/Section02.scss";
+import * as styles from "./Section02.scss";
 import classNames from 'classnames';
 
 const cx = classNames.bind(styles);
@@ -57,9 +57,7 @@ class Section02 extends React.Component {
                         <img src={require('./web-peepee-2-icon-4@2x.png')} alt={'배변 시점을 제때 파악하여 기저귀 발진의 위험을 현저히 감소시켜 줍니다.'}/>
                         <div>
                             <h3>{language.smartpeepee.section02['17']}</h3>
-                            <p>{language.smartpeepee.section02['18']}<br/>
-                                {language.smartpeepee.section02['19']}<br/>
-                                {language.smartpeepee.section02['20']}</p>
+                            <p>{language.smartpeepee.section02['18']} {language.smartpeepee.section02['19']} {language.smartpeepee.section02['20']}</p>
                         </div>
                     </div>
                 </div>

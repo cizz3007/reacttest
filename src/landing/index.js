@@ -46,6 +46,7 @@ const applicationVersion = {
     chrome: ''
 };
 
+
 if (browserVersion < applicationVersion.ie) {
     ReactDOM.render(
         <Ie10/>, root

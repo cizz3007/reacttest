@@ -81,15 +81,13 @@
   .first-section {
     background: url("./mobile-peepee-1-bg@2x.jpg") no-repeat center/cover;
 
-    .first-section--bottle {
-      top: initial;
-      bottom: 30px;
-      width: 204px;
-      height: 300px;
+    .first-section--peepee {
+      top: 95.6521vw;
+      left: 60.6280vw;
+      width: 33.3333vw;
+      height: 57.9710vw;
       min-width: 0;
       min-height: 0;
-      left: initial;
-      right: 25px;
     }
   }
   .first-section .first-section--txt {
@@ -139,15 +137,5 @@
     }
 
 
-    .first-section--bottle {
-      top: initial;
-      bottom: 10px;
-      width: 152px;
-      height: 223px;
-      min-width: 0;
-      min-height: 0;
-      left: initial;
-      right: 20px;
-    }
   }
 }
