@@ -24,6 +24,7 @@
 @font-face {
   font-family: 'Noto Sans Japanese';
   src: local('Noto Sans Light'), local('NotoSans-Light'),
+  url(/fonts/NotoSansJP-Light.woff2) format('woff2'),
   url(/fonts/NotoSansJP-Light.woff) format('woff');
   font-weight: 300;
 }
@@ -31,13 +32,15 @@
 @font-face {
   font-family: 'Noto Sans Japanese';
   src: local('Noto Sans Medium'), local('NotoSans-Medium'),
-  url(/fonts/NotoSansJP-Medium.woff) format('woff');
+  url(/fonts/NotoSansJP-Medium.woff2) format('woff2'),
+url(/fonts/NotoSansJP-Medium.woff) format('woff');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Noto Sans Japanese';
   src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+  url(/fonts/NotoSansJP-Bold.woff2) format('woff2'),
   url(/fonts/NotoSansJP-Bold.woff) format('woff');
   font-weight: 800;
 }
@@ -45,14 +48,15 @@
 @font-face {
   font-family: 'Noto Sans Chinese';
   src: local('Noto Sans Light'), local('NotoSans-Light'),
+  url(/fonts/NotoSansSC-Light.woff2) format('woff2'),
   url(/fonts/NotoSansSC-Light.woff) format('woff');
   font-weight: 300;
 }
 
-
 @font-face {
   font-family: 'Noto Sans Chinese';
   src: local('Noto Sans Medium'), local('NotoSans-Medium'),
+  url(/fonts/NotoSansSC-Medium.woff2) format('woff2'),
   url(/fonts/NotoSansSC-Medium.woff) format('woff');
   font-weight: 500;
 }
@@ -60,10 +64,10 @@
 @font-face {
   font-family: 'Noto Sans Chinese';
   src: local('Noto Sans Bold'), local('NotoSans-Bold'),
+  url(/fonts/NotoSansSC-Bold.woff2) format('woff2'),
   url(/fonts/NotoSansSC-Bold.woff) format('woff');
   font-weight: 800;
 }
-
 
 a {
   color: #333;

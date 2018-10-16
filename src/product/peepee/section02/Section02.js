@@ -24,7 +24,7 @@ class Section02 extends React.Component {
                 <div className={styles['second-section-spec']}>
                     <div className={styles['second-section-spec--container']}>
                         <img src={require('./web-peepee-2-icon-1@2x.png')}
-                             alt="제공되는 패치에 부착하여 기저귀 종류에 관계 없이손쉽게 사용할 수 있습니다."/>
+                             alt="제공되는 패치에 부착하여 기저귀 종류에 관계 없이손쉽게 사용할 수 있습니다." width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartpeepee.section02['05']}</h3>
                             <p>{language.smartpeepee.section02['06']}<br/>
@@ -33,7 +33,7 @@ class Section02 extends React.Component {
                         </div>
                     </div>
                     <div className={styles['second-section-spec--container']}>
-                        <img src={require('./web-peepee-2-icon-2@2x.png')} alt={'배변활동이 감지되면 보호자의 스마트폰 앱을 통해 알림을 줍니다.'}/>
+                        <img src={require('./web-peepee-2-icon-2@2x.png')} alt={'배변활동이 감지되면 보호자의 스마트폰 앱을 통해 알림을 줍니다.'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartpeepee.section02['09']}</h3>
                             <div>
@@ -45,7 +45,7 @@ class Section02 extends React.Component {
                         </div>
                     </div>
                     <div className={styles['second-section-spec--container']}>
-                        <img src={require('./web-peepee-2-icon-3@2x.png')} alt={'배변활동을 수집하고 기록하여 아기의 다음번 배변 시점을 예측할 수 있도록 돕습니다.'}/>
+                        <img src={require('./web-peepee-2-icon-3@2x.png')} alt={'배변활동을 수집하고 기록하여 아기의 다음번 배변 시점을 예측할 수 있도록 돕습니다.'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartpeepee.section02['13']}</h3>
                             <p>{language.smartpeepee.section02['14']}<br/>
@@ -54,7 +54,7 @@ class Section02 extends React.Component {
                         </div>
                     </div>
                     <div className={styles['second-section-spec--container']}>
-                        <img src={require('./web-peepee-2-icon-4@2x.png')} alt={'배변 시점을 제때 파악하여 기저귀 발진의 위험을 현저히 감소시켜 줍니다.'}/>
+                        <img src={require('./web-peepee-2-icon-4@2x.png')} alt={'배변 시점을 제때 파악하여 기저귀 발진의 위험을 현저히 감소시켜 줍니다.'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartpeepee.section02['17']}</h3>
                             <p>{language.smartpeepee.section02['18']} {language.smartpeepee.section02['19']} {language.smartpeepee.section02['20']}</p>

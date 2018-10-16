@@ -7,7 +7,7 @@ class Section06 extends React.Component{
             <section className={styles['kickstarter-section']}>
 
                 <a href={'/'}>
-                    <img src={require('./_kick.png')} alt={"littleone's kiskstarter page"}/>
+                    <img src={require('./_kick.png')} alt={"littleone's kiskstarter page"}  width={"auto"} height={"auto"}/>
                 </a>
 
             </section>

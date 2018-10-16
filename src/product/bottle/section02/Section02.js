@@ -38,9 +38,7 @@ class Section02 extends React.Component {
                         <div>
                             <h3>{language.smartbottle.section02['07']}</h3>
                             <div>
-                                <p>{language.smartbottle.section02['08']}
-                                    {language.smartbottle.section02['09']}
-                                    {language.smartbottle.section02['10']}
+                                <p>{language.smartbottle.section02['08']} {language.smartbottle.section02['09']} {language.smartbottle.section02['10']}
                                 </p>
                             </div>
                         </div>
@@ -49,18 +47,14 @@ class Section02 extends React.Component {
                         <img src={require('./web-bottle-2-icon-3@2x.png')} alt={'자동 보온'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartbottle.section02['11']}</h3>
-                            <p>{language.smartbottle.section02['12']}
-                                {language.smartbottle.section02['13']}
-                                {language.smartbottle.section02['14']}</p>
+                            <p>{language.smartbottle.section02['12']} {language.smartbottle.section02['13']} {language.smartbottle.section02['14']}</p>
                         </div>
                     </div>
                     <div className={styles['second-section-spec--container']}>
                         <img src={require('./web-bottle-2-icon-4@2x.png')} alt={'자동 보온'} width={"auto"} height={"auto"}/>
                         <div>
                             <h3>{language.smartbottle.section02['15']}</h3>
-                            <p>{language.smartbottle.section02['16']}
-                                {language.smartbottle.section02['17']}
-                                {language.smartbottle.section02['18']}</p>
+                            <p>{language.smartbottle.section02['16']} {language.smartbottle.section02['17']} {language.smartbottle.section02['18']}</p>
                         </div>
                     </div>
                 </div>

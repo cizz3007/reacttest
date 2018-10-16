@@ -32,10 +32,10 @@ class Section02 extends React.Component {
         return (
             <section className={styles['slider-section-upper']}>
                 <div className={styles['slider-top']} onLoad={this.onloadComplete}>
-                    <img src={require('./promotion-pic-1@2x-compressor.jpg')}/>
-                    <img src={require('./promotion-pic-2@2x-compressor.jpg')}/>
-                    <img src={require('./promotion-pic-3@2x-compressor.jpg')}/>
-                    <img src={require('./promotion-pic-4@2x-compressor.jpg')}/>
+                    <img src={require('./promotion-pic-1@2x-compressor.jpg')} width={"auto"} height={"auto"}/>
+                    <img src={require('./promotion-pic-2@2x-compressor.jpg')} width={"auto"} height={"auto"}/>
+                    <img src={require('./promotion-pic-3@2x-compressor.jpg')} width={"auto"} height={"auto"}/>
+                    <img src={require('./promotion-pic-4@2x-compressor.jpg')} width={"auto"} height={"auto"}/>
                 </div>
             </section>
         )

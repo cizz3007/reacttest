@@ -60,7 +60,7 @@ class LandpageLayout extends React.Component {
         let dataSet = e.currentTarget.dataset['lang'];
         let target = document.getElementsByClassName('current-language')[0];
         if (dataSet === 'ko') {
-            setCookie('lang', 'ko');
+            setCookie('lang', 'ko',14);
             this.setState(function () {
                 return {
                     language: require('./language/korean/korean')
@@ -72,7 +72,7 @@ class LandpageLayout extends React.Component {
 
 
         } else if (dataSet === 'en') {
-            setCookie('lang', 'en');
+            setCookie('lang', 'en',14);
             this.setState(function () {
                 return {
                     language: require('./language/english/english')
@@ -84,7 +84,7 @@ class LandpageLayout extends React.Component {
 
         }
         else if (dataSet === 'cn') {
-            setCookie('lang', 'cn');
+            setCookie('lang', 'cn',14);
             this.setState(function () {
                 return {
                     language: require('./language/chinese/chinese')
@@ -97,7 +97,7 @@ class LandpageLayout extends React.Component {
 
         }
         else if (dataSet === 'ja') {
-            setCookie('lang', 'ja');
+            setCookie('lang', 'ja',14);
             this.setState(function () {
                 return {
                     language: require('./language/japanese/japanese')

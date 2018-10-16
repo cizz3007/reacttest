@@ -49,7 +49,7 @@ class Footer extends React.Component {
                     </div>
                     <div className={styles['footer--lower-container']}>
                         <a href={'/'}>
-                            <div></div>
+                            <img src={require('./Littleone Logo.svg')} width={"auto"} height={"auto"} alt={'리틀원의 로고'}/>
                         </a>
                         <p>© 2018 LITTLEONE All rights reserved.</p>
                     </div>

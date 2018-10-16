@@ -39,11 +39,10 @@
       display: block;
       margin-top: 80px;
 
-      div {
+      img {
         display: inline-block;
         width: 80px;
         height: 80px;
-        background: url("./Littleone Logo.svg") no-repeat 0/contain;
       }
     }
 
@@ -74,26 +73,30 @@
           display: inline-block;
           width: 48px;
           height: 48px;
+          overflow: hidden;
+          -webkit-border-radius: 50%;
+          -moz-border-radius: 50%;
+          border-radius: 50%;
         }
 
         .facebook {
-          background: url("./web-footer-btn-facebook.svg") no-repeat center/48px 48px;
+          background: url("./web-footer-btn-facebook.svg") no-repeat center/contain;
 
         }
         .twitter {
-          background: url("./web-footer-btn-twitter.svg") no-repeat center/48px 48px;
+          background: url("./web-footer-btn-twitter.svg") no-repeat center/contain;
 
         }
         .instagram {
-          background: url("./web-footer-btn-instagram.svg") no-repeat center/48px 48px;
+          background: url("./web-footer-btn-instagram.svg") no-repeat center/contain;
 
         }
         .youtube {
-          background: url("./web-footer-btn-youtube.svg") no-repeat center/48px 48px;
+          background: url("./web-footer-btn-youtube.svg") no-repeat center/contain;
 
         }
         .email {
-          background: url("./web-group-btn-email.svg") no-repeat center/48px 48px;
+          background: url("./web-group-btn-email.svg") no-repeat center/contain;
 
         }
       }

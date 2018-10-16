@@ -50,7 +50,6 @@ class LadingHead extends React.Component {
 
         const CSStransforms = anime({
             targets: target,
-            translateY: -5,
             scale: 1.25,
             rotate: '1turn',
             duration:500
@@ -63,7 +62,6 @@ class LadingHead extends React.Component {
         anime.remove(target);
         const CSStransforms = anime({
             targets: target,
-            translateY: 0,
             scale: 1,
             rotate: '2turn',
             duration:300
@@ -90,7 +88,7 @@ class LadingHead extends React.Component {
                 <a href="/" className={styles['__link-logo']}>
                     <img src={require('./littleone-logo.png')} alt={'next level parenting littleone'} width={'auto'} height={'auto'}/>
                 </a>
-                <ul className={styles['language-box']}>
+                <ul className={styles['language-box']} onMouseLeave={this.onAuto}>
                     <li>
                         <a href="javascript:void(0)" onMouseEnter={this.onAuto}>
                             <div className={cx(styles['__lang-en'], 'current-language')}></div>

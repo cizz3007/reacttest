@@ -22,7 +22,7 @@ class Section04 extends React.Component {
                 </div>
                 <div className={styles['fourth-section--spec']}>
                     <div className={styles['fourth-section--spec--box']}>
-                        <img src={require('./web-peepee-4-icon-1.svg')} alt={'기저귀 상태  - 실시간 기저귀의 습도 및 온도를 보여줍니다.'}/>
+                        <img src={require('./web-peepee-4-icon-1.svg')} alt={'기저귀 상태  - 실시간 기저귀의 습도 및 온도를 보여줍니다.'} width={"auto"} height={"auto"}/>
                         <div className={styles['fourth-section--spec--box--txt']}>
                             <h3>{language.smartpeepee.section04['02']}</h3>
                             <p>{language.smartpeepee.section04['03']}<br/>
@@ -30,7 +30,7 @@ class Section04 extends React.Component {
                         </div>
                     </div>
                     <div className={styles['fourth-section--spec--box']}>
-                        <img src={require('./web-peepee-4-icon-2.svg')} alt={'배변 알림 - 배변시 앱을 통해 알려주고 배변일지를 작성합니다.'}/>
+                        <img src={require('./web-peepee-4-icon-2.svg')} alt={'배변 알림 - 배변시 앱을 통해 알려주고 배변일지를 작성합니다.'} width={"auto"} height={"auto"}/>
                         <div className={styles['fourth-section--spec--box--txt']}>
                             <h3>{language.smartpeepee.section04['05']}</h3>
                             <p>{language.smartpeepee.section04['06']}<br/>
@@ -39,7 +39,7 @@ class Section04 extends React.Component {
                     </div>
                     <div className={styles['fourth-section--spec--box']}>
                         <img src={require('./web-peepee-4-icon-3.svg')}
-                             alt={'기저귀 소비량 확인 - 기저귀 교체를 감지해 다음 번 기저귀 주문 시점을 예측할 수 있습니다.'}/>
+                             alt={'기저귀 소비량 확인 - 기저귀 교체를 감지해 다음 번 기저귀 주문 시점을 예측할 수 있습니다.'} width={"auto"} height={"auto"}/>
                         <div className={styles['fourth-section--spec--box--txt']}>
                             <h3>{language.smartpeepee.section04['08']}</h3>
                             <p>{language.smartpeepee.section04['09']}<br/>

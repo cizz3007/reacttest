@@ -1,11 +1,16 @@
 {
   "short_name": "LITTLEONE",
-  "name": "LITTLEONE WEB APPLICATION",
+  "name": "LITTLEONE, next level parenting",
   "icons": [
     {
       "src": "./icon-192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "./icon-256.png",
+      "sizes": "256x256",
+      "type": "image/png"
     }
   ],
   "start_url": "/?utm_source=homescreen",

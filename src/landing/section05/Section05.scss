@@ -57,7 +57,7 @@
   .__slider-1--image {
     margin-top: 40px;
     display: inline-block;
-    width: 46.614583vw;
+    width: 43.614583vw;
 
   }
 
@@ -205,9 +205,8 @@
 
       > div {
         display: inline-block;
-        width: 180px;
-        height: 24px;
-        background: url("./littleone-platform@2x.png") no-repeat center/contain;
+        width: 189px;
+        background: url("./littleone-platform.svg") no-repeat center/contain;
 
         -webkit-transition: all 0.2s ease-out;
         -moz-transition: all 0.2s ease-out;
@@ -276,7 +275,7 @@
           h1 {
             margin-top: 3.65vw;
             font-size: 1.25vw;
-            font-weight: bold;
+            font-weight: 800;
           }
           p {
             margin: 30px auto 0;
@@ -1020,16 +1019,16 @@
         }
 
         h5 {
-          font-size: 14px;
-          line-height: 20px;
+          font-size: 5.797vw;
+          line-height: 8vw;
           margin-top: 25px;
         }
         //h5
 
         p {
-          font-size: 12px;
+          font-size: 3.86vw;
           margin-top: 15px;
-          line-height: 18px;
+          line-height: 5.314vw;
           br {
             display: none;
           }

@@ -56,7 +56,7 @@ class Section05 extends React.Component {
                             <p> {language.section05.first['04']}<br/>
                                 {language.section05.first['05']}</p>
                         </div>
-                        <img src={require('./con05_01.png')} className={styles['__slider-1--image']}/>
+                        <img src={require('./web-peepee-5-laptop@2x.png')} className={styles['__slider-1--image']}  width={"auto"} height={"auto"}/>
                     </div>
                     <div>
                         <section className={styles["third-section"]}>
@@ -69,21 +69,21 @@ class Section05 extends React.Component {
                             <ul className={styles['third-section--content']}>
                                 <li className={cx(styles['third-section--content--list'], styles['health-care'])}>
                                     <div>
-                                        <img src={require('./ic-healthcare.svg')} alt="메인페이지의 헬스케어 소개 아이콘입니다."/>
+                                        <img src={require('./ic-healthcare.svg')} alt="메인페이지의 헬스케어 소개 아이콘입니다." width={"auto"} height={"auto"}/>
                                         <h1>{language.section05.second['03']}</h1>
                                         <p>{language.section05.second['04']}</p>
                                     </div>
                                 </li>
                                 <li className={cx(styles["third-section--content--list"], styles['community'])}>
                                     <div>
-                                        <img src={require('./ic-community.svg')} alt="메인페이지의 커뮤니티 소개 아이콘입니다."/>
+                                        <img src={require('./ic-community.svg')} alt="메인페이지의 커뮤니티 소개 아이콘입니다."  width={"auto"} height={"auto"}/>
                                         <h1>{language.section05.second['05']}</h1>
                                         <p>{language.section05.second['06']}</p>
                                     </div>
                                 </li>
                                 <li className={cx(styles["third-section--content--list"], styles['shopping'])}>
                                     <div>
-                                        <img src={require('./ic-shopping.svg')} alt="메인페이지의 쇼핑 소개 아이콘입니다."/>
+                                        <img src={require('./ic-shopping.svg')} alt="메인페이지의 쇼핑 소개 아이콘입니다." width={"auto"} height={"auto"}/>
                                         <h1>{language.section05.second['07']}</h1>
                                         <p>{language.section05.second['08']}</p>
                                     </div>

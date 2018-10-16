@@ -28,7 +28,7 @@
     a {
       width: 20px;
       display: inline-block;
-      padding: 10px 12px;
+      padding: 12px 12px;
 
       img {
         width: 100%;
@@ -73,7 +73,7 @@
     overflow: hidden;
 
     li {
-      padding: 10px;
+      padding:7px 10px;
       display: block;
       background-color: #fff;
 
@@ -84,6 +84,10 @@
         -moz-border-radius: 50%;
         border-radius: 50%;
         overflow: hidden;
+        border: 0.5px solid #ababab;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
       }
       .__lang-en {
         background: #fff url("./web-footer-icn-us.svg") no-repeat center/contain;
