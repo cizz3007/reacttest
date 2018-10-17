@@ -3,22 +3,34 @@ import styles from './Section05.scss';
 import classNames from 'classnames';
 import $ from 'jquery';
 
+require('../../library/bxslider.min');
+
 const cx = classNames.bind(styles);
 window.jQuery = $;
 window.$ = $;
-require('../../library/bxslider.min');
 
 class Section05 extends React.Component {
 
-    componentDidMount(){
-        const slider = '.' + styles['slider'];
-        let bxSlider = $(slider).bxSlider({
-            touchEnabled: false,
-            responsive: true,
-            pager: true,
-            infiniteLoop: true,
-        });
-        let windowSize = $(window).width();
+    constructor(props) {
+        super(props);
+        this.oncomponentLoaded = this.oncomponentLoaded.bind(this);
+    }
+
+    oncomponentLoaded() {
+        const sliders = '.' + styles['slider'];
+        let bxSlider;
+        let windowSize = $(window).width() || window.innerWidth || 0 ;
+
+        if (windowSize <= 1024) {
+            return
+        } else {
+            bxSlider = $(sliders).bxSlider({
+                touchEnabled: false,
+                responsive: true,
+                pager: true,
+                infiniteLoop: true,
+            });
+        }
 
         $(window).on('resize', function (e) {
             windowSize = $(window).width();
@@ -27,28 +39,14 @@ class Section05 extends React.Component {
             if (windowSize <= 1024) {
                 bxSlider.destroySlider();
             }
-
         });
-
-        if (windowSize <= 1024) {
-            bxSlider.destroySlider();
-            setTimeout(function(){
-                bxSlider.destroySlider();
-            },150);
-            setTimeout(function(){
-                bxSlider.destroySlider();
-            },300);
-            setTimeout(function(){
-                bxSlider.destroySlider();
-            },450);
-        }
     }
 
     render() {
         let language = this.props.language;
         return (
             <section className={styles['lower-slider-section']}>
-                <div className={styles['slider']}>
+                <div className={styles['slider']} onLoad={this.oncomponentLoaded}>
                     <div>
                         <div className={styles['lower-slider-section--title']}>
                             <h2>{language.section05.first['01']}</h2>
@@ -60,7 +58,8 @@ class Section05 extends React.Component {
                             <p> {language.section05.first['04']}<br/>
                                 {language.section05.first['05']}</p>
                         </div>
-                        <img src={require('./web-peepee-5-laptop@2x.png')} className={styles['__slider-1--image']}  width={"auto"} height={"auto"}/>
+                        <img src={require('./web-peepee-5-laptop@2x.png')} className={styles['__slider-1--image']}
+                             width={"auto"} height={"auto"}/>
                     </div>
                     <div>
                         <section className={styles["third-section"]}>
@@ -73,21 +72,24 @@ class Section05 extends React.Component {
                             <ul className={styles['third-section--content']}>
                                 <li className={cx(styles['third-section--content--list'], styles['health-care'])}>
                                     <div>
-                                        <img src={require('./ic-healthcare.svg')} alt="메인페이지의 헬스케어 소개 아이콘입니다." width={"auto"} height={"auto"}/>
+                                        <img src={require('./ic-healthcare.svg')} alt="메인페이지의 헬스케어 소개 아이콘입니다."
+                                             width={"auto"} height={"auto"}/>
                                         <h1>{language.section05.second['03']}</h1>
                                         <p>{language.section05.second['04']}</p>
                                     </div>
                                 </li>
                                 <li className={cx(styles["third-section--content--list"], styles['community'])}>
                                     <div>
-                                        <img src={require('./ic-community.svg')} alt="메인페이지의 커뮤니티 소개 아이콘입니다."  width={"auto"} height={"auto"}/>
+                                        <img src={require('./ic-community.svg')} alt="메인페이지의 커뮤니티 소개 아이콘입니다."
+                                             width={"auto"} height={"auto"}/>
                                         <h1>{language.section05.second['05']}</h1>
                                         <p>{language.section05.second['06']}</p>
                                     </div>
                                 </li>
                                 <li className={cx(styles["third-section--content--list"], styles['shopping'])}>
                                     <div>
-                                        <img src={require('./ic-shopping.svg')} alt="메인페이지의 쇼핑 소개 아이콘입니다." width={"auto"} height={"auto"}/>
+                                        <img src={require('./ic-shopping.svg')} alt="메인페이지의 쇼핑 소개 아이콘입니다."
+                                             width={"auto"} height={"auto"}/>
                                         <h1>{language.section05.second['07']}</h1>
                                         <p>{language.section05.second['08']}</p>
                                     </div>
