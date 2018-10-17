@@ -10,7 +10,7 @@ require('../../library/bxslider.min');
 
 class Section05 extends React.Component {
 
-    componentDidMount() {
+    componentDidMount(){
         const slider = '.' + styles['slider'];
         let bxSlider = $(slider).bxSlider({
             touchEnabled: false,
@@ -31,14 +31,18 @@ class Section05 extends React.Component {
         });
 
         if (windowSize <= 1024) {
+            bxSlider.destroySlider();
             setTimeout(function(){
                 bxSlider.destroySlider();
             },150);
+            setTimeout(function(){
+                bxSlider.destroySlider();
+            },300);
+            setTimeout(function(){
+                bxSlider.destroySlider();
+            },450);
         }
-
-
     }
-
 
     render() {
         let language = this.props.language;
