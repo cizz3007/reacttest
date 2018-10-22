@@ -38,7 +38,6 @@ const root = document.getElementById('app');
 
 const browserVersion = CheckWebBrowser();
 
-console.log(browserVersion);
 const applicationVersion = {
     ie: '10',
     opera: '',

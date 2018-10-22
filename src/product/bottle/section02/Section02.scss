@@ -73,6 +73,10 @@
         line-height: 1.5vw;
         color: #8a8a8a;
         min-height: 5.6875vw;
+        -ms-word-break: keep-all;
+        word-break: keep-all;
+        -ms-word-wrap: break-word;
+        word-wrap: break-word;
       }
       //img
     }
