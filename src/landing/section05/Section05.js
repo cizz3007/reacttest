@@ -14,32 +14,88 @@ class Section05 extends React.Component {
     constructor(props) {
         super(props);
         this.oncomponentLoaded = this.oncomponentLoaded.bind(this);
+        this.state = {
+            slider: true
+        }
+    }
+
+    componentWillReceiveProps(nextProps) {
+        console.log(nextProps);
+    }
+
+    shouldComponentUpdate(nextProps, nextState) {
+        return true
+    }
+
+    componentDidMount() {
+        let bxSlider;
+        const sliders = '.' + styles['slider'];
+
+        bxSlider = $(sliders).bxSlider({
+            touchEnabled: false,
+            responsive: true,
+            pager: true,
+            infiniteLoop: true,
+        });
+
+        if (this.state.slider === true) {
+            bxSlider.reloadSlider();
+        } else {
+            bxSlider.destroySlider();
+
+        }
     }
 
     oncomponentLoaded() {
         const sliders = '.' + styles['slider'];
         let bxSlider;
-        let windowSize = $(window).width() || window.innerWidth || 0 ;
+        let windowSize = window.innerWidth || 0;
 
         if (windowSize <= 1024) {
+            this.setState(function () {
+                return {
+                    slider: false
+                }
+            });
             return
         } else {
-            bxSlider = $(sliders).bxSlider({
-                touchEnabled: false,
-                responsive: true,
-                pager: true,
-                infiniteLoop: true,
+            this.setState(function () {
+                return {
+                    slider: true
+                }
             });
+
+            if (this.state.slider === true) {
+                bxSlider = $(sliders).bxSlider({
+                    touchEnabled: false,
+                    responsive: true,
+                    pager: true,
+                    infiniteLoop: true,
+                });
+            }
+
         }
 
-        $(window).on('resize', function (e) {
-            windowSize = $(window).width();
-            bxSlider.reloadSlider();
+        // bxSlider.destroySlider();
+        // bxSlider.reloadSlider();
+
+        window.addEventListener('resize', function () {
 
             if (windowSize <= 1024) {
-                bxSlider.destroySlider();
+                this.setState(function () {
+                    return {
+                        slider: false
+                    }
+                })
+            } else {
+                this.setState(function () {
+                    return {
+                        slider: true
+                    }
+                })
             }
         });
+
     }
 
     render() {

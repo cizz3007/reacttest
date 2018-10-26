@@ -24,7 +24,6 @@ class LandpageLayout extends React.Component {
             getCookie('lang') === 'ja' ? require('./language/japanese/japanese') : null ||
             getCookie('lang') === undefined || null || false ? require('./language/english/english') : require('./language/english/english')
         };
-        this.setLanguage = this.setLanguage.bind(this);
     }
 
     componentDidMount() {
@@ -118,7 +117,7 @@ class LandpageLayout extends React.Component {
         return (
             <div className={'application'}>
                 <Head language={this.state.language}/>
-                <LadingHead language={this.state.language} action={this.setLanguage}/>
+                <LadingHead language={this.state.language} action={this.setLanguage.bind(this)}/>
                 <PlayPause/>
                 <Section01 language={this.state.language}/>
                 <MobileBox language={this.state.language}/>

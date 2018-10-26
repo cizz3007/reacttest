@@ -12,9 +12,13 @@ class LadingHead extends React.Component {
 
     constructor(props) {
         super(props);
-
         this.onMouserHandler = this.onMouserHandler.bind(this);
         this.onMouserOutHandler = this.onMouserOutHandler.bind(this);
+        this.onAuto = this.onAuto.bind(this);
+        this.state = {
+            active:false
+        }
+
     };
 
 
@@ -40,6 +44,8 @@ class LadingHead extends React.Component {
             target.style.background = '#fff url(' + require('./web-footer-icn-jp.svg') + ') no-repeat center/contain';
 
         }
+
+
 
     }
 
@@ -69,8 +75,11 @@ class LadingHead extends React.Component {
     }
 
     onAuto(e){
-        const langBox = document.querySelector("."+styles['language-box']);
-        langBox.classList.toggle(styles['active']);
+       this.setState(function(){
+           return {
+               active:!this.state.active
+           }
+       })
     }
 
 
@@ -88,9 +97,9 @@ class LadingHead extends React.Component {
                 <a href="/" className={styles['__link-logo']}>
                     <img src={require('./littleone-logo.png')} alt={'next level parenting littleone'} width={'auto'} height={'auto'}/>
                 </a>
-                <ul className={styles['language-box']} onMouseLeave={this.onAuto}>
+                <ul className={cx(styles['language-box'],this.state.active === true ? styles['active']:null)} onClick={this.onAuto} onMouseLeave={this.onAuto}>
                     <li>
-                        <a href="javascript:void(0)" onMouseEnter={this.onAuto}>
+                        <a href="javascript:void(0)">
                             <div className={cx(styles['__lang-en'], 'current-language')}></div>
                         </a>
                     </li>
