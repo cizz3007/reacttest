@@ -15,21 +15,22 @@ class Section05 extends React.Component {
         super(props);
         this.oncomponentLoaded = this.oncomponentLoaded.bind(this);
         this.state = {
-            slider: true
+            sliderOn: true
+        }
+
+    }
+
+
+    componentDidUpdate(prevProps, prevState) {
+        if (this.state.width !== prevState.width) {
+            console.log('다릅니다!');
         }
     }
 
-    componentWillReceiveProps(nextProps) {
-        console.log(nextProps);
-    }
-
-    shouldComponentUpdate(nextProps, nextState) {
-        return true
-    }
-
-    componentDidMount() {
-        let bxSlider;
+    oncomponentLoaded() {
         const sliders = '.' + styles['slider'];
+        let bxSlider;
+        let windowInitSize = window.innerWidth || 0;
 
         bxSlider = $(sliders).bxSlider({
             touchEnabled: false,
@@ -38,64 +39,39 @@ class Section05 extends React.Component {
             infiniteLoop: true,
         });
 
-        if (this.state.slider === true) {
-            bxSlider.reloadSlider();
-        } else {
-            bxSlider.destroySlider();
-
-        }
-    }
-
-    oncomponentLoaded() {
-        const sliders = '.' + styles['slider'];
-        let bxSlider;
-        let windowSize = window.innerWidth || 0;
-
-        if (windowSize <= 1024) {
-            this.setState(function () {
-                return {
-                    slider: false
-                }
-            });
-            return
-        } else {
-            this.setState(function () {
-                return {
-                    slider: true
-                }
-            });
-
-            if (this.state.slider === true) {
-                bxSlider = $(sliders).bxSlider({
-                    touchEnabled: false,
-                    responsive: true,
-                    pager: true,
-                    infiniteLoop: true,
-                });
-            }
-
+        if (windowInitSize <= 768) {
+            setTimeout(function () {
+                bxSlider.destroySlider();
+            }, 300);
+            setTimeout(function () {
+                bxSlider.destroySlider();
+            }, 1000);
+            setTimeout(function () {
+                bxSlider.destroySlider();
+            }, 2000);
+            setTimeout(function () {
+                bxSlider.destroySlider();
+            }, 3000);
         }
 
-        // bxSlider.destroySlider();
-        // bxSlider.reloadSlider();
 
         window.addEventListener('resize', function () {
+                let windowSize = window.innerWidth;
+                let isActive = $(sliders).parent().hasClass('bx-viewport');
 
-            if (windowSize <= 1024) {
-                this.setState(function () {
-                    return {
-                        slider: false
+                if (windowSize <= 768) {
+
+                    if (isActive) {
+                        bxSlider.destroySlider();
                     }
-                })
-            } else {
-                this.setState(function () {
-                    return {
-                        slider: true
+
+                } else if (windowSize > 768) {
+                    if (!isActive) {
+                        bxSlider.reloadSlider();
                     }
-                })
+                }
             }
-        });
-
+        )
     }
 
     render() {
