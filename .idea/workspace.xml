@@ -3,29 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="5c1b285b-f934-44a0-a868-8258bb19cd1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.5a4c6e4a5f386b1b1155.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.5a4c6e4a5f386b1b1155.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/1.00894f486b4e8816f6b5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/1.00894f486b4e8816f6b5.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/2.cf4865af7928d367a83e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/2.cf4865af7928d367a83e.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3.ed357ac128d472ed9212.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3.ed357ac128d472ed9212.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/4.babdf1575ea5bc80594c.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/4.babdf1575ea5bc80594c.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/5.ff3f0a5d43382aec6224.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/5.ff3f0a5d43382aec6224.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/6.e7aaa7d011f5790ea29b.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/6.e7aaa7d011f5790ea29b.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.679d39c716477df7e0bf.bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.679d39c716477df7e0bf.bundle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.679d39c716477df7e0bf.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.679d39c716477df7e0bf.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0.cb33eb0ddf33557c4c78.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/0.cb33eb0ddf33557c4c78.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/1.b8144dc51dc96d104cf4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/1.b8144dc51dc96d104cf4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/2.a9bdddd5aa01b3470d15.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/2.a9bdddd5aa01b3470d15.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3.c0a4cbf5f5600ca6266d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/3.c0a4cbf5f5600ca6266d.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/4.62fb611afb1d06155a93.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/4.62fb611afb1d06155a93.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/5.366b245d4be8d4c34342.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/5.366b245d4be8d4c34342.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/6.48fbe2116c2f32d6c8e4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/6.48fbe2116c2f32d6c8e4.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/6.cacb2243e351127727a3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/6.cacb2243e351127727a3.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.d296c8c373be74e12457.bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.d296c8c373be74e12457.bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.d296c8c373be74e12457.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.d296c8c373be74e12457.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.e3143533564dcb1908fc.bundle.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.e3143533564dcb1908fc.bundle.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.e3143533564dcb1908fc.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/landing/app.e3143533564dcb1908fc.bundle.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/landing/LandpageLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/LandpageLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/landing/head/Head.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/head/Head.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/landing/head/Head.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/head/Head.scss" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -41,11 +43,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/landing/LandpageLayout.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="398">
+              <caret line="131" selection-start-line="131" selection-end-line="131" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -53,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
+            <state relative-caret-position="209">
+              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -207,7 +209,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -219,6 +220,12 @@
               <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
               <item name="reacttest" type="462c0819:PsiDirectoryNode" />
               <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="reacttest" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="landing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
@@ -242,6 +249,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -250,7 +258,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554710159963" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554713596019" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="jsx.switch.disabled" value="true" />
@@ -519,12 +527,13 @@
       <workItem from="1540631896311" duration="519000" />
       <workItem from="1552284709744" duration="2421000" />
       <workItem from="1553058773338" duration="893000" />
-      <workItem from="1554706924406" duration="3137000" />
+      <workItem from="1554706924406" duration="3587000" />
+      <workItem from="1554720064335" duration="77000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="861342000" />
+    <option name="totallyTimeSpent" value="861869000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -539,7 +548,7 @@
     <frame x="0" y="23" width="1680" height="972" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66237944" visible="true" weight="0.22954823" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66237944" visible="true" weight="0.23199023" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -924,20 +933,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="85" selection-start-line="10" selection-start-column="85" selection-end-line="10" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/landing/LandpageLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="131" lean-forward="true" selection-start-line="131" selection-end-line="131" />
+        <state relative-caret-position="398">
+          <caret line="131" selection-start-line="131" selection-end-line="131" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
         </state>
       </provider>
     </entry>
