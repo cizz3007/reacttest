@@ -22,6 +22,7 @@ class LandpageLayout extends React.Component {
             getCookie('lang') === 'en' ? require('./language/english/english') : null ||
             getCookie('lang') === 'cn' ? require('./language/chinese/chinese') : null ||
             getCookie('lang') === 'ja' ? require('./language/japanese/japanese') : null ||
+            getCookie('lang') === 'ru' ? require('./language/russian/russian') : null ||
             getCookie('lang') === undefined || null || false ? require('./language/english/english') : require('./language/english/english')
         };
     }
@@ -30,23 +31,26 @@ class LandpageLayout extends React.Component {
         const body = document.getElementsByTagName('body')[0];
         if (getCookie('lang') === 'en') {
             document.getElementsByTagName('html')[0].lang = 'en';
-            body.setAttribute('class','lang-english');
+            body.setAttribute('class', 'lang-english');
 
         } else if (getCookie('lang') === 'ja') {
             document.getElementsByTagName('html')[0].lang = 'ja';
-            body.setAttribute('class','lang-japanese');
+            body.setAttribute('class', 'lang-japanese');
 
         } else if (getCookie('lang') === 'cn') {
             document.getElementsByTagName('html')[0].lang = 'zh';
-            body.setAttribute('class','lang-chinese');
+            body.setAttribute('class', 'lang-chinese');
 
         } else if (getCookie('lang') === 'ko') {
             document.getElementsByTagName('html')[0].lang = 'ko';
-            body.setAttribute('class','lang-korean');
+            body.setAttribute('class', 'lang-korean');
 
-        } else{
+        } else if (getCookie('lang') === 'ru') {
+            document.getElementsByTagName('html')[0].lang = 'ru';
+            body.setAttribute('class', 'lang-russian');
+        } else {
             document.getElementsByTagName('html')[0].lang = 'en';
-            body.setAttribute('class','lang-english');
+            body.setAttribute('class', 'lang-english');
         }
 
     }
@@ -86,8 +90,7 @@ class LandpageLayout extends React.Component {
             document.getElementsByTagName('html')[0].lang = 'en';
             body.setAttribute('class', 'lang-english');
 
-        }
-        else if (dataSet === 'cn') {
+        } else if (dataSet === 'cn') {
             let cookieToday = new Date();
             let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
             setCookie('lang', 'cn', expiryDate, '/', false, false);
@@ -101,8 +104,7 @@ class LandpageLayout extends React.Component {
             body.setAttribute('class', 'lang-chinese');
 
 
-        }
-        else if (dataSet === 'ja') {
+        } else if (dataSet === 'ja') {
             let cookieToday = new Date();
             let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
             setCookie('lang', 'ja', expiryDate, '/', false, false);
@@ -115,7 +117,7 @@ class LandpageLayout extends React.Component {
             document.getElementsByTagName('html')[0].lang = 'ja';
             body.setAttribute('class', 'lang-japanese');
 
-        }  else if (dataSet === 'ru') {
+        } else if (dataSet === 'ru') {
             let cookieToday = new Date();
             let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
             setCookie('lang', 'ru', expiryDate, '/', false, false);
@@ -124,8 +126,8 @@ class LandpageLayout extends React.Component {
                     language: require('./language/russian/russian')
                 }
             });
-            target.style.background = '#fff url(' + require('./head/web-footer-icn-jp.svg') + ') no-repeat center/contain';
-            document.getElementsByTagName('html')[0].lang = 'ja';
+            target.style.background = '#fff url(' + require('./head/russia.png') + ') no-repeat center/cover';
+            document.getElementsByTagName('html')[0].lang = 'ru';
             body.setAttribute('class', 'lang-russian');
 
         }

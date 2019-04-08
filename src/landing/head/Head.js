@@ -43,7 +43,7 @@ class LadingHead extends React.Component {
         } else if (currentLang === 'ja') {
             target.style.background = '#fff url(' + require('./web-footer-icn-jp.svg') + ') no-repeat center/contain';
         } else if (currentLang === 'ru') {
-            target.style.background = '#fff url(' + require('./web-footer-icn-jp.svg') + ') no-repeat center/contain';
+            target.style.background = '#fff url(' + require('./russia.png') + ') no-repeat center/contain';
         }
 
 
