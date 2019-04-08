@@ -27,7 +27,9 @@ class PromotionLayout extends React.Component {
 
     componentDidUpdate() {
 
-        setCookie('lang', 'ko', 7);
+        let cookieToday = new Date();
+        let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
+        setCookie('lang', 'ko', expiryDate, '/', false, false);
 
         if (this.state.lang === 'en') {
             this.state.language = require('../language/english');

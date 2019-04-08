@@ -42,7 +42,8 @@ class LadingHead extends React.Component {
 
         } else if (currentLang === 'ja') {
             target.style.background = '#fff url(' + require('./web-footer-icn-jp.svg') + ') no-repeat center/contain';
-
+        } else if (currentLang === 'ru') {
+            target.style.background = '#fff url(' + require('./web-footer-icn-jp.svg') + ') no-repeat center/contain';
         }
 
 
@@ -121,6 +122,11 @@ class LadingHead extends React.Component {
                     <li>
                         <a href="javascript:void(0)" onClick={this.props.action}  data-lang={'ko'}>
                             <div className={styles['__lang-ko']}></div>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)" onClick={this.props.action}  data-lang={'ru'}>
+                            <div className={styles['__lang-ru']}></div>
                         </a>
                     </li>
                 </ul>

@@ -112,7 +112,7 @@ class Section03 extends React.Component {
                             <p>{language.section03.third['06']}<br/>
                                 {language.section03.third['07']}</p>
                         </div>
-                        <div className={styles['bottle-spec']}>
+                        map          <div className={styles['bottle-spec']}>
                             <img src={require('./web-bottle-2-icon-3.svg')} width={"auto"} height={"auto"} alt={'feeding angle, lf feeding posture is ina ppropriate, Smart-Bottle will vibrate to warn you of too much air intake.'}/>
                             <h2>{language.section03.third['08']}</h2>
                             <p>{language.section03.third['09']}<br/>

@@ -16,27 +16,42 @@ export function once(fn, context) {
     };
 }
 
-/*쿠키 얻기*/
-export function setCookie(cookie_name, value, days) {
-    let exdate = new Date();
-    exdate.setDate(exdate.getDate() + days);
-    // 설정 일수만큼 현재시간에 만료값으로 지정
-    let cookie_value = escape(value) + ((days == null) ? '' : ';    expires=' + exdate.toUTCString());
-    document.cookie = cookie_name + '=' + cookie_value;
+let cookieToday = new Date();
+let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // a year
+
+export function setCookie (name,value,expires,path,theDomain,secure) {
+
+    value = escape(value);
+
+    let theCookie = name + "=" + value +
+        ((expires)    ? "; expires=" + expires.toGMTString() : "") +
+        ((path)       ? "; path="    + path   : "") +
+        ((theDomain)  ? "; domain="  + theDomain : "") +
+        ((secure)     ? "; secure"            : "");
+
+    document.cookie = theCookie;
 }
 
-export function getCookie(cookie_name) {
-    let x, y;
-    let val = document.cookie.split(';');
-
-    for (let i = 0; i < val.length; i++) {
-        x = val[i].substr(0, val[i].indexOf('='));
-        y = val[i].substr(val[i].indexOf('=') + 1);
-        x = x.replace(/^\s+|\s+$/g, ''); // 앞과 뒤의 공백 제거하기
-        if (x == cookie_name) {
-            return unescape(y); // unescape로 디코딩 후 값 리턴
+export function getCookie(Name) {
+    let search = Name + "=";
+    if (document.cookie.length > 0) { // if there are any cookies
+        let offset = document.cookie.indexOf(search);
+        if (offset != -1) { // if cookie exists
+            offset += search.length;
+            // set index of beginning of value
+            let end = document.cookie.indexOf(";", offset);
+            // set index of end of cookie value
+            if (end == -1) end = document.cookie.length;
+            return unescape(document.cookie.substring(offset, end))
         }
     }
+}
+
+export function delCookie(name,path,domain) {
+    if (getCookie(name)) document.cookie = name + "=" +
+        ((path)   ? ";path="   + path   : "") +
+        ((domain) ? ";domain=" + domain : "") +
+        ";expires=Thu, 01-Jan-70 00:00:01 GMT";
 }
 
 export function deleteCookie(cookie_name) {

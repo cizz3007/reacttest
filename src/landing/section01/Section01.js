@@ -41,13 +41,12 @@ class Section01 extends React.Component {
             "%c                   / /_/ / / /|  / /___                      \n" +
             "%c                  ._____. /_/ |_/_____/                      \n\n" +
             "%c*************************************************************\n" +
-            "%c 프론트 개발자 : %c김창현                                    \n" +
-            "%c   서버 개발자 : %c장지수                                    \n" +
+            "%c 개발자 : %c김창현                                    \n" +
             "%c-------------현재 인하우스 개발 중입니다.ver Beta------------\n",
             color.green, color.red, color.magenta, color.magenta, color.magenta,
             color.magenta, color.magenta, color.magenta, color.magenta, color.magenta,
             color.magenta, color.green, color.tangerineTango, color.blue, color.tangerineTango,
-            color.violetPurple, color.yellow
+            color.violetPurple
         );
 
         let w = window.innerWidth || document.documentElement.clientWidth || document.body.clientWidth;

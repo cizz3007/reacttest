@@ -59,7 +59,10 @@ class LandpageLayout extends React.Component {
         let dataSet = e.currentTarget.dataset['lang'];
         let target = document.getElementsByClassName('current-language')[0];
         if (dataSet === 'ko') {
-            setCookie('lang', 'ko',14);
+            let cookieToday = new Date();
+            let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
+            setCookie('lang', 'ko', expiryDate, '/', false, false);
+
             this.setState(function () {
                 return {
                     language: require('./language/korean/korean')
@@ -71,7 +74,9 @@ class LandpageLayout extends React.Component {
 
 
         } else if (dataSet === 'en') {
-            setCookie('lang', 'en',14);
+            let cookieToday = new Date();
+            let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
+            setCookie('lang', 'en', expiryDate, '/', false, false);
             this.setState(function () {
                 return {
                     language: require('./language/english/english')
@@ -83,7 +88,9 @@ class LandpageLayout extends React.Component {
 
         }
         else if (dataSet === 'cn') {
-            setCookie('lang', 'cn',14);
+            let cookieToday = new Date();
+            let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
+            setCookie('lang', 'cn', expiryDate, '/', false, false);
             this.setState(function () {
                 return {
                     language: require('./language/chinese/chinese')
@@ -96,7 +103,9 @@ class LandpageLayout extends React.Component {
 
         }
         else if (dataSet === 'ja') {
-            setCookie('lang', 'ja',14);
+            let cookieToday = new Date();
+            let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
+            setCookie('lang', 'ja', expiryDate, '/', false, false);
             this.setState(function () {
                 return {
                     language: require('./language/japanese/japanese')
@@ -105,6 +114,19 @@ class LandpageLayout extends React.Component {
             target.style.background = '#fff url(' + require('./head/web-footer-icn-jp.svg') + ') no-repeat center/contain';
             document.getElementsByTagName('html')[0].lang = 'ja';
             body.setAttribute('class', 'lang-japanese');
+
+        }  else if (dataSet === 'ru') {
+            let cookieToday = new Date();
+            let expiryDate = new Date(cookieToday.getTime() + (365 * 86400000)); // 1년
+            setCookie('lang', 'ru', expiryDate, '/', false, false);
+            this.setState(function () {
+                return {
+                    language: require('./language/russian/russian')
+                }
+            });
+            target.style.background = '#fff url(' + require('./head/web-footer-icn-jp.svg') + ') no-repeat center/contain';
+            document.getElementsByTagName('html')[0].lang = 'ja';
+            body.setAttribute('class', 'lang-russian');
 
         }
     }
