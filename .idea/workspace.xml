@@ -3,31 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="5c1b285b-f934-44a0-a868-8258bb19cd1a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.cb33eb0ddf33557c4c78.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/0.cb33eb0ddf33557c4c78.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/1.b8144dc51dc96d104cf4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/1.b8144dc51dc96d104cf4.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/2.a9bdddd5aa01b3470d15.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/2.a9bdddd5aa01b3470d15.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3.c0a4cbf5f5600ca6266d.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/3.c0a4cbf5f5600ca6266d.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/4.62fb611afb1d06155a93.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/4.62fb611afb1d06155a93.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/5.366b245d4be8d4c34342.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/5.366b245d4be8d4c34342.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/6.48fbe2116c2f32d6c8e4.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/6.48fbe2116c2f32d6c8e4.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/6.cacb2243e351127727a3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/6.cacb2243e351127727a3.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.d296c8c373be74e12457.bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.d296c8c373be74e12457.bundle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.d296c8c373be74e12457.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.d296c8c373be74e12457.bundle.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.e3143533564dcb1908fc.bundle.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.e3143533564dcb1908fc.bundle.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.e3143533564dcb1908fc.bundle.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/landing/app.e3143533564dcb1908fc.bundle.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/dist/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/landing/section03/Section03.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/landing/section03/Section03.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,10 +21,54 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/landing/LandpageLayout.js">
+        <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/japanese.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
-              <caret line="131" selection-start-line="131" selection-end-line="131" />
+            <state relative-caret-position="238">
+              <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smartbottle.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="278">
+              <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smartpeepee.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="341">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smarttemp.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landing/section01/Section01.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1131">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landing/section02/Section02.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-409">
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -56,10 +77,39 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/landing/section03/Section03.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/landing/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="855">
+              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.js">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+            <state relative-caret-position="171">
+              <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -108,8 +158,8 @@
       <find>view</find>
       <find>通过精密传感器的温度测定</find>
       <find>vime</find>
-      <find>map</find>
       <find>setCookie</find>
+      <find>map</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -171,7 +221,6 @@
         <option value="$PROJECT_DIR$/src/landing/language/chinese/product/smartpeepee.json" />
         <option value="$PROJECT_DIR$/src/landing/language/chinese/product/smarttemp.json" />
         <option value="$PROJECT_DIR$/src/landing/language/chinese/product/smartbottle.json" />
-        <option value="$PROJECT_DIR$/src/landing/index.js" />
         <option value="$PROJECT_DIR$/src/landing/language/japanese/product/smarttemp.json" />
         <option value="$PROJECT_DIR$/src/landing/language/japanese/product/smartpeepee.json" />
         <option value="$PROJECT_DIR$/src/landing/language/japanese/japanese.json" />
@@ -181,7 +230,6 @@
         <option value="$PROJECT_DIR$/src/landing/section05/Section05.js" />
         <option value="$PROJECT_DIR$/src/landing/section01/Section01.js" />
         <option value="$PROJECT_DIR$/src/product/bottle/index.js" />
-        <option value="$PROJECT_DIR$/src/landing/section03/Section03.js" />
         <option value="$PROJECT_DIR$/src/landing/language/russian/russian.json" />
         <option value="$PROJECT_DIR$/src/library/_LittleoneScript.js" />
         <option value="$PROJECT_DIR$/src/promotion/promotionLayout.js" />
@@ -189,6 +237,8 @@
         <option value="$PROJECT_DIR$/src/landing/head/Head.scss" />
         <option value="$PROJECT_DIR$/src/landing/LandpageLayout.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/src/landing/index.js" />
+        <option value="$PROJECT_DIR$/src/landing/section03/Section03.js" />
       </list>
     </option>
   </component>
@@ -201,7 +251,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="972" />
+    <option name="height" value="973" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -219,17 +269,6 @@
             <path>
               <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
               <item name="reacttest" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reacttest" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="reacttest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="reacttest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -243,7 +282,7 @@
               <item name="reacttest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="head" type="462c0819:PsiDirectoryNode" />
+              <item name="section03" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -256,9 +295,10 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554713596019" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554720285472" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="javascript.nodejs.core.library.configured.version" value="8.12.0" />
     <property name="jsx.switch.disabled" value="true" />
@@ -528,12 +568,15 @@
       <workItem from="1552284709744" duration="2421000" />
       <workItem from="1553058773338" duration="893000" />
       <workItem from="1554706924406" duration="3587000" />
-      <workItem from="1554720064335" duration="77000" />
+      <workItem from="1554720064335" duration="614000" />
+      <workItem from="1555398780763" duration="425000" />
+      <workItem from="1555399210937" duration="1537000" />
+      <workItem from="1557301301823" duration="214000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="861869000" />
+    <option name="totallyTimeSpent" value="864582000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -545,10 +588,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="972" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="973" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66237944" visible="true" weight="0.23199023" />
+      <window_info id="npm" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.66237944" visible="true" weight="0.24481075" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -566,7 +610,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3292683" />
       <window_info anchor="bottom" id="TypeScript" order="10" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49841937" visible="true" weight="0.34289128" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49841937" visible="true" weight="0.2601432" />
       <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5015806" side_tool="true" weight="0.41786107" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -625,13 +669,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/landing/language/english/product/smarttemp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/landing/language/english/product/smartbottle.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -660,34 +697,6 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/0.2424adb93e3a9ecb5c81.js" />
-    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/japanese.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-396">
-          <caret line="35" column="17" lean-forward="true" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smartpeepee.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smarttemp.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-733">
-          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smartbottle.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="31" column="16" lean-forward="true" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dist/lib/bx.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="77">
@@ -719,9 +728,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/promotion/section2/Section02.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -733,13 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section01/Section01.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-988">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -811,25 +810,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section02/Section02.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/section03/Section03.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="114" column="27" selection-start-line="114" selection-start-column="27" selection-end-line="114" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/react-router/es/Route.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -872,13 +852,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/landing/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-368">
-          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="17" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -935,7 +908,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/landing/LandpageLayout.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
+        <state relative-caret-position="340">
           <caret line="131" selection-start-line="131" selection-end-line="131" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
@@ -943,10 +916,84 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2166">
+          <caret line="114" column="14" selection-start-line="114" selection-start-column="14" selection-end-line="114" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="855">
+          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="52" lean-forward="true" selection-start-line="11" selection-start-column="52" selection-end-line="11" selection-end-column="52" />
+        <state relative-caret-position="171">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/japanese.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="48" column="6" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smartbottle.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="17" column="29" lean-forward="true" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smartpeepee.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/language/japanese/product/smarttemp.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="35" column="6" lean-forward="true" selection-start-line="35" selection-start-column="6" selection-end-line="35" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section01/Section01.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1131">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section02/Section02.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-409">
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/landing/section03/Section03.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="114" column="24" selection-start-line="114" selection-start-column="24" selection-end-line="114" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
