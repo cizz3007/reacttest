@@ -82,7 +82,7 @@
   },
   "dependencies": {
     "@vimeo/player": "^2.6.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.2",
     "cross-env": "^5.2.0",
     "fullpage.js": "^3.0.2",
     "mongoose": "^5.5.6",
